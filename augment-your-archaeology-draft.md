@@ -3,6 +3,7 @@
 
 - hook: whizbang. pompeii flipboards with acetate overlays?
 - hook: stu eve's video with the barbarian invasion of cardboard model
+- or maybe http://martinkovacovsky.ch/jekyll-hyde/
 
 
 ## continuum: ar - mixed reality - vr
@@ -60,6 +61,30 @@
 
 
 #### http://www.recho.org/
+
+
+# Part 3: How does this all work, anyway?
+
+## Struture from Motion
+
+
+## An example workflow
+
+- tools & apps
+- hints & tips for 3d model making
+- working with image targets
+- things you might like to augment
+  - vuforia: can augment images, objects, text; handles occlusion
+
+- place-based AR - wikitude - MBIRA - ARIS
+- ie, there's a smearing of game-based interaction - importance of game literacy to working with AR
+-   (but notice the progression here: http://techcrunch.com/2010/05/26/ogmento-first-ar-gaming-startup-to-win-vc-funding/ to http://www.flybymedia.com/)
+- Aurasma - drag & drop image based AR, place based AR - drawbacks
+- how hololens, google glass, that other startup whose name escapes me but everyone's excited about and which shines the images directly on your retina. Hold a unicorn in your hand etc).
+- 
+- Caitlin Fisher's work: note the importance of sound in creating the ambiance/immersiveness in her art/work
+  
+
 
 
 # Part 3: Where we might go
