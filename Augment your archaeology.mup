@@ -3,7 +3,17 @@
   "id": 1,
   "formatVersion": 2,
   "attr": {
-    "style": {}
+    "style": {},
+    "storyboards": [
+      "Storyboard 1"
+    ],
+    "storyboard-scenes": [
+      {
+        "storyboards": {
+          "Storyboard 1": 1
+        }
+      }
+    ]
   },
   "ideas": {
     "1": {
@@ -18,6 +28,16 @@
           "title": "industry",
           "id": 18
         }
+      },
+      "attr": {
+        "storyboard-scenes": [
+          {
+            "storyboards": {
+              "Storyboard 1": 2.5
+            }
+          }
+        ],
+        "style": {}
       }
     },
     "2": {
@@ -37,11 +57,32 @@
           "title": "tromp l'oeil?",
           "id": 9
         }
+      },
+      "attr": {
+        "style": {},
+        "storyboard-scenes": [
+          {
+            "storyboards": {
+              "Storyboard 1": 2
+            },
+            "type": "with-children"
+          }
+        ]
       }
     },
     "3": {
       "title": "lost horizons - vr/ar in academia in 1990s",
-      "id": 19
+      "id": 19,
+      "attr": {
+        "storyboard-scenes": [
+          {
+            "storyboards": {
+              "Storyboard 1": 3
+            }
+          }
+        ],
+        "style": {}
+      }
     },
     "4": {
       "title": "continuum: ar - mixed reality - vr",
@@ -49,11 +90,31 @@
       "ideas": {
         "1": {
           "title": "BiPs",
-          "id": 34
+          "id": 34,
+          "attr": {
+            "storyboard-scenes": [
+              {
+                "storyboards": {
+                  "Storyboard 1": 6
+                }
+              }
+            ],
+            "style": {}
+          }
         },
         "2": {
           "title": "accessibility: which senses are 'augmented'?",
-          "id": 35
+          "id": 35,
+          "attr": {
+            "storyboard-scenes": [
+              {
+                "storyboards": {
+                  "Storyboard 1": 5
+                }
+              }
+            ],
+            "style": {}
+          }
         },
         "3": {
           "title": "missing a trick: sound & AR",
@@ -61,19 +122,59 @@
           "ideas": {
             "1": {
               "title": "zombies, run!",
-              "id": 37
+              "id": 37,
+              "attr": {
+                "storyboard-scenes": [
+                  {
+                    "storyboards": {
+                      "Storyboard 1": 8
+                    }
+                  }
+                ],
+                "style": {}
+              }
             },
             "2": {
               "title": "blindside http://www.blindsidegame.com/",
-              "id": 38
+              "id": 38,
+              "attr": {
+                "storyboard-scenes": [
+                  {
+                    "storyboards": {
+                      "Storyboard 1": 8
+                    }
+                  }
+                ],
+                "style": {}
+              }
             },
             "3": {
               "title": "night terrors https://www.indiegogo.com/projects/night-terrors-augmented-reality-survival-horror",
-              "id": 39
+              "id": 39,
+              "attr": {
+                "storyboard-scenes": [
+                  {
+                    "storyboards": {
+                      "Storyboard 1": 8
+                    }
+                  }
+                ],
+                "style": {}
+              }
             },
             "4": {
               "title": "http://www.augmentedaudio.com/",
-              "id": 40
+              "id": 40,
+              "attr": {
+                "storyboard-scenes": [
+                  {
+                    "storyboards": {
+                      "Storyboard 1": 8
+                    }
+                  }
+                ],
+                "style": {}
+              }
             },
             "5": {
               "title": "historical friction",
@@ -81,13 +182,43 @@
               "ideas": {
                 "1": {
                   "title": "voices recognition",
-                  "id": 42
+                  "id": 42,
+                  "attr": {
+                    "storyboard-scenes": [
+                      {
+                        "storyboards": {
+                          "Storyboard 1": 9
+                        }
+                      }
+                    ],
+                    "style": {}
+                  }
                 }
+              },
+              "attr": {
+                "storyboard-scenes": [
+                  {
+                    "storyboards": {
+                      "Storyboard 1": 8
+                    }
+                  }
+                ],
+                "style": {}
               }
             },
             "6": {
               "title": "http://www.recho.org/",
-              "id": 43
+              "id": 43,
+              "attr": {
+                "storyboard-scenes": [
+                  {
+                    "storyboards": {
+                      "Storyboard 1": 10
+                    }
+                  }
+                ],
+                "style": {}
+              }
             }
           },
           "attr": {
@@ -96,9 +227,26 @@
               134,
               1
             ],
-            "style": {}
+            "style": {},
+            "storyboard-scenes": [
+              {
+                "storyboards": {
+                  "Storyboard 1": 7
+                }
+              }
+            ]
           }
         }
+      },
+      "attr": {
+        "storyboard-scenes": [
+          {
+            "storyboards": {
+              "Storyboard 1": 4
+            }
+          }
+        ],
+        "style": {}
       }
     },
     "-1": {
@@ -108,7 +256,17 @@
         "1": {
           "title": "hype cycle",
           "id": 10,
-          "ideas": {}
+          "ideas": {},
+          "attr": {
+            "storyboard-scenes": [
+              {
+                "storyboards": {
+                  "Storyboard 1": 4.5
+                }
+              }
+            ],
+            "style": {}
+          }
         },
         "2": {
           "title": "platforms for AR",
@@ -221,6 +379,16 @@
             "style": {}
           }
         }
+      },
+      "attr": {
+        "storyboard-scenes": [
+          {
+            "storyboards": {
+              "Storyboard 1": 4.75
+            }
+          }
+        ],
+        "style": {}
       }
     },
     "-2": {
@@ -253,7 +421,17 @@
       "ideas": {
         "1": {
           "title": "embodied GIS/phenomenology",
-          "id": 31
+          "id": 31,
+          "attr": {
+            "storyboard-scenes": [
+              {
+                "storyboards": {
+                  "Storyboard 1": 12
+                }
+              }
+            ],
+            "style": {}
+          }
         },
         "2": {
           "title": "AR in public archaeology",
@@ -263,24 +441,85 @@
               "title": "bringing impossible places to the public http://www.degruyter.com/view/j/opar.2014.1.issue-1/opar-2015-0007/opar-2015-0007.xml?format=INT",
               "id": 68
             }
+          },
+          "attr": {
+            "storyboard-scenes": [
+              {
+                "storyboards": {
+                  "Storyboard 1": 16
+                },
+                "type": "with-children"
+              }
+            ],
+            "style": {}
           }
         },
         "3": {
           "title": "Project Mosul http://projectmosul.org/",
-          "id": 64
+          "id": 64,
+          "attr": {
+            "storyboard-scenes": [
+              {
+                "storyboards": {
+                  "Storyboard 1": 15
+                }
+              }
+            ],
+            "style": {}
+          }
         },
         "4": {
           "title": "http://research.micropasts.org/2014/06/13/3d-modelling-via-sfm/",
-          "id": 65
+          "id": 65,
+          "attr": {
+            "storyboard-scenes": [
+              {
+                "storyboards": {
+                  "Storyboard 1": 15.5
+                }
+              }
+            ],
+            "style": {}
+          }
         },
         "5": {
           "title": "digital gabii - excavation, study of contexts",
-          "id": 66
+          "id": 66,
+          "attr": {
+            "storyboard-scenes": [
+              {
+                "storyboards": {
+                  "Storyboard 1": 13
+                }
+              }
+            ],
+            "style": {}
+          }
         },
         "6": {
           "title": "excavation is digitization http://www.maneyonline.com/doi/abs/10.1179/2042458215Y.0000000004",
-          "id": 67
+          "id": 67,
+          "attr": {
+            "storyboard-scenes": [
+              {
+                "storyboards": {
+                  "Storyboard 1": 14
+                }
+              }
+            ],
+            "style": {}
+          }
         }
+      },
+      "attr": {
+        "storyboard-scenes": [
+          {
+            "storyboards": {
+              "Storyboard 1": 11
+            }
+          }
+        ],
+        "style": {}
       }
     }
   }
