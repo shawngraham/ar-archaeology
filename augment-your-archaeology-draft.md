@@ -21,7 +21,7 @@
 - or why it's difficult to get research grants that have 'AR' in the title
 
 
-## Don't fear the hype cycle
+### Don't fear the hype cycle
 
 
 # Part 2 - Where we're at
@@ -32,7 +32,7 @@
 
 
 ## BiPs & Digital Phenomenology
-- phenomenology is not a bad word.
+- phenomenology is not a bad word. http://discovery.ucl.ac.uk/1352447/1/Eve_2012_Augmented_Phenomenology.pdf
 - beyond digital dwelling http://www.degruyter.com/view/j/opar.2014.1.issue-1/opar-2015-0006/opar-2015-0006.xml?format=INT
 - challenging heritage visualization http://www.degruyter.com/view/j/opar.2014.1.issue-1/opar-2015-0006/opar-2015-0006.xml?format=INT
 
