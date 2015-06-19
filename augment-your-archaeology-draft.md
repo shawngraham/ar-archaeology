@@ -6,6 +6,7 @@
 
 
 ## continuum: ar - mixed reality - vr
+- from your smartphone to disney world to the oculus & hololens
 
 
 # Part 1 - Where we've been
