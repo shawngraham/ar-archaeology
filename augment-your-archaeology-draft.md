@@ -26,71 +26,78 @@
 
 
 # Part 2 - Where we're at
-## ar in marketing
+# ar in marketing
 
 
-# accessibility: which senses are 'augmented'?
+## accessibility: which senses are 'augmented'?
 
 
-## BiPs & Digital Phenomenology
+### BiPs & Digital Phenomenology
 - phenomenology is not a bad word. http://discovery.ucl.ac.uk/1352447/1/Eve_2012_Augmented_Phenomenology.pdf
 - beyond digital dwelling http://www.degruyter.com/view/j/opar.2014.1.issue-1/opar-2015-0006/opar-2015-0006.xml?format=INT
 - challenging heritage visualization http://www.degruyter.com/view/j/opar.2014.1.issue-1/opar-2015-0006/opar-2015-0006.xml?format=INT
 
 
-## missing a trick: sound & AR
+### missing a trick: sound & AR
 
 
-### zombies, run!
+#### zombies, run!
 
 
-### [blindside](http://www.blindsidegame.com/)
+#### [blindside](http://www.blindsidegame.com/)
 
 
-### [night terrors](https://www.indiegogo.com/projects/night-terrors-augmented-reality-survival-horror)
+#### [night terrors](https://www.indiegogo.com/projects/night-terrors-augmented-reality-survival-horror)
 
 
-### [augmented audio](http://www.augmentedaudio.com/)
+#### [augmented audio](http://www.augmentedaudio.com/)
 
 
-### historical friction
+#### historical friction
 
 
-### voices recognition
+#### voices recognition
 
 
-### http://www.recho.org/
+#### http://www.recho.org/
 
 
-Part 3: Where we might go
-#
-# AR for archaeological research
+# Part 3: Where we might go
+
+-video of that sandtable/gis thing
+-heritage app game thing that Ethan emailed me (Also excursus into Techumseh Lies Here & ARGs)
+-hololens demo of minecraft
+  + on a related note, weep for the Kinect
+  
+
+## AR for archaeological research
 
 
-## embodied GIS/phenomenology
+### embodied GIS/phenomenology
 
 
-## digital gabii 
+### digital gabii 
 - excavation, study of contexts
 
 
-## 'excavation is digitization' 
+### 'excavation is digitization' 
 
 + http://www.maneyonline.com/doi/abs/10.1179/2042458215Y.0000000004
 
 
-## [Project Mosul](http://projectmosul.org/)
+### [Project Mosul](http://projectmosul.org/)
 
 
-## [Micropasts](http://research.micropasts.org/2014/06/13/3d-modelling-via-sfm/)
+### [Micropasts](http://research.micropasts.org/2014/06/13/3d-modelling-via-sfm/)
 
 
-## AR in public archaeology
+### AR in public archaeology
 + 'bringing impossible places to the public' http://www.degruyter.com/view/j/opar.2014.1.issue-1/opar-2015-0007/opar-2015-0007.xml?format=INT
 + HIST5702x & FYSM1405a, digitizing museum collections (thus the teaching potentials)
 + The Greeks app, Museum of History
 
-# What's in it for you
+# Conclusion:
+## What's in it for you
 - why you should bother
 - the research potentials
 - the public outreach potentials
