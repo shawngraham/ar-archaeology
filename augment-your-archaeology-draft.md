@@ -27,7 +27,8 @@
 
 
 # Part 2 - Where we're at
-# ar in marketing
+# ar: mostly in marketing
+- notice the progression here: http://techcrunch.com/2010/05/26/ogmento-first-ar-gaming-startup-to-win-vc-funding/ to http://www.flybymedia.com/
 
 
 ## accessibility: which senses are 'augmented'?
@@ -82,16 +83,14 @@
 ----
 - place-based AR - wikitude - MBIRA - ARIS
 - ie, there's a smearing of game-based interaction - importance of game literacy to working with AR
--   (but notice the progression here: http://techcrunch.com/2010/05/26/ogmento-first-ar-gaming-startup-to-win-vc-funding/ to http://www.flybymedia.com/)
 - Aurasma - drag & drop image based AR, place based AR - drawbacks
 - how hololens, google glass, that other startup whose name escapes me but everyone's excited about and which shines the images directly on your retina. Hold a unicorn in your hand etc).
+
 ----
 - Caitlin Fisher's work: note the importance of sound in creating the ambiance/immersiveness in her art/work https://projeqt.com/caitlin/200-castles https://vimeo.com/51654422
   
 
-
-
-# Part 3: Where we might go
+# Part 4: Where we might go 
 
 -video of that sandtable/gis thing
 -heritage app game thing that Ethan emailed me (Also excursus into Techumseh Lies Here & ARGs)
