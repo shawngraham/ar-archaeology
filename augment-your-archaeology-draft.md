@@ -1,7 +1,14 @@
 # Augment your archaeology
 
+
+- hook: whizbang. pompeii flipboards with acetate overlays?
+- hook: stu eve's video with the barbarian invasion of cardboard model
+
+
 ## continuum: ar - mixed reality - vr
 
+
+# Part 1 - Where we've been
 ## analogue AR
 + museum dioramas/overlays
 + landscape overlays, pois, interesting views
@@ -14,12 +21,10 @@
 - or why it's difficult to get research grants that have 'AR' in the title
 
 
-## continuum: ar - mixed reality - vr
-
-
 ## Don't fear the hype cycle
 
 
+# Part 2 - Where we're at
 ## ar in marketing
 
 
@@ -56,6 +61,8 @@
 ### http://www.recho.org/
 
 
+Part 3: Where we might go
+#
 # AR for archaeological research
 
 
@@ -88,4 +95,12 @@
 - the public outreach potentials
 - the rhetorical/tactical impact
 - the problem of publishing [more about Digital Gabii]
+
+
+# This afternoon:
++ Building an AR app in Unity3d with Vuforia
+_or_
++ Building a location-based game (with sound!) in Twine
+_or_
++ Making 3d models with 123d Catch; annotating & sharing them in Sketchfab (with Oculus or Cardboard viewing!)
 
