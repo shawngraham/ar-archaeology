@@ -1,0 +1,287 @@
+{
+  "title": "Augment your archaeology",
+  "id": 1,
+  "formatVersion": 2,
+  "attr": {
+    "style": {}
+  },
+  "ideas": {
+    "1": {
+      "title": "history of ar as tech",
+      "id": 2,
+      "ideas": {
+        "1": {
+          "title": "military",
+          "id": 17
+        },
+        "2": {
+          "title": "industry",
+          "id": 18
+        }
+      }
+    },
+    "2": {
+      "title": "analogue AR",
+      "id": 5,
+      "ideas": {
+        "1": {
+          "title": "museum dioramas/overlays",
+          "id": 6,
+          "ideas": {}
+        },
+        "2": {
+          "title": "landscape overlays, pois, interesting views",
+          "id": 8
+        },
+        "3": {
+          "title": "tromp l'oeil?",
+          "id": 9
+        }
+      }
+    },
+    "3": {
+      "title": "lost horizons - vr/ar in academia in 1990s",
+      "id": 19
+    },
+    "4": {
+      "title": "continuum: ar - mixed reality - vr",
+      "id": 33,
+      "ideas": {
+        "1": {
+          "title": "BiPs",
+          "id": 34
+        },
+        "2": {
+          "title": "accessibility: which senses are 'augmented'?",
+          "id": 35
+        },
+        "3": {
+          "title": "missing a trick: sound & AR",
+          "id": 36,
+          "ideas": {
+            "1": {
+              "title": "zombies, run!",
+              "id": 37
+            },
+            "2": {
+              "title": "blindside http://www.blindsidegame.com/",
+              "id": 38
+            },
+            "3": {
+              "title": "night terrors https://www.indiegogo.com/projects/night-terrors-augmented-reality-survival-horror",
+              "id": 39
+            },
+            "4": {
+              "title": "http://www.augmentedaudio.com/",
+              "id": 40
+            },
+            "5": {
+              "title": "historical friction",
+              "id": 41,
+              "ideas": {
+                "1": {
+                  "title": "voices recognition",
+                  "id": 42
+                }
+              }
+            },
+            "6": {
+              "title": "http://www.recho.org/",
+              "id": 43
+            }
+          },
+          "attr": {
+            "position": [
+              182,
+              134,
+              1
+            ],
+            "style": {}
+          }
+        }
+      }
+    },
+    "-1": {
+      "title": "ar in marketing",
+      "id": 3,
+      "ideas": {
+        "1": {
+          "title": "hype cycle",
+          "id": 10,
+          "ideas": {}
+        },
+        "2": {
+          "title": "platforms for AR",
+          "id": 20,
+          "ideas": {
+            "1": {
+              "title": "junaio/metaio",
+              "id": 21,
+              "ideas": {
+                "1": {
+                  "title": "DEAD",
+                  "id": 22
+                }
+              }
+            },
+            "2": {
+              "title": "wikitude",
+              "id": 23
+            },
+            "3": {
+              "title": "LAYAR",
+              "id": 24
+            },
+            "4": {
+              "title": "augment",
+              "id": 25
+            },
+            "5": {
+              "title": "aurasma",
+              "id": 26
+            },
+            "6": {
+              "title": "vuforia+unity",
+              "id": 27
+            },
+            "7": {
+              "title": "low-friction AR with Twinery.org",
+              "id": 45
+            },
+            "8": {
+              "title": "tools for making 3d models",
+              "id": 46,
+              "ideas": {
+                "1": {
+                  "title": "123d catch",
+                  "id": 47,
+                  "ideas": {
+                    "1": {
+                      "title": "camera phone, dslr",
+                      "id": 55
+                    }
+                  }
+                },
+                "2": {
+                  "title": "structure http://structure.io/",
+                  "id": 49
+                },
+                "3": {
+                  "title": "sense http://cubify.com/products/sense/",
+                  "id": 50
+                },
+                "4": {
+                  "title": "scanify https://www.fuel-3d.com/",
+                  "id": 52
+                },
+                "5": {
+                  "title": "creaform http://www.creaform3d.com/en",
+                  "id": 53
+                },
+                "6": {
+                  "title": "software for making/fixing/sharing 3d models",
+                  "id": 56,
+                  "ideas": {
+                    "1": {
+                      "title": "p3d.in",
+                      "id": 57
+                    },
+                    "2": {
+                      "title": "sketchfab.com",
+                      "id": 58
+                    },
+                    "3": {
+                      "title": "agisoft photoscan",
+                      "id": 59
+                    },
+                    "4": {
+                      "title": "Visual SFM http://ccwu.me/vsfm/",
+                      "id": 60,
+                      "ideas": {
+                        "1": {
+                          "title": "use vsfm in tandem with http://www.danielgm.net/cc/",
+                          "id": 61
+                        }
+                      }
+                    },
+                    "5": {
+                      "title": "meshlab.org",
+                      "id": 62
+                    },
+                    "6": {
+                      "title": "use with photocollections: http://www.cs.cornell.edu/~snavely/bundler/",
+                      "id": 63
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "attr": {
+            "style": {}
+          }
+        }
+      }
+    },
+    "-2": {
+      "title": "ar in gaming",
+      "id": 12,
+      "ideas": {
+        "1": {
+          "title": "ARGS",
+          "id": 13
+        },
+        "2": {
+          "title": "vr",
+          "id": 14,
+          "ideas": {
+            "1": {
+              "title": "oculus et al",
+              "id": 15
+            }
+          }
+        },
+        "3": {
+          "title": "hololens",
+          "id": 16
+        }
+      }
+    },
+    "-3": {
+      "title": "AR for archaeological research",
+      "id": 30,
+      "ideas": {
+        "1": {
+          "title": "embodied GIS/phenomenology",
+          "id": 31
+        },
+        "2": {
+          "title": "AR in public archaeology",
+          "id": 32,
+          "ideas": {
+            "1": {
+              "title": "bringing impossible places to the public http://www.degruyter.com/view/j/opar.2014.1.issue-1/opar-2015-0007/opar-2015-0007.xml?format=INT",
+              "id": 68
+            }
+          }
+        },
+        "3": {
+          "title": "Project Mosul http://projectmosul.org/",
+          "id": 64
+        },
+        "4": {
+          "title": "http://research.micropasts.org/2014/06/13/3d-modelling-via-sfm/",
+          "id": 65
+        },
+        "5": {
+          "title": "digital gabii - excavation, study of contexts",
+          "id": 66
+        },
+        "6": {
+          "title": "excavation is digitization http://www.maneyonline.com/doi/abs/10.1179/2042458215Y.0000000004",
+          "id": 67
+        }
+      }
+    }
+  }
+}
