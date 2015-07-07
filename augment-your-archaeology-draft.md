@@ -2,7 +2,7 @@
 
 
 <section>
-  <vidio data-autoplay src="https://www.youtube.com/embed/PGrqp1LXKSg"></vidio>
+  <vidio data-autoplay class="stretch" src="https://www.youtube.com/embed/PGrqp1LXKSg"></vidio>
 </section>
 
 
@@ -17,8 +17,7 @@ hook: stu eve's video with the barbarian invasion of cardboard model
 
 
 ## test
-- grow again
-- encore
+
 <section>
 - grow one
 - grow two
