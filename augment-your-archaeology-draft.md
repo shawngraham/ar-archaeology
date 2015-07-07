@@ -49,9 +49,9 @@ mostly advertising world - but clearly Microsoft, Google, & others are making *h
 
 ## analogue AR
 <section>
-    <p class="fragment grow">museum dioramas/overlays</p>
-    <p class="fragment grow">landscape overlays, pois, interesting views</p>
-    <p class="fragment grow">tromp l'oeil?</p>
+    <p class="fragment fade-in"><img src="http://ecx.images-amazon.com/images/I/51CDTHS8Y0L._SX258_BO1,204,203,200_.jpg"></img></p>
+    <p class="fragment fade-in">landscape overlays, pois, interesting views</p>
+    <p class="fragment fade-in">tromp l'oeil?</p>
 </section>
 
 
