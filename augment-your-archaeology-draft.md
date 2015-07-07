@@ -66,10 +66,12 @@ Note: this ends the intro; having looked at the geewhiz aspects, let's turn to t
 
 ## analogue AR
 Flipbooks
+
 ![acetate](http://i.imgur.com/rGyEOdL.jpg)
  
  
 Wall paintings
+
 ![roman tromp l'oeil - second style](https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Metropolitan_wall_painting_Roman_1C_BC_9.jpg/576px-Metropolitan_wall_painting_Roman_1C_BC_9.jpg)
 
 
@@ -101,6 +103,9 @@ discussion of early vr, caves, etc
 
 ### What gets augmented, anyway? 
 # privileging the visual
+[JC+A, British Museum https://www.flickr.com/photos/williamphotography/](https://farm5.staticflickr.com/4023/4672892333_dd110d9d17_b.jpg)
+Note: 
+Something about the gaze etc
 
 
 ## BiPs & Digital Phenomenology
