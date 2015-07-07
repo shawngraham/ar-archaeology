@@ -23,6 +23,7 @@ hook: stu eve's video with the barbarian invasion of cardboard model
 </section>
 
 
+
 ## continuum: ar - mixed reality - vr
 <img class="stretch" src="https://upload.wikimedia.org/wikipedia/en/d/dc/Virtuality_Continuum_2.jpg"></img>
 
