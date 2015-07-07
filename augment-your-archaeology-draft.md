@@ -1,7 +1,6 @@
 # Augment your archaeology
 <small> Follow along on your own device at http://j.mp/ar-arch</small>
 
-
 Note:
 Why bother with AR? Ain't it just a gimmick? Make a Pratchett allusion - Tiffany Aching- Open your eyes, then open them again?
 
