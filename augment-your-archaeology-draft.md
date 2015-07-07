@@ -102,8 +102,8 @@ discussion of early vr, caves, etc
 
 
 ### What gets augmented, anyway? 
-# privileging the visual
-![JC+A, British Museum https://www.flickr.com/photos/williamphotography/](https://farm5.staticflickr.com/4023/4672892333_dd110d9d17_b.jpg)
+## privileging the visual
+![JC+A, British Museum https://www.flickr.com/photos/williamphotography/](https://farm5.staticflickr.com/4023/4672892333_dd110d9d17_z.jpg)
 Note: 
 Something about the gaze etc
 
