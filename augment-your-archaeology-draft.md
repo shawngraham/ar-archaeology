@@ -65,21 +65,26 @@ Note: this ends the intro; having looked at the geewhiz aspects, let's turn to t
 
 
 ## analogue AR
-
+Flipbooks
 ![acetate](http://i.imgur.com/rGyEOdL.jpg)
  
  
- ![roman tromp l'oeil - second style](https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Metropolitan_wall_painting_Roman_1C_BC_9.jpg/576px-Metropolitan_wall_painting_Roman_1C_BC_9.jpg)
+Wall paintings
+![roman tromp l'oeil - second style](https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Metropolitan_wall_painting_Roman_1C_BC_9.jpg/576px-Metropolitan_wall_painting_Roman_1C_BC_9.jpg)
 
 
 ## analogue VR
 
+Stereoscopes
 ![stereoscope](https://upload.wikimedia.org/wikipedia/commons/f/f6/Holmes_stereoscope.jpg)
 
 
-## we were promised this
+...and no doubt you can think of more examples...
+
+
+## thing is, we were promised this
 <section data-background="http://www.gamesetwatch.com/lawnmowerman.jpg">
-the Lawnmower Man
+   .   
 </section>
 
 Note:
