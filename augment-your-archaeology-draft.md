@@ -76,6 +76,8 @@ discussion of early vr, caves, etc
 .
 
 
+placeholder
+
 
 # Part 2 - Where we're at
 # ar: mostly in marketing
