@@ -34,7 +34,6 @@ Note:
 from your smartphone to disney world to the oculus & hololens. archaeologists have always been working along this continuum.
 
 
-<section style="text-align: left;" class="stretch">
 ## Who bothers with AR?
 ![Helen](http://www.40ideas.com/wp-content/uploads/2013/06/camp-helen_papagiannis.jpg)
  
@@ -43,15 +42,14 @@ Helen Papagiannis http://www.40ideas.com/
 Note: 
 mostly advertising world - but clearly Microsoft, Google, & others are making *huge* bets here
 
-</section>
-
 
 
 # Part 1 - Where we've been
 
 
-<section>
+
 ## analogue AR
+<section>
     <p class="fragment grow">museum dioramas/overlays</p>
     <p class="fragment grow">landscape overlays, pois, interesting views</p>
     <p class="fragment grow">tromp l'oeil?</p>
@@ -73,9 +71,8 @@ history of AR as a technology
 Note:
 Things are not always what they seem. image: https://www.flickr.com/photos/dearmiami/
 
+
 .
-
-
 
 
 
