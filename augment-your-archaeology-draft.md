@@ -11,7 +11,7 @@ hook: whizbang. pompeii flipboards with acetate overlays?
 hook: stu eve's video with the barbarian invasion of cardboard model
 
 
-<section data-autoplay src"https://www.youtube.com/watch?v=StTqXEQ2l-Y">
+<section video data-autoplay class="stretch" src="https://www.youtube.com/watch?v=StTqXEQ2l-Y">
 
 
 ## test
