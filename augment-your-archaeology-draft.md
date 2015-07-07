@@ -43,18 +43,34 @@ Note:
 mostly advertising world - but clearly Microsoft, Google, & others are making *huge* bets here
 
 
+## public historians
+Rideau Timescapes
+![timescapes](https://metronewsca.files.wordpress.com/2013/06/04_11_ott_rideaucanalapp_sean.jpg)
 
-# Part 1 - Where we've been
+
+Curatescape
+![image](http://curatescape.org/wp-content/themes/curatescape-twentythirteen-child/images/scene-1.png)
+
+
+Mbira
+![mbira logo](http://mbira.matrix.msu.edu/wp-content/uploads/2015/03/Mbira_Logo_Horizontal.png "mbira logo")
+
+
+
+
+### Ok, so much for the hype.
+# _Nihil novi sub sole_
 
 
 ## analogue AR
-![acetate overlays](http://ecx.images-amazon.com/images/I/51CDTHS8Y0L._SX258_BO1,204,203,200_.jpg")
- 
- 
- ![timescapes](https://metronewsca.files.wordpress.com/2013/06/04_11_ott_rideaucanalapp_sean.jpg)
+![acetate](http://i.imgur.com/rGyEOdL.jpg)
  
  
  ![roman tromp l'oeil - second style](https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Metropolitan_wall_painting_Roman_1C_BC_9.jpg/576px-Metropolitan_wall_painting_Roman_1C_BC_9.jpg)
+
+
+## analogue VR
+![stereoscope](https://upload.wikimedia.org/wikipedia/commons/f/f6/Holmes_stereoscope.jpg)
 
 
 ## lost horizons - vr/ar in academia in 1990s
