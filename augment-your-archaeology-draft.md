@@ -3,10 +3,16 @@
 
 [![Jekyll and Hide AR book](https://img.youtube.com/vi/PGrqp1LXKSg/0.jpg)](https://www.youtube.com/embed/PGrqp1LXKSg)
 http://martinkovacovsky.ch/jekyll-hyde/
+
 Note:
 Tiffany Aching?
 hook: whizbang. pompeii flipboards with acetate overlays?
 hook: stu eve's video with the barbarian invasion of cardboard model
+
+
+## new test:
+video:https://www.youtube.com/embed/PGrqp1LXKSg
+
 
 
 ## test
