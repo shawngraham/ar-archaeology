@@ -12,8 +12,9 @@ hook: stu eve's video with the barbarian invasion of cardboard model
 
 
 
-<section> # another test
-<video data-autoplay class="stretch" src="https://www.youtube.com/watch?v=StTqXEQ2l-Y"></video></section>
+<section> 
+# another test
+<video class="stretch" src="https://www.youtube.com/watch?v=StTqXEQ2l-Y"></video></section>
 
 
 
