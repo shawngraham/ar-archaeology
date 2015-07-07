@@ -4,6 +4,15 @@ Note:
 Why bother with AR? Ain't it just a gimmick? Make a Pratchett allusion - Tiffany Aching- Open your eyes, then open them again?
 
 
+## the archaeological eye
+<section data-background="http://www.dayofarchaeology.com/wp-content/uploads/2014/07/IMG_20140711_164910.jpg">
+...picture this...
+</section>
+
+Note:
+We've always been augmenting reality. But maybe we could make things a bit more... awesome. image: http://www.dayofarchaeology.com/cakes-cottages-and-manky-bones/
+
+
 [![Augmenting a Roman Fort, Stu Eve](http://www.dead-mens-eyes.org/wp-content/uploads/2011/10/CIMG1247-300x225.jpg)](https://player.vimeo.com/video/30861262)
 
 ...consider the Museum Diorama...
@@ -20,14 +29,6 @@ This video continues to blow me away. No AR app I've seen in the intervening yea
 
 Note:
 from your smartphone to disney world to the oculus & hololens. archaeologists have always been working along this continuum.
-
-
-<section data-background="http://www.dayofarchaeology.com/wp-content/uploads/2014/07/IMG_20140711_164910.jpg">
-.
-</section>
-
-Note:
-http://www.dayofarchaeology.com/cakes-cottages-and-manky-bones/
 
 
 <section style="text-align: left; top: 184.5px; display: block;" class="present">
