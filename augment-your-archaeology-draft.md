@@ -19,7 +19,12 @@ This video continues to blow me away. No AR app I've seen in the intervening yea
 <img class="stretch" src="https://upload.wikimedia.org/wikipedia/en/d/dc/Virtuality_Continuum_2.jpg"></img>
 
 Note:
-from your smartphone to disney world to the oculus & hololens
+from your smartphone to disney world to the oculus & hololens. archaeologists have always been working along this continuum.
+
+
+<section data-background="http://www.dayofarchaeology.com/wp-content/uploads/2014/07/IMG_20140711_164910.jpg">
+http://www.dayofarchaeology.com/cakes-cottages-and-manky-bones/
+</section>
 
 
 <section style="text-align: left; top: 184.5px; display: block;" class="present">
