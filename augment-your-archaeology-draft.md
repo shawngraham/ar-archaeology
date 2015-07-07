@@ -10,26 +10,7 @@ hook: whizbang. pompeii flipboards with acetate overlays?
 hook: stu eve's video with the barbarian invasion of cardboard model
 
 
-## new test:
-video:https://www.youtube.com/embed/PGrqp1LXKSg
-
-
-
-## test
-
-<section>
-- grow one
-- grow two
-    <p class="fragment grow">grow</p>
-    <p class="fragment shrink">shrink</p>
-    <p class="fragment fade-out">fade-out</p>
-    <p class="fragment current-visible">visible only once</p>
-    <p class="fragment highlight-current-blue">blue only once</p>
-    <p class="fragment highlight-red">highlight-red</p>
-    <p class="fragment highlight-green">highlight-green</p>
-    <p class="fragment highlight-blue">highlight-blue</p>
-</section>
-
+[![Minecraft & Hololens](https://img.youtube.com/vi/xgakdcEzVwg&t=2m25s/0.jpg)](https://www.youtube.com/embed/xgakdcEzVwg&t=2m25s)
 
 
 ## continuum: ar - mixed reality - vr
