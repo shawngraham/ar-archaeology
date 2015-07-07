@@ -18,6 +18,8 @@ hook: stu eve's video with the barbarian invasion of cardboard model
 
 ## test
 <section>
+- grow one
+- grow two
     <p class="fragment grow">grow</p>
     <p class="fragment shrink">shrink</p>
     <p class="fragment fade-out">fade-out</p>
