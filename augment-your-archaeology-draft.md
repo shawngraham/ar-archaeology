@@ -50,9 +50,13 @@ mostly advertising world - but clearly Microsoft, Google, & others are making *h
 ## analogue AR
 <section>
     <p class="fragment fade-in"><img src="http://ecx.images-amazon.com/images/I/51CDTHS8Y0L._SX258_BO1,204,203,200_.jpg"></img></p>
-    <p class="fragment fade-in">landscape overlays, pois, interesting views</p>
-    <p class="fragment fade-in">tromp l'oeil?</p>
-</section>
+ </section>
+ 
+ 
+ ![timescapes](https://metronewsca.files.wordpress.com/2013/06/04_11_ott_rideaucanalapp_sean.jpg)
+ 
+ 
+ ![roman tromp l'oeil - second style](https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Metropolitan_wall_painting_Roman_1C_BC_9.jpg/576px-Metropolitan_wall_painting_Roman_1C_BC_9.jpg)
 
 
 ## lost horizons - vr/ar in academia in 1990s
