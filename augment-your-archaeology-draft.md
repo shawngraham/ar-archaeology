@@ -10,7 +10,7 @@ hook: whizbang. pompeii flipboards with acetate overlays?
 hook: stu eve's video with the barbarian invasion of cardboard model
 
 
-[![Minecraft & Hololens](https://img.youtube.com/vi/xgakdcEzVwg&t=2m25s/0.jpg)](https://www.youtube.com/embed/xgakdcEzVwg&t=2m25s)
+[![Minecraft & Hololens](https://img.youtube.com/vi/xgakdcEzVwg&t=2m25s/0.jpg)](https://www.youtube.com/embed/xgakdcEzVwg&start=145)
 
 
 ## continuum: ar - mixed reality - vr
