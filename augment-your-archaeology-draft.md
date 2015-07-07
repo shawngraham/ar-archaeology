@@ -78,6 +78,7 @@ Wall paintings
 ## analogue VR
 
 Stereoscopes
+
 ![stereoscope](https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Holmes_stereoscope.jpg/487px-Holmes_stereoscope.jpg)
 
 
