@@ -16,7 +16,7 @@ We've always been augmenting reality. But maybe we could make things a bit more.
 .
 
 
-[![Augmenting a Roman Fort, Stu Eve](http://www.dead-mens-eyes.org/wp-content/uploads/2011/10/CIMG1247-300x225.jpg)](https://player.vimeo.com/video/30861262)
+.[![Augmenting a Roman Fort, Stu Eve](http://www.dead-mens-eyes.org/wp-content/uploads/2011/10/CIMG1247-300x225.jpg)](https://player.vimeo.com/video/30861262)
 
 ...consider the Museum Diorama...
 
@@ -47,7 +47,6 @@ mostly advertising world - but clearly Microsoft, Google, & others are making *h
 # Part 1 - Where we've been
 
 
-
 ## analogue AR
 <section>
     <p class="fragment grow">museum dioramas/overlays</p>
@@ -63,7 +62,7 @@ Note:
 history of AR as a technology. the 
 
 
-### Don't fear the hype cycle
+## VR/AR in Popular Culture
 <section data-background="http://www.gamesetwatch.com/lawnmowerman.jpg">
 the Lawnmower Man
 </section>
