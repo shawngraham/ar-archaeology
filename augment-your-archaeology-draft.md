@@ -48,9 +48,7 @@ mostly advertising world - but clearly Microsoft, Google, & others are making *h
 
 
 ## analogue AR
-<section>
-    <p class="fragment fade-in"><img src="http://ecx.images-amazon.com/images/I/51CDTHS8Y0L._SX258_BO1,204,203,200_.jpg"></img></p>
- </section>
+![acetate overlays](http://ecx.images-amazon.com/images/I/51CDTHS8Y0L._SX258_BO1,204,203,200_.jpg")
  
  
  ![timescapes](https://metronewsca.files.wordpress.com/2013/06/04_11_ott_rideaucanalapp_sean.jpg)
