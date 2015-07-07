@@ -40,7 +40,7 @@ from your smartphone to disney world to the oculus & hololens. archaeologists ha
 Helen Papagiannis http://www.40ideas.com/
 
 Note: 
-mostly advertising world - but clearly Microsoft, Google, & others are making *huge* bets here
+mostly advertising world - but clearly Microsoft, Google, & others are making *huge* bets here. - notice the progression here: http://techcrunch.com/2010/05/26/ogmento-first-ar-gaming-startup-to-win-vc-funding/ to http://www.flybymedia.com/
 
 
 ## public historians
@@ -53,16 +53,18 @@ Curatescape
 
 
 Mbira
-![mbira logo](http://mbira.matrix.msu.edu/wp-content/uploads/2015/03/Mbira_Logo_Horizontal.png "mbira logo")
 
+![mbira logo](http://mbira.matrix.msu.edu/wp-content/uploads/2015/03/Mbira_Logo_Horizontal.png "mbira logo")
 
 
 
 ### Ok, so much for the hype.
 # _Nihil novi sub sole_
+Note: this ends the intro; having looked at the geewhiz aspects, let's turn to the things that have been constant
 
 
 ## analogue AR
+
 ![acetate](http://i.imgur.com/rGyEOdL.jpg)
  
  
@@ -70,17 +72,11 @@ Mbira
 
 
 ## analogue VR
+
 ![stereoscope](https://upload.wikimedia.org/wikipedia/commons/f/f6/Holmes_stereoscope.jpg)
 
 
-## lost horizons - vr/ar in academia in 1990s
-- or why it's difficult to get research grants that have 'AR' in the title
-
-Note:
-history of AR as a technology. the 
-
-
-## VR/AR in Popular Culture
+## we were promised this
 <section data-background="http://www.gamesetwatch.com/lawnmowerman.jpg">
 the Lawnmower Man
 </section>
@@ -92,15 +88,26 @@ discussion of early vr, caves, etc
 .
 
 
-placeholder
+### but we got this
+![virtual boy](https://upload.wikimedia.org/wikipedia/commons/1/1d/Virtual-Boy-Set.png)
 
 
-# Part 2 - Where we're at
-# ar: mostly in marketing
-- notice the progression here: http://techcrunch.com/2010/05/26/ogmento-first-ar-gaming-startup-to-win-vc-funding/ to http://www.flybymedia.com/
+## lost horizons - vr/ar in academia in 1990s
+_or why it's difficult to get research grants that have 'AR' in the title_
+
+Note: so, the tension between familiarity, what we were promised and what we actually ended up with makes it v. difficult to get funding _not to build tools_ but to do anything research-wise with them: to *use* the bloody things! Yet there were academic uses that were meaningful and actually realized, especially to us as archaeologists. 
+
+## Thule Whalebone House
+ - wait, this was mid 2000s
+ 
+
+## other?
+- jstor search ar, vr, limit to before 2000
+- 
 
 
-## accessibility: which senses are 'augmented'?
+### What gets augmented, anyway? 
+# privileging the visual
 
 
 ### BiPs & Digital Phenomenology
