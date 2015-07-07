@@ -92,31 +92,22 @@ discussion of early vr, caves, etc
 ![virtual boy](https://upload.wikimedia.org/wikipedia/commons/1/1d/Virtual-Boy-Set.png)
 
 
-## lost horizons - vr/ar in academia in 1990s
-_or why it's difficult to get research grants that have 'AR' in the title_
-
-Note: so, the tension between familiarity, what we were promised and what we actually ended up with makes it v. difficult to get funding _not to build tools_ but to do anything research-wise with them: to *use* the bloody things! Yet there were academic uses that were meaningful and actually realized, especially to us as archaeologists. 
-
-## Thule Whalebone House
- - wait, this was mid 2000s
- 
-
-## other?
-- jstor search ar, vr, limit to before 2000
-- 
-
 
 ### What gets augmented, anyway? 
 # privileging the visual
 
 
-### BiPs & Digital Phenomenology
+## BiPs & Digital Phenomenology
 - phenomenology is not a bad word. http://discovery.ucl.ac.uk/1352447/1/Eve_2012_Augmented_Phenomenology.pdf
 - beyond digital dwelling http://www.degruyter.com/view/j/opar.2014.1.issue-1/opar-2015-0006/opar-2015-0006.xml?format=INT
 - challenging heritage visualization http://www.degruyter.com/view/j/opar.2014.1.issue-1/opar-2015-0006/opar-2015-0006.xml?format=INT
 
 
-### missing a trick: sound & AR
+## missing a trick: sound & AR
++ sound is haptic
++ sound requires active attention
++ sound is spatialized
++ can use it to deliberately play with BiPs
 
 
 #### zombies, run!
@@ -131,50 +122,25 @@ Note: so, the tension between familiarity, what we were promised and what we act
 #### [augmented audio](http://www.augmentedaudio.com/)
 
 
-#### historical friction
+#### [historical friction](http://graeworks.net/historicalfriction/)
 
 
 #### voices recognition
+[![Voices Recognition, Colleen Morgan](https://img.youtube.com/vi/ogUCb9JrTNU/0.jpg)](https://www.youtube.com/embed/ogUCb9JrTNU)
 
 
-#### http://www.recho.org/
+#### [Recho](http://www.recho.org/)
 
 
-# Part 3: How does this all work, anyway?
-
-## Struture from Motion
+#### [HATengine](http://hatengine.com/)
 
 
-## An example workflow
+#### 200 Castles
 
-- my students' two AR pop-up books.
-- (problem: SDKs changed, company acquired by Apple, shut'er down!)
-
-- tools & apps
-- hints & tips for 3d model making
-- working with image targets
-- things you might like to augment
-  - vuforia: can augment images, objects, text; handles occlusion
-
-----
-- place-based AR - wikitude - MBIRA - ARIS
-- ie, there's a smearing of game-based interaction - importance of game literacy to working with AR
-- Aurasma - drag & drop image based AR, place based AR - drawbacks
-- how hololens, google glass, that other startup whose name escapes me but everyone's excited about and which shines the images directly on your retina. Hold a unicorn in your hand etc).
-
-----
-- Caitlin Fisher's work: note the importance of sound in creating the ambiance/immersiveness in her art/work https://projeqt.com/caitlin/200-castles https://vimeo.com/51654422
+Note: Caitlin Fisher's work: note the importance of sound in creating the ambiance/immersiveness in her art/work https://projeqt.com/caitlin/200-castles https://vimeo.com/51654422
   
 
-# Part 4: Where we might go 
-
--video of that sandtable/gis thing
--heritage app game thing that Ethan emailed me (Also excursus into Techumseh Lies Here & ARGs)
--hololens demo of minecraft
-  + on a related note, weep for the Kinect
-  
-
-## AR for archaeological research
+# AR in archaeological research
 
 
 ### embodied GIS/phenomenology
@@ -199,6 +165,10 @@ Note: so, the tension between familiarity, what we were promised and what we act
 + 'bringing impossible places to the public' http://www.degruyter.com/view/j/opar.2014.1.issue-1/opar-2015-0007/opar-2015-0007.xml?format=INT
 + HIST5702x & FYSM1405a, digitizing museum collections (thus the teaching potentials)
 + The Greeks app, Museum of History
+-video of that sandtable/gis thing
+-heritage app game thing that Ethan emailed me (Also excursus into Techumseh Lies Here & ARGs)
+
+
 
 # Conclusion:
 ## What's in it for you
