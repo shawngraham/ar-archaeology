@@ -24,10 +24,12 @@ from your smartphone to disney world to the oculus & hololens
 
 <section style="text-align: left; top: 184.5px; display: block;" class="present">
 ## Who bothers with AR?
-+ Helen Papagiannis http://www.40ideas.com/
+![Helen](http://www.40ideas.com/wp-content/uploads/2013/06/camp-helen_papagiannis.jpg)
+ 
+Helen Papagiannis http://www.40ideas.com/
 
 Note: 
-mostly advertising world
+mostly advertising world - but clearly Microsoft, Google, & others are making *huge* bets here
 
 </section>
 
