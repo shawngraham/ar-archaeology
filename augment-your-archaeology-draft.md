@@ -34,7 +34,7 @@ Note:
 from your smartphone to disney world to the oculus & hololens. archaeologists have always been working along this continuum.
 
 
-<section style="text-align: left;" class="present">
+<section style="text-align: left;" class="stretch">
 ## Who bothers with AR?
 ![Helen](http://www.40ideas.com/wp-content/uploads/2013/06/camp-helen_papagiannis.jpg)
  
