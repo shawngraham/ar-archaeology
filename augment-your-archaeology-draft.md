@@ -1,9 +1,11 @@
 # Augment your archaeology
 
 
-<section>
-  <vidio data-autoplay class="stretch" src="https://www.youtube.com/embed/PGrqp1LXKSg"></vidio>
-</section>
+[![Everything Is AWESOME](http://img.youtube.com/vi/StTqXEQ2l-Y/0.jpg)](https://www.youtube.com/watch?v=StTqXEQ2l-Y "Everything Is AWESOME")
+
+
+[![video](https://img.youtube.com/vi/PGrqp1LXKSg/0.jpg)](https://www.youtube.com/embed/PGrqp1LXKSg")
+
 
 
 
