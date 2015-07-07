@@ -16,7 +16,8 @@ We've always been augmenting reality. But maybe we could make things a bit more.
 .
 
 
-.[![Augmenting a Roman Fort, Stu Eve](http://www.dead-mens-eyes.org/wp-content/uploads/2011/10/CIMG1247-300x225.jpg)](https://player.vimeo.com/video/30861262)
+### this slide left intentionally blank
+[![Augmenting a Roman Fort, Stu Eve](http://www.dead-mens-eyes.org/wp-content/uploads/2011/10/CIMG1247-300x225.jpg)](https://player.vimeo.com/video/30861262)
 
 ...consider the Museum Diorama...
 
