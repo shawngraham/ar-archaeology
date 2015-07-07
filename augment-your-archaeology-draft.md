@@ -97,7 +97,7 @@ discussion of early vr, caves, etc
 
 
 ### but we got this
-![virtual boy](https://upload.wikimedia.org/wikipedia/commons/1/1d/Virtual-Boy-Set.png)
+![virtual boy](https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Virtual-Boy-Set.png/708px-Virtual-Boy-Set.png)
 
 
 
