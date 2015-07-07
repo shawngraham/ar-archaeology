@@ -1,9 +1,9 @@
 # Augment your archaeology
 
 
-<section>
-<video class="stretch" src="https://www.youtube.com/embed/PGrqp1LXKSg"></video>
-</section>
+
+![video](https://www.youtube.com/embed/PGrqp1LXKSg)
+
 
 
 http://martinkovacovsky.ch/jekyll-hyde/
