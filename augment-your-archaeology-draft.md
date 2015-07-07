@@ -1,12 +1,15 @@
 # Augment your archaeology
 
+Note:
+Why bother with AR? Ain't it just a gimmick? Make a Pratchett allusion - Tiffany Aching- Open your eyes, then open them again?
+
 
 [![Augmenting a Roman Fort, Stu Eve](http://www.dead-mens-eyes.org/wp-content/uploads/2011/10/CIMG1247-300x225.jpg)](https://player.vimeo.com/video/30861262)
+
 ...consider the Museum Diorama...
 
 Note:
-Tiffany Aching? Open your eyes, then open them again?
-
+This video continues to blow me away. No AR app I've seen in the intervening years comes as close. 
 
 
 [![Minecraft & Hololens](https://img.youtube.com/vi/xgakdcEzVwg/0.jpg)](https://www.youtube.com/embed/xgakdcEzVwg?start=145)
@@ -17,6 +20,15 @@ Tiffany Aching? Open your eyes, then open them again?
 
 Note:
 from your smartphone to disney world to the oculus & hololens
+
+<section style="text-align: left; top: 184.5px; display: block;" class="present">
+## Who bothers with AR?
++ Helen Papagiannis http://www.40ideas.com/
+
+Note: 
+mostly advertising world
+
+</section>
 
 
 # Part 1 - Where we've been
