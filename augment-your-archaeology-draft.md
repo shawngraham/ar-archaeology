@@ -1,4 +1,5 @@
 # Augment your archaeology
+<section>
 <video class="stretch" src="https://www.youtube.com/embed/PGrqp1LXKSg"></video>
 http://martinkovacovsky.ch/jekyll-hyde/
 
@@ -6,18 +7,6 @@ Note:
 Tiffany Aching?
 hook: whizbang. pompeii flipboards with acetate overlays?
 hook: stu eve's video with the barbarian invasion of cardboard model
-
-
-### a test ###
-<section>
-    <p class="fragment grow">grow</p>
-    <p class="fragment shrink">shrink</p>
-    <p class="fragment fade-out">fade-out</p>
-    <p class="fragment current-visible">visible only once</p>
-    <p class="fragment highlight-current-blue">blue only once</p>
-    <p class="fragment highlight-red">highlight-red</p>
-    <p class="fragment highlight-green">highlight-green</p>
-    <p class="fragment highlight-blue">highlight-blue</p>
 </section>
 
 
