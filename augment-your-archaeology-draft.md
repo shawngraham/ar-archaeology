@@ -1,10 +1,11 @@
 # Augment your archaeology
-<video class="stretch" src="https://www.youtube.com/watch?t=56&v=PGrqp1LXKSg"></video>
+<video class="stretch" src="https://www.youtube.com/embed/PGrqp1LXKSg"></video>
 http://martinkovacovsky.ch/jekyll-hyde/
 
 Note:
-- hook: whizbang. pompeii flipboards with acetate overlays?
-- hook: stu eve's video with the barbarian invasion of cardboard model
+Tiffany Aching?
+hook: whizbang. pompeii flipboards with acetate overlays?
+hook: stu eve's video with the barbarian invasion of cardboard model
  
 
 
