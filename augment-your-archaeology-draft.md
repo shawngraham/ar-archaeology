@@ -2,7 +2,7 @@
 <small> Follow along on your own device at http://j.mp/ar-arch</small>
 
 Note:
-Why bother with AR? Ain't it just a gimmick? Make a Pratchett allusion - Tiffany Aching- Open your eyes, then open them again?
+Why bother with AR? Ain't it just a gimmick? Make a Pratchett allusion - Tiffany Aching- Open your eyes, then open them again? Should also perhaps map out the parts of this talk
 
 
 ## the archaeological eye
@@ -78,7 +78,7 @@ Wall paintings
 ## analogue VR
 
 Stereoscopes
-![stereoscope](https://upload.wikimedia.org/wikipedia/commons/f/f6/Holmes_stereoscope.jpg)
+![stereoscope](https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Holmes_stereoscope.jpg/487px-Holmes_stereoscope.jpg)
 
 
 ...and no doubt you can think of more examples...
