@@ -1,13 +1,7 @@
 # Augment your archaeology
 
 
-[![Everything Is AWESOME](http://img.youtube.com/vi/StTqXEQ2l-Y/0.jpg)](https://www.youtube.com/watch?v=StTqXEQ2l-Y "Everything Is AWESOME")
-
-
-[![video](https://img.youtube.com/vi/PGrqp1LXKSg/0.jpg)](https://www.youtube.com/embed/PGrqp1LXKSg")
-
-
-
+[![Jekyll and Hide AR book](https://img.youtube.com/vi/PGrqp1LXKSg/0.jpg)](https://www.youtube.com/embed/PGrqp1LXKSg)
 
 
 http://martinkovacovsky.ch/jekyll-hyde/
