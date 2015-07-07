@@ -15,7 +15,7 @@ This video continues to blow me away. No AR app I've seen in the intervening yea
 [![Minecraft & Hololens](https://img.youtube.com/vi/xgakdcEzVwg/0.jpg)](https://www.youtube.com/embed/xgakdcEzVwg?start=145)
 
 
-## continuum: ar - mixed reality - vr
+## the continuum
 <img class="stretch" src="https://upload.wikimedia.org/wikipedia/en/d/dc/Virtuality_Continuum_2.jpg"></img>
 
 Note:
@@ -26,12 +26,11 @@ from your smartphone to disney world to the oculus & hololens. archaeologists ha
 
 
 
+.
+</section>
 
 Note:
 http://www.dayofarchaeology.com/cakes-cottages-and-manky-bones/
-
-.
-</section>
 
 
 <section style="text-align: left; top: 184.5px; display: block;" class="present">
@@ -48,9 +47,12 @@ mostly advertising world - but clearly Microsoft, Google, & others are making *h
 
 # Part 1 - Where we've been
 ## analogue AR
-+ museum dioramas/overlays
-+ landscape overlays, pois, interesting views
-+ tromp l'oeil?
+<section>
+<p class="fragment" data-fragment-index="1">museum dioramas/overlays</1>
+<p class="fragment" data-fragment-index="2">landscape overlays, pois, interesting views</p>
+<p class="fragment" data-fragment-index="3">tromp l'oeil?</p>
+</section>
+
 
 ## history of ar as tech
 
