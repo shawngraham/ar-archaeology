@@ -1,13 +1,12 @@
 # Augment your archaeology
 
 
-[![Jekyll and Hide AR book](https://img.youtube.com/vi/PGrqp1LXKSg/0.jpg)](https://www.youtube.com/embed/PGrqp1LXKSg)
-http://martinkovacovsky.ch/jekyll-hyde/
+[![Augmenting a Roman Fort, Stu Eve](http://www.dead-mens-eyes.org/wp-content/uploads/2011/10/CIMG1247-300x225.jpg)](https://player.vimeo.com/video/30861262)
+...consider the Museum Diorama...
 
 Note:
-Tiffany Aching?
-hook: whizbang. pompeii flipboards with acetate overlays?
-hook: stu eve's video with the barbarian invasion of cardboard model
+Tiffany Aching? Open your eyes, then open them again?
+
 
 
 [![Minecraft & Hololens](https://img.youtube.com/vi/xgakdcEzVwg/0.jpg)](https://www.youtube.com/embed/xgakdcEzVwg?start=145)
