@@ -60,16 +60,16 @@ mostly advertising world - but clearly Microsoft, Google, & others are making *h
 - or why it's difficult to get research grants that have 'AR' in the title
 
 Note:
-history of AR as a technology
+history of AR as a technology. the 
 
 
 ### Don't fear the hype cycle
-<section data-background="https://farm2.staticflickr.com/1139/5114328311_0fce7220b3_o.jpg">
-.
+<section data-background="http://www.gamesetwatch.com/lawnmowerman.jpg">
+the Lawnmower Man
 </section>
 
 Note:
-Things are not always what they seem. image: https://www.flickr.com/photos/dearmiami/
+discussion of early vr, caves, etc
 
 
 .
