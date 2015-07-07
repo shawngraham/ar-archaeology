@@ -7,7 +7,9 @@
 
 
 ## continuum: ar - mixed reality - vr
-- from your smartphone to disney world to the oculus & hololens
+Note:
+from your smartphone to disney world to the oculus & hololens
+<img class="stretch" src="https://en.wikipedia.org/wiki/Reality%E2%80%93virtuality_continuum#/media/File:Virtuality_Continuum_2.jpg"></img>
 
 
 # Part 1 - Where we've been
