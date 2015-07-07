@@ -21,6 +21,7 @@ This video continues to blow me away. No AR app I've seen in the intervening yea
 Note:
 from your smartphone to disney world to the oculus & hololens
 
+
 <section style="text-align: left; top: 184.5px; display: block;" class="present">
 ## Who bothers with AR?
 + Helen Papagiannis http://www.40ideas.com/
