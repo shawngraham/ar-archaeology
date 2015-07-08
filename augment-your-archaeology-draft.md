@@ -1,6 +1,6 @@
 # Augment your archaeology
 <small> Follow along on your own device at http://j.mp/ar-arch
-Fork & annotate & remix the source at http://j.mp/ar-arch-source</small>
+<br>Fork & annotate & remix the source at http://j.mp/ar-arch-source</small>
 
 Note:
 Why bother with AR? Ain't it just a gimmick? Make a Pratchett allusion - Tiffany Aching- Open your eyes, then open them again? Should also perhaps map out the parts of this talk
@@ -156,15 +156,12 @@ audio tours - yes, I suppose they are a kind of AR, but see paper
 
 Note: 
 Caitlin Fisher's work: note the importance of sound in creating the ambiance/immersiveness in her art/work https://projeqt.com/caitlin/200-castles 
+
+
   
 
-
-
-
-
-
-## 4. AR in archaeological research
-#A Very Brief Tour.
+# 4. AR in archaeological research
+### A Very Brief Tour.
 
 
 ### embodied GIS/phenomenology
@@ -188,14 +185,15 @@ Caitlin Fisher's work: note the importance of sound in creating the ambiance/imm
 ### [Micropasts](http://research.micropasts.org/2014/06/13/3d-modelling-via-sfm/)
 
 
-# 5. AR in public archaeology
+
+# 5. AR for the public 
 + 'bringing impossible places to the public' http://www.degruyter.com/view/j/opar.2014.1.issue-1/opar-2015-0007/opar-2015-0007.xml?format=INT
 
 
-+ HIST5702x & FYSM1405a, digitizing museum collections (thus the teaching potentials)
+HIST5702x & FYSM1405a, digitizing museum collections (thus the teaching potentials)
 
 
-+ The Greeks app, Museum of History
+The Greeks app, Museum of History
 
 
 -video of that sandtable/gis thing
@@ -216,6 +214,8 @@ http://philome.la/electricarchaeo/the-ottawa-anomaly/play
 
 Note: 
 My attempt at making a 'ghosts in the garden' type experience
+
+
 
 # 6. Conclusion:
 ## What's in it for you
