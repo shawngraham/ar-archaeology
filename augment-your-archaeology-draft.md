@@ -187,19 +187,31 @@ Caitlin Fisher's work: note the importance of sound in creating the ambiance/imm
 
 
 # 5. AR for the public 
-+ 'bringing impossible places to the public' http://www.degruyter.com/view/j/opar.2014.1.issue-1/opar-2015-0007/opar-2015-0007.xml?format=INT
+...'bringing impossible places to the public'... http://www.degruyter.com/view/j/opar.2014.1.issue-1/opar-2015-0007/opar-2015-0007.xml?format=INT
+Note: 
+the assetts that this project creates could be rendered into AR easily; here they're being sent to a 3d printer...
 
 
-HIST5702x & FYSM1405a, digitizing museum collections (thus the teaching potentials)
+...Pop-up books...
++ HIST5702x & FYSM1405a, digitizing museum collections (thus the teaching potentials)
+_get the book_: http://5702x.graeworks.net/?p=789
+<br>_student reflections:_ http://scalar.usc.edu/works/hist5702x-unessays-winter-2014/index
 
 
-The Greeks app, Museum of History
+...museums...
+![Imgur](http://i.imgur.com/COXL3d8h.jpg)
 
 
--video of that sandtable/gis thing
+...AR Sandtable...
+https://www.youtube.com/watch?v=rm4o3zn0JC8
+
+Kinect + Digital Projector + cheap linux box = very very cool
+
+Note:
+Many of these things out there, and this is more hydrological than archaeological, but we can see the potentials, right?
 
 
-## Ghosts in the Garden
+...Ghosts in the Garden...
 [![Ghosts in the Garden](http://www.react-hub.org.uk/sites/default/files/imagecache/project-380/project/key_image/2012-03-13/Screen%20Shot%202012-09-25%20at%2016.11.52.png)](http://apps.watershed.co.uk/mediaembedder/?id=1938&store=dds&theme=default&autoplay=false&autobuffer=false)
 
 http://www.react-hub.org.uk/heritagesandbox/projects/2012/ghosts-in-the-garden/
@@ -208,7 +220,7 @@ Note:
 Also excursus into Techumseh Lies Here & ARGs. This is a lovely mixture of place & audio, makes a compelling experience
 
 
-+ Low friction AR
+...Low friction AR...
 ![Imgur](http://i.imgur.com/Nuhg997.png)
 http://philome.la/electricarchaeo/the-ottawa-anomaly/play
 
