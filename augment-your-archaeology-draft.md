@@ -35,7 +35,7 @@ Note:
 from your smartphone to disney world to the oculus & hololens. archaeologists have always been working along this continuum.
 
 
-## Who bothers with AR?
+## AR in the Wild
 ![Helen](http://www.40ideas.com/wp-content/uploads/2013/06/camp-helen_papagiannis.jpg)
  
 Helen Papagiannis http://www.40ideas.com/
@@ -68,6 +68,7 @@ Note: this ends the intro; having looked at the geewhiz aspects, let's turn to t
 Flipbooks
 
 ![acetate](http://i.imgur.com/rGyEOdL.jpg)
+ 
  
  
 Wall paintings
