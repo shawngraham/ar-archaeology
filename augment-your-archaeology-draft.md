@@ -150,12 +150,11 @@ audio tours - yes, I suppose they are a kind of AR, but see paper
 [![200 Castles](http://i.imgur.com/NKyAwjp.png)](https://vimeo.com/51654422)
 
 Note: 
-Caitlin Fisher's work: note the importance of sound in creating the ambiance/immersiveness in her art/work https://projeqt.com/caitlin/200-castles 
+Caitlin Fisher's work: note the importance of sound in creating the ambiance/immersiveness in her art/work https://projeqt.com/caitlin/200-castles
 
 
-  
-# 4. AR in archaeological research
-### A Very Brief Tour.
+### 4. AR in archaeological research
+## A Very Brief Tour.
 _just to give you a sense of what's out there_
 
 
@@ -197,7 +196,10 @@ http://www.maneyonline.com/doi/abs/10.1179/2042458215Y.0000000004
 
 
 
-# 5. AR for the public 
+### 5. AR for the public
+## Of course, these categories smear, don't they.
+
+
 ...'bringing impossible places to the public'... http://www.degruyter.com/view/j/opar.2014.1.issue-1/opar-2015-0007/opar-2015-0007.xml?format=INT
 Note: 
 the assetts that this project creates could be rendered into AR easily; here they're being sent to a 3d printer...
