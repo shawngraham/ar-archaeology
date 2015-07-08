@@ -137,7 +137,14 @@ Something about the gaze etc. also, about touch - that tweet of lidar + pins hmm
 + can use it to deliberately play with BiPs
 
 
-#### zombies, run!
+|   	|   	|   	|   	|   	|
+|---	|---	|---	|---	|---	|
+|zombies, run!	|[augmented audio](http://www.augmentedaudio.com/)   	|   	|   	|   	|
+|[blindside](http://www.blindsidegame.com/)|[historical friction](http://graeworks.net/historicalfriction/)   	|   	|   	|   	|
+|[night terrors](https://www.indiegogo.com/projects/night-terrors-augmented-reality-survival-horror)   	|[Recho](http://www.recho.org/)   	|[HATengine](http://hatengine.com/)   	|   	|   	|
+
+
+#### 
 
 
 #### [blindside](http://www.blindsidegame.com/)
