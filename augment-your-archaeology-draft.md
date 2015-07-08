@@ -1,6 +1,5 @@
 # Augment your archaeology
 <small> Follow along on your own device at http://j.mp/ar-arch
-
 Fork & annotate & remix the source at http://j.mp/ar-arch-source</small>
 
 Note:
@@ -9,17 +8,18 @@ Why bother with AR? Ain't it just a gimmick? Make a Pratchett allusion - Tiffany
 
 ## Map for Today's Talk
 
-+ Seeing Ghosts 
-+ Which We've Always Done
-  I want my MTV
-+ Sense and Sensibility (_or, manipulating breaks in presence_)
-+ AR for Archaeologigal Research
-+ AR for Public Archaeology
-+ WIIFM
+1. Seeing Ghosts 
+2. Which We've Always Done
+    + I want my MTV
+3. Sense and Sensibility (_or, manipulating breaks in presence_)
+4. AR for Archaeological Research
+5. AR for Public Archaeology
+6. WIIFM
+
 <small> If you're following along on your own device, hit ESC to see all slides laid out at once </small> 
 
 
-## the archaeological eye
+## 1. the archaeological eye
 <section data-background="http://www.dayofarchaeology.com/wp-content/uploads/2014/07/IMG_20140711_164910.jpg">
 ...picture this...
 </section>
@@ -117,7 +117,7 @@ discussion of early vr, caves, etc
 
 
 
-### What gets augmented, anyway? 
+### 3. What gets augmented, anyway? 
 ## privileging the visual
 ![JC+A, British Museum https://www.flickr.com/photos/williamphotography/](https://farm5.staticflickr.com/4023/4672892333_dd110d9d17_z.jpg)
 Note: 
@@ -167,18 +167,21 @@ Something about the gaze etc. also, about touch - that tweet of lidar + pins hmm
 Note: Caitlin Fisher's work: note the importance of sound in creating the ambiance/immersiveness in her art/work https://projeqt.com/caitlin/200-castles https://vimeo.com/51654422
   
 
-# AR in archaeological research
+
+# 4. AR in archaeological research
+
+A Very Brief Tour.
 
 
 ### embodied GIS/phenomenology
+- Stu Eve
 
 
 ### digital gabii 
 - excavation, study of contexts
-
+- Rachel Opitz
 
 ### 'excavation is digitization' 
-
 + http://www.maneyonline.com/doi/abs/10.1179/2042458215Y.0000000004
 
 
@@ -188,25 +191,34 @@ Note: Caitlin Fisher's work: note the importance of sound in creating the ambian
 ### [Micropasts](http://research.micropasts.org/2014/06/13/3d-modelling-via-sfm/)
 
 
-### AR in public archaeology
+# %. AR in public archaeology
 + 'bringing impossible places to the public' http://www.degruyter.com/view/j/opar.2014.1.issue-1/opar-2015-0007/opar-2015-0007.xml?format=INT
+
+
 + HIST5702x & FYSM1405a, digitizing museum collections (thus the teaching potentials)
+
+
 + The Greeks app, Museum of History
+
+
 -video of that sandtable/gis thing
+
+
 -heritage app game thing that Ethan emailed me (Also excursus into Techumseh Lies Here & ARGs)
 
 
-
-# Conclusion:
+# 6. Conclusion:
 ## What's in it for you
 - why you should bother
 - the research potentials
+
+
 - the public outreach potentials
 - the rhetorical/tactical impact
 - the problem of publishing [more about Digital Gabii]
 
 
-# This afternoon:
+## This afternoon:
 + Building an AR app in Unity3d with Vuforia
 _or_
 + Building a location-based game (with sound!) in Twine
