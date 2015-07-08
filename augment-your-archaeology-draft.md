@@ -141,6 +141,7 @@ Building a convincing visual AR experience, that does not cause any breaks in pr
 
 ## Some Augmented Audio Links
 
+|   |   |   |
 |---|---|---|
 |[zombies, run!](https://zombiesrungame.com/)   |[augmented audio](http://www.augmentedaudio.com/)    |[HATengine](http://hatengine.com/)   |
 |[blindside](http://www.blindsidegame.com/)   |[historical friction](http://graeworks.net/historicalfriction/)   |Voices Recognition   |
