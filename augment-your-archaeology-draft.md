@@ -161,10 +161,12 @@ Caitlin Fisher's work: note the importance of sound in creating the ambiance/imm
   
 # 4. AR in archaeological research
 ### A Very Brief Tour.
+_just to give you a sense of what's out there_
 
 
 ### embodied GIS/phenomenology
 - Stu Eve
+
 ![image](http://www.dead-mens-eyes.org/wp-content/uploads/2010/03/leskernick_landscape_no_masks_clipped-300x211.jpg)
 
 <small>[#YOHRS seminar presentation](https://www.youtube.com/watch?v=3OdVSGiU9lQ)</small>
@@ -172,8 +174,9 @@ Caitlin Fisher's work: note the importance of sound in creating the ambiance/imm
 
 ### digital gabii 
 ![gabii](http://gabiiserver.adsroot.itcs.umich.edu/gabiigoesdigital/assets/img/prototype.png)
+
 - excavation, study of contexts
-- Rachel Opitz
+- Rachel Opitz et al.
 
 
 ### 'excavation is digitization' 
