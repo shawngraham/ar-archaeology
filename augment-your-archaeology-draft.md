@@ -216,6 +216,7 @@ _get the book_: http://5702x.graeworks.net/?p=789
 
 
 ...AR Sandtable...
+
 https://www.youtube.com/watch?v=rm4o3zn0JC8
 
 Kinect + Digital Projector + cheap linux box = very very cool
@@ -225,6 +226,7 @@ Many of these things out there, and this is more hydrological than archaeologica
 
 
 ...Ghosts in the Garden...
+
 [![Ghosts in the Garden](http://www.react-hub.org.uk/sites/default/files/imagecache/project-380/project/key_image/2012-03-13/Screen%20Shot%202012-09-25%20at%2016.11.52.png)](http://apps.watershed.co.uk/mediaembedder/?id=1938&store=dds&theme=default&autoplay=false&autobuffer=false)
 
 http://www.react-hub.org.uk/heritagesandbox/projects/2012/ghosts-in-the-garden/
@@ -234,6 +236,7 @@ Also excursus into Techumseh Lies Here & ARGs. This is a lovely mixture of place
 
 
 ...Low friction AR...
+
 ![Imgur](http://i.imgur.com/Nuhg997.png)
 http://philome.la/electricarchaeo/the-ottawa-anomaly/play
 
