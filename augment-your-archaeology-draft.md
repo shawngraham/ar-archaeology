@@ -79,14 +79,9 @@ Note: this ends the intro; having looked at the geewhiz aspects, let's turn to t
 
 
 ## analogue AR
-Flipbooks
+From Wall Painting to Flipbooks
 
-![acetate](http://i.imgur.com/rGyEOdL.jpg)
- 
- 
-Wall paintings
-
-![roman tromp l'oeil - second style](https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Metropolitan_wall_painting_Roman_1C_BC_9.jpg/576px-Metropolitan_wall_painting_Roman_1C_BC_9.jpg)
+![roman tromp l'oeil - second style](https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Metropolitan_wall_painting_Roman_1C_BC_9.jpg/576px-Metropolitan_wall_painting_Roman_1C_BC_9.jpg) ![acetate](http://i.imgur.com/rGyEOdL.jpg)
 
 
 ## analogue VR
