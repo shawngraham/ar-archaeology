@@ -121,7 +121,7 @@ Something about the gaze etc. also, about touch - that tweet of lidar + pins hmm
 ## BiPs & Digital Phenomenology
 + Breaks in Presence - that which knocks you out of the experience
 + What can 'ruin' a conventional AR experience?
-![this child has had a break in presence](https://pixabay.com/static/uploads/photo/2013/03/02/02/40/portrayal-89189_640.jpg)
+![this child has had a break in presence](http://i.imgur.com/aZYsJmP.png)
 
 <small>https://pixabay.com/en/portrayal-portrait-crying-cry-baby-89189/</small>
 
