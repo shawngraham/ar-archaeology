@@ -200,15 +200,20 @@ http://www.maneyonline.com/doi/abs/10.1179/2042458215Y.0000000004
 ## Of course, these categories smear, don't they.
 
 
-...'bringing impossible places to the public'... http://www.degruyter.com/view/j/opar.2014.1.issue-1/opar-2015-0007/opar-2015-0007.xml?format=INT
+...'bringing impossible places to the public'... 
+
+http://www.degruyter.com/view/j/opar.2014.1.issue-1/opar-2015-0007/opar-2015-0007.xml?format=INT
 Note: 
 the assetts that this project creates could be rendered into AR easily; here they're being sent to a 3d printer...
 
 
 ...Pop-up books...
-+ HIST5702x & FYSM1405a, digitizing museum collections (thus the teaching potentials)
+
++ HIST5702x & FYSM1405a, digitizing museum collections
 _get the book_: http://5702x.graeworks.net/?p=789
 <br>_student reflections:_ http://scalar.usc.edu/works/hist5702x-unessays-winter-2014/index
+
+![pop](https://pbs.twimg.com/media/BkuU6WqCQAAS2fR.jpg)
 
 
 ...museums...
