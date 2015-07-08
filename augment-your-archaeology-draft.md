@@ -137,41 +137,26 @@ Something about the gaze etc. also, about touch - that tweet of lidar + pins hmm
 + can use it to deliberately play with BiPs
 
 
-|   	|   	|   	|   	|   	|
+## Some Augmented Audio Apps
+
 |---	|---	|---	|---	|---	|
-|zombies, run!	|[augmented audio](http://www.augmentedaudio.com/)   	|   	|   	|   	|
-|[blindside](http://www.blindsidegame.com/)|[historical friction](http://graeworks.net/historicalfriction/)   	|   	|   	|   	|
-|[night terrors](https://www.indiegogo.com/projects/night-terrors-augmented-reality-survival-horror)   	|[Recho](http://www.recho.org/)   	|[HATengine](http://hatengine.com/)   	|   	|   	|
+|[zombies, run!](https://zombiesrungame.com/)	|[augmented audio](http://www.augmentedaudio.com/)   	|[HATengine](http://hatengine.com/)    	|   	|   	|
+|[blindside](http://www.blindsidegame.com/)|[historical friction](http://graeworks.net/historicalfriction/)   	|Voices Recognition   	| 200 Castles   	|   	|
+|[night terrors](https://www.indiegogo.com/projects/night-terrors-augmented-reality-survival-horror)   	|[Recho](http://www.recho.org/)   	|  	|   	|   	|
 
-
-#### 
-
-
-#### [blindside](http://www.blindsidegame.com/)
-
-
-#### [night terrors](https://www.indiegogo.com/projects/night-terrors-augmented-reality-survival-horror)
-
-
-#### [augmented audio](http://www.augmentedaudio.com/)
-
-
-#### [historical friction](http://graeworks.net/historicalfriction/)
+Note:
+audio tours - yes, I suppose they are a kind of AR, but see paper
 
 
 #### voices recognition
 [![Voices Recognition, Colleen Morgan](https://img.youtube.com/vi/ogUCb9JrTNU/0.jpg)](https://www.youtube.com/embed/ogUCb9JrTNU)
 
 
-#### [Recho](http://www.recho.org/)
-
-
-#### [HATengine](http://hatengine.com/)
-
-
 #### 200 Castles
+[![200 Castles]([Imgur](http://i.imgur.com/NKyAwjp.png))](https://vimeo.com/51654422)
 
-Note: Caitlin Fisher's work: note the importance of sound in creating the ambiance/immersiveness in her art/work https://projeqt.com/caitlin/200-castles https://vimeo.com/51654422
+Note: 
+Caitlin Fisher's work: note the importance of sound in creating the ambiance/immersiveness in her art/work https://projeqt.com/caitlin/200-castles 
   
 
 
