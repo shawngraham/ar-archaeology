@@ -1,9 +1,20 @@
 # Augment your archaeology
-<small> Follow along on your own device at http://j.mp/ar-arch<br>
-Fork & annotate & remix the source at http://j.mp/ar-arch-source</small>
+<small> Follow along on your own device at http://j.mp/ar-arch</small>
 
 Note:
 Why bother with AR? Ain't it just a gimmick? Make a Pratchett allusion - Tiffany Aching- Open your eyes, then open them again? Should also perhaps map out the parts of this talk
+
+
+## Map for Today's Talk
+
++ Seeing Ghosts 
++ Which We've Always Done
+  I want my MTV
++ Sense and Sensibility (_or, manipulating breaks in presence_)
++ AR for Archaeologigal Research
++ AR for Public Archaeology
++ WIIFM
+<small> If you're following along on your own device, hit ESC to see all slides laid out at once </small> 
 
 
 ## the archaeological eye
