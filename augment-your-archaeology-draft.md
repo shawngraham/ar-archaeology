@@ -118,12 +118,12 @@ Note:
 Something about the gaze etc. also, about touch - that tweet of lidar + pins hmmmm
 
 
-## BiPs & Digital Phenomenology
-+ Breaks in Presence - that which knocks you out of the experience
+## Breaks in Presence
++ that which knocks you out of the experience
 + What can 'ruin' a conventional AR experience?
 ![this child has had a break in presence](http://i.imgur.com/aZYsJmP.png)
 
-<small>https://pixabay.com/en/portrayal-portrait-crying-cry-baby-89189/</small>
+<small>This child has endured a break in presence.<br>https://pixabay.com/en/portrayal-portrait-crying-cry-baby-89189/</small>
 
 Note:
 Building a convincing visual AR experience, that does not cause any breaks in presence is the holy grail of Augmented Reality studies, and something that is virtually impossible to achieve. A break in presence will occur due to the mediation of the experience through a device (Head-Mounted Display, tablet computer, smartphone, etc.); the quality of the rendering of the virtual objects; the level of latency in software that delivers the experience to the eyes; the list is endless and scale-less – once you ‘solve’ one break in presence, then another occurs. The goal then can never be to completely eliminate breaks in presence, but instead to recognise them and treat them with an historian’s caution.
