@@ -84,7 +84,6 @@ Flipbooks
 ![acetate](http://i.imgur.com/rGyEOdL.jpg)
  
  
- 
 Wall paintings
 
 ![roman tromp l'oeil - second style](https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Metropolitan_wall_painting_Roman_1C_BC_9.jpg/576px-Metropolitan_wall_painting_Roman_1C_BC_9.jpg)
@@ -158,6 +157,10 @@ audio tours - yes, I suppose they are a kind of AR, but see paper
 Note: 
 Caitlin Fisher's work: note the importance of sound in creating the ambiance/immersiveness in her art/work https://projeqt.com/caitlin/200-castles 
   
+
+
+
+
 
 
 ## 4. AR in archaeological research
