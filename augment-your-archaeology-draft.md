@@ -250,8 +250,8 @@ My attempt at making a 'ghosts in the garden' type experience
 
 
 
-# 6. Conclusion:
-## What's in it for you
+## 6. Conclusion:
+### What's in it for you
 - why you should bother
 - the research potentials
 
