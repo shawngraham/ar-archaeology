@@ -204,7 +204,7 @@ http://www.maneyonline.com/doi/abs/10.1179/2042458215Y.0000000004
 
 ### [Micropasts](http://research.micropasts.org/2014/06/13/3d-modelling-via-sfm/)
 
-
+![Imgur](http://i.imgur.com/Se3yn6r.png)
 
 ### 5. AR for the public
 ## Of course, these categories smear, don't they.
@@ -212,6 +212,7 @@ http://www.maneyonline.com/doi/abs/10.1179/2042458215Y.0000000004
 
 ...'bringing impossible places to the public'... 
 
+![Imgur](http://i.imgur.com/Y4JshnP.png)
 http://www.degruyter.com/view/j/opar.2014.1.issue-1/opar-2015-0007/opar-2015-0007.xml?format=INT
 Note: 
 the assetts that this project creates could be rendered into AR easily; here they're being sent to a 3d printer...
@@ -219,9 +220,10 @@ the assetts that this project creates could be rendered into AR easily; here the
 
 ...Pop-up books...
 
-+ HIST5702x & FYSM1405a, digitizing museum collections
-_get the book_: http://5702x.graeworks.net/?p=789
-<br>_student reflections:_ http://scalar.usc.edu/works/hist5702x-unessays-winter-2014/index
+[HIST5702x](http://5702x.graeworks.net) & FYSM1405a, digitizing museum collections
+
+[_get the book_](http://5702x.graeworks.net/?p=789)
+<br>[_read student reflections:_](http://scalar.usc.edu/works/hist5702x-unessays-winter-2014/index)
 
 ![pop](https://pbs.twimg.com/media/BkuU6WqCQAAS2fR.jpg)
 
@@ -247,7 +249,13 @@ Many of these things out there, and this is more hydrological than archaeologica
 http://www.react-hub.org.uk/heritagesandbox/projects/2012/ghosts-in-the-garden/
 
 Note: 
-Also excursus into Techumseh Lies Here & ARGs. This is a lovely mixture of place & audio, makes a compelling experience
+Also excursus into Techumseh Lies Here & ARGs. This is a lovely mixture of place & audio, makes a compelling experience. list - what makes a compelling arg experience? 
+1 - strong storytelling
+2 - discovery/deciphering & documentation
+3 - cross-media
+4- blending of the boundaries b/w reality/fiction
+5-
+...as per this: http://readwrite.com/2007/12/26/alternate_reality_games_viral_marketing; see also McGonigle's opus
 
 
 ...Low friction AR...
