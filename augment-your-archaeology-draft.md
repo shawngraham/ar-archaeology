@@ -191,6 +191,7 @@ http://www.maneyonline.com/doi/abs/10.1179/2042458215Y.0000000004
     by <a href="https://sketchfab.com/nframes?utm_source=oembed&utm_medium=embed&utm_campaign=88f26269ec31419a8b94d2d127537bb3" target="_blank" style="font-weight: bold; color: #1CAAD9;">nFrames</a>
     on <a href="https://sketchfab.com?utm_source=oembed&utm_medium=embed&utm_campaign=88f26269ec31419a8b94d2d127537bb3" target="_blank" style="font-weight: bold; color: #1CAAD9;">Sketchfab</a>
 </p>
++ On sketchfab website for any model, add `/embed?oculus=2`to the url for stereoscopic viewing
 
 
 ### [Micropasts](http://research.micropasts.org/2014/06/13/3d-modelling-via-sfm/)
