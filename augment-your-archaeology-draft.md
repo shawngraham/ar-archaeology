@@ -159,7 +159,6 @@ Caitlin Fisher's work: note the importance of sound in creating the ambiance/imm
 
 
   
-
 # 4. AR in archaeological research
 ### A Very Brief Tour.
 
@@ -172,14 +171,26 @@ Caitlin Fisher's work: note the importance of sound in creating the ambiance/imm
 
 
 ### digital gabii 
+![gabii](http://gabiiserver.adsroot.itcs.umich.edu/gabiigoesdigital/assets/img/prototype.png)
 - excavation, study of contexts
 - Rachel Opitz
 
+
 ### 'excavation is digitization' 
-+ http://www.maneyonline.com/doi/abs/10.1179/2042458215Y.0000000004
+![Roosevelt et al fig 8](http://www.maneyonline.com/na101/home/literatum/publisher/maney/journals/content/jfa/2015/jfa.2015.40.issue-3/2042458215y.0000000004/20150627/images/medium/2042458215y.0000000004-f08.gif)
+Christopher H. Roosevelt; Peter Cobb; Emanuel Moss; Brandon R. Olson; Sinan Ünlüsoy
+
+http://www.maneyonline.com/doi/abs/10.1179/2042458215Y.0000000004
 
 
 ### [Project Mosul](http://projectmosul.org/)
+<iframe width="640" height="480" src="https://sketchfab.com/models/88f26269ec31419a8b94d2d127537bb3/embed" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" onmousewheel=""></iframe>
+
+<p style="font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;">
+    <a href="https://sketchfab.com/models/88f26269ec31419a8b94d2d127537bb3?utm_source=oembed&utm_medium=embed&utm_campaign=88f26269ec31419a8b94d2d127537bb3" target="_blank" style="font-weight: bold; color: #1CAAD9;">Nimrud - Video Reconstruction</a>
+    by <a href="https://sketchfab.com/nframes?utm_source=oembed&utm_medium=embed&utm_campaign=88f26269ec31419a8b94d2d127537bb3" target="_blank" style="font-weight: bold; color: #1CAAD9;">nFrames</a>
+    on <a href="https://sketchfab.com?utm_source=oembed&utm_medium=embed&utm_campaign=88f26269ec31419a8b94d2d127537bb3" target="_blank" style="font-weight: bold; color: #1CAAD9;">Sketchfab</a>
+</p>
 
 
 ### [Micropasts](http://research.micropasts.org/2014/06/13/3d-modelling-via-sfm/)
