@@ -178,6 +178,7 @@ Caitlin Fisher's work: note the importance of sound in creating the ambiance/imm
 
 ### 'excavation is digitization' 
 ![Roosevelt et al fig 8](http://www.maneyonline.com/na101/home/literatum/publisher/maney/journals/content/jfa/2015/jfa.2015.40.issue-3/2042458215y.0000000004/20150627/images/medium/2042458215y.0000000004-f08.gif)
+
 Christopher H. Roosevelt; Peter Cobb; Emanuel Moss; Brandon R. Olson; Sinan Ünlüsoy
 
 http://www.maneyonline.com/doi/abs/10.1179/2042458215Y.0000000004
