@@ -1,5 +1,7 @@
 # Augment your archaeology
-<small> Follow along on your own device at http://j.mp/ar-arch</small>
+<small> Follow along on your own device at http://j.mp/ar-arch
+
+Fork & annotate & remix the source at http://j.mp/ar-arch-source</small>
 
 Note:
 Why bother with AR? Ain't it just a gimmick? Make a Pratchett allusion - Tiffany Aching- Open your eyes, then open them again? Should also perhaps map out the parts of this talk
