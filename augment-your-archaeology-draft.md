@@ -137,7 +137,7 @@ Something about the gaze etc. also, about touch - that tweet of lidar + pins hmm
 + can use it to deliberately play with BiPs
 
 
-## Some Augmented Audio Apps
+## Some Augmented Audio Links
 
 |[zombies, run!](https://zombiesrungame.com/)   |[augmented audio](http://www.augmentedaudio.com/)    |[HATengine](http://hatengine.com/)   |
 |:-:|---|---|
@@ -153,20 +153,22 @@ audio tours - yes, I suppose they are a kind of AR, but see paper
 
 
 #### 200 Castles
-[![200 Castles]([Imgur](http://i.imgur.com/NKyAwjp.png))](https://vimeo.com/51654422)
+[![200 Castles](http://i.imgur.com/NKyAwjp.png)](https://vimeo.com/51654422)
 
 Note: 
 Caitlin Fisher's work: note the importance of sound in creating the ambiance/immersiveness in her art/work https://projeqt.com/caitlin/200-castles 
   
 
 
-# 4. AR in archaeological research
-
-A Very Brief Tour.
+## 4. AR in archaeological research
+#A Very Brief Tour.
 
 
 ### embodied GIS/phenomenology
 - Stu Eve
+![image](http://www.dead-mens-eyes.org/wp-content/uploads/2010/03/leskernick_landscape_no_masks_clipped-300x211.jpg)
+
+<small>[#YOHRS seminar presentation](https://www.youtube.com/watch?v=3OdVSGiU9lQ)</small>
 
 
 ### digital gabii 
@@ -183,7 +185,7 @@ A Very Brief Tour.
 ### [Micropasts](http://research.micropasts.org/2014/06/13/3d-modelling-via-sfm/)
 
 
-# %. AR in public archaeology
+# 5. AR in public archaeology
 + 'bringing impossible places to the public' http://www.degruyter.com/view/j/opar.2014.1.issue-1/opar-2015-0007/opar-2015-0007.xml?format=INT
 
 
@@ -196,8 +198,20 @@ A Very Brief Tour.
 -video of that sandtable/gis thing
 
 
--heritage app game thing that Ethan emailed me (Also excursus into Techumseh Lies Here & ARGs)
+## Ghosts in the Garden
+[![Ghosts in the Garden](http://www.react-hub.org.uk/sites/default/files/imagecache/project-380/project/key_image/2012-03-13/Screen%20Shot%202012-09-25%20at%2016.11.52.png)](http://apps.watershed.co.uk/mediaembedder/?id=1938&store=dds)
+http://www.react-hub.org.uk/heritagesandbox/projects/2012/ghosts-in-the-garden/
 
+Note: 
+Also excursus into Techumseh Lies Here & ARGs. This is a lovely mixture of place & audio, makes a compelling experience
+
+
++ Low friction AR
+![Imgur](http://i.imgur.com/Nuhg997.png)
+http://philome.la/electricarchaeo/the-ottawa-anomaly/play
+
+Note: 
+My attempt at making a 'ghosts in the garden' type experience
 
 # 6. Conclusion:
 ## What's in it for you
@@ -217,3 +231,4 @@ _or_
 _or_
 + Making 3d models with 123d Catch; annotating & sharing them in Sketchfab (with Oculus or Cardboard viewing!)
 
+<small>see http://github.com/shawngraham/ar-archaeology for workshop resources, tools, libraries etc!</small>
