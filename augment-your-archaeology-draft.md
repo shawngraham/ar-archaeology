@@ -199,7 +199,8 @@ Caitlin Fisher's work: note the importance of sound in creating the ambiance/imm
 
 
 ## Ghosts in the Garden
-[![Ghosts in the Garden](http://www.react-hub.org.uk/sites/default/files/imagecache/project-380/project/key_image/2012-03-13/Screen%20Shot%202012-09-25%20at%2016.11.52.png)](http://apps.watershed.co.uk/mediaembedder/?id=1938&store=dds)
+[![Ghosts in the Garden](http://www.react-hub.org.uk/sites/default/files/imagecache/project-380/project/key_image/2012-03-13/Screen%20Shot%202012-09-25%20at%2016.11.52.png)](http://apps.watershed.co.uk/mediaembedder/?id=1938&store=dds&theme=default&autoplay=false&autobuffer=false)
+
 http://www.react-hub.org.uk/heritagesandbox/projects/2012/ghosts-in-the-garden/
 
 Note: 
