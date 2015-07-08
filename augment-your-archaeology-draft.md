@@ -206,6 +206,8 @@ http://www.maneyonline.com/doi/abs/10.1179/2042458215Y.0000000004
 
 ![Imgur](http://i.imgur.com/Se3yn6r.png)
 
+
+
 ### 5. AR for the public
 ## Of course, these categories smear, don't they.
 
