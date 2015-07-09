@@ -1,6 +1,7 @@
 # Workshop Materials
 
 Depending on your interests, there are three options that I think we can explore in this workshop. 
+
 !['option' by Hope for Gorilla', https://www.flickr.com/photos/atomicbartbeans/71575328/](https://farm1.staticflickr.com/34/71575328_808dddd4e7_s.jpg)
 
 1. [Building an AR app](Build an AR app.md) in [Unity3d](http://unity3d.com/5) with the [Vuforia SDK](https://developer.vuforia.com/downloads/sdk) 
