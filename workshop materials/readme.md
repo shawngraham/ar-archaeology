@@ -1,6 +1,8 @@
 # Workshop Materials
 
-There are three options that I think we can explore in this workshop. 
+!['option' by Hope for Gorilla', https://www.flickr.com/photos/atomicbartbeans/71575328/](https://farm1.staticflickr.com/34/71575328_808dddd4e7_s.jpg)
+
+Depending on your interests, there are three options that I think we can explore in this workshop. 
 
 1. Building an AR app in [Unity3d](http://unity3d.com/5) with the [Vuforia SDK](https://developer.vuforia.com/downloads/sdk) [Build an AR app](Build an AR app.md)
 2. [Hacking Twine to make a location-based game](Hacking Twine to make a location-based game)
@@ -27,15 +29,17 @@ While we will be building our own app from scratch via [Unity3d](http://unity3d.
 
 + *Junaio* I spent a lot of time working with [Junaio](http://www.junaio.com/), which though powerful, was not user friendly. It did allow you to hold all of the assets on your own server space, which was good. Junaio and its parent Metaio have been bought by Apple, and there is no point in discussing them any further until we find out what Apple intends to do.
 
-+ In this morning's presentation, I mentioned a couple of apps for building place-based stories and tours etc. Another worth looking at is [7Scenes](http://7scenes.com/) which allows you to also build place-based games in a polished app. [Aris](http://arisgames.org/) does something similar (and is open source). If you have the programming chops, [wikitude](https://www.wikitude.com/store/) offers a very full featured SDK
++ In this morning's [presentation](https://github.com/shawngraham/ar-archaeology/blob/master/augment-your-archaeology-draft.md#public-historians), I mentioned a couple of apps for building place-based stories and tours etc. Another worth looking at is [7Scenes](http://7scenes.com/) which allows you to also build place-based games in a polished app. [Aris](http://arisgames.org/) does something similar (and is open source). If you have the programming chops, [wikitude](https://www.wikitude.com/store/) offers a very full featured SDK
 
 ## Ancillary programs
 
 + *Meshlab* This [program](http://meshlab.sourceforge.net/) is one of the standards for manipulating 3d models. It import and exports across a wide range of formats. We will use it to perform ['quadratic edge collapse decimation'](http://www.shapeways.com/tutorials/polygon_reduction_with_meshlab) to make our models fit through the AR pipeline (you want them small enough that delivering them over a cellular phone doesn't crash your data plan or the app, which typically preloads all of the content.)
 
-+ *123D Catch* There are many structure-from-motion packages that are out there, some of them open source, some of them not. This one is free to use from Autodesk, but your models live on their server (which may or may not have implications for your work). It allows you to export your model in obj format. The [123D Catch apps](http://www.123dapp.com/catch) for ios and android work far better than the desktop application. I would recommend avoiding the desktop application if possible as it can be rather buggy sometimes.
++ *123D Catch* There are many structure-from-motion packages that are out there, some of them open source, some of them not. This one is free to use from Autodesk, but your models live on their server (which may or may not have implications for your work). It allows you to export your model in obj format. The [123D Catch apps](http://www.123dapp.com/catch) for ios and android work far better than the desktop application. I would recommend avoiding the desktop application if at all possible as it can be rather buggy sometimes. *If you do* have to use the desktop application, know that sometimes you have to create a blank project before it will let you login to Autodesk's servers for processing your images (the default workflow seems to imply otherwise, but I've found this is often not the case).
 
 + *[Agisoft Photoscan](http://www.agisoft.com/)* If you are going to purchase software for SFM modeling, then this is probably the best currently available. It builds very good textured models, allows for spatial and volumetric measurements from models, can do orthophotos from aerial SFM imagery, and so on. There is a 30 day free trial.
+
++ *[VisualSFM](http://ccwu.me/vsfm/)* This is an open source platform for generating the point clouds from photogrammetry. I've not had much success using it. Others have not had issues. It is sometimes used in conjunction with [CloudCompare](http://www.danielgm.net/cc/) (another open source project) for cleaning and closing meshes, measurements, comparing meshes, and more. This is the workflow used in the ['Excavation is Digitization'](https://github.com/shawngraham/ar-archaeology/blob/master/augment-your-archaeology-draft.md#excavation-is-digitization) article I discussed this morning. If keeping your own materials completely in your own ecosystem is critical, then these are the options you should explore.
 
 # Places to share/show off your work online
 
