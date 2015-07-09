@@ -2,9 +2,9 @@
 
 There are three options that I think we can explore in this workshop. 
 
-1. Building an AR app in [Unity3d](http://unity3d.com/5) with the [Vuforia SDK](https://developer.vuforia.com/downloads/sdk) [Build an AR app]
-2. Hacking Twine to make a location-based game
-3. Building 3d models using 123d catch, and then making them Oculus Rift or Google Cardboard-ready on Sketchfab[[
+	1. Building an AR app in [Unity3d](http://unity3d.com/5) with the [Vuforia SDK](https://developer.vuforia.com/downloads/sdk) [Build an AR app](Build an AR app.md)
+	2. [Hacking Twine to make a location-based game](Hacking Twine to make a location-based game)
+	3. [Building 3d models using 123d catch](Building 3d models using 123d catch), and then making them Oculus Rift or Google Cardboard-ready on Sketchfab
 
 The first option involves making a simple augmented reality pop-up book. AR pop-up books traditionally (if we can speak of tradition) tie 3d objects, sound, or video to tracking images on the page. One holds one's device over the page to see the augmentations. Unity3d is a game engine that is often used for authoring these kinds of things. (Unity3d also has plugins for working with stereoscopic viewers such as Google cardboard. Looking through your device in this way is more _elegant_ than holding it, but for the purposes of this workshop, we'll keep it simple for now). 
 
