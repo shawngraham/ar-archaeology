@@ -64,7 +64,7 @@ The second function allows for us to compare the user's position within a buffer
 
 ### Selecting our points of interest
 
-Speaking of points of interest, let's generate a list of points-of-interest. Let's use these one:
+Speaking of points of interest, let's generate a list of points-of-interest. Let's use these ones:
 
 42.7314418,-84.4769123 (south east side of Benefactor's plaza, by the Natural Sciences building)
 <br>42.73199,-84.4780939 (north west side of Benefactor's plaza, by the Horticulture building)
