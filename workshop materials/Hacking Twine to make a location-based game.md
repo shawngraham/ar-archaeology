@@ -14,9 +14,7 @@ I call this _low friction_ because
 
 *NB* If you use Twinery in your browser, your game is saved in the browser's cache. Clear the cache, lose your game. You've been warned. [Please read this 'Where your stories are saved'](http://twinery.org/wiki/twine2:where_your_stories_are_saved)
 
-## Recipe
-
-### Thinking about concept
+### Thinking about story
 
 Does the story come first? Or does the place? Are we generating a kind of audio tour guide, or are we going for something more playful? This is your call - but I find it helps to first sketch out the kind of experience you wish to generate. As I thought about this tutorial, I came across an idea by [Mark Sample](http://www.samplereality.com/2010/06/01/haunts-place-play-and-trauma/) that draws on the idea of 'heterotopia' "a single real place in which incompatible counter-sites are layered upon or juxtaposed against one another." [More on what this could mean for archaeology here](http://electricarchaeology.ca/2015/05/25/on-haunts-low-friction-ar-thinking-out-loud/). On these lines, maybe this AR is about a single event in MSU's past, which has left echoes in the firmament which the player's device is able to read. By finding these echoes, and thinking about them, competing stories emerge. The past is messy... (inspiration here also from [her story](http://www.herstorygame.com/).)
 
@@ -43,6 +41,8 @@ Now, to add a new passage, put double square brackets around the word cow. Click
 A second passage appears on your blueprint, with an arrow showing how the first passage points to the next! Double click the 'cow' passage and add some description. Hit 'play' to see what happens next. By the way, you can leave comments to yourself within a passage that won't show up when playing by using `/%` and `%/` to start and end the comment.  
 
 You've now built a (very small, very simple) interactive fiction in Twine. *Now* let's get complicated.
+
+## Recipe
 
 ### Twine, Javascript, and the geolocation API
 
