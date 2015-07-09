@@ -2,6 +2,7 @@
 
 Depending on your interests, there are three options that I think we can explore in this workshop. 
 !['option' by Hope for Gorilla', https://www.flickr.com/photos/atomicbartbeans/71575328/](https://farm1.staticflickr.com/34/71575328_808dddd4e7_s.jpg)
+
 1. Building an AR app in [Unity3d](http://unity3d.com/5) with the [Vuforia SDK](https://developer.vuforia.com/downloads/sdk) [Build an AR app.md](/Build an AR app.md)
 2. [Hacking Twine to make a location-based game](/Hacking Twine to make a location-based game.md)
 3. [Building 3d models using 123d catch](/Building 3d models using 123d catch.md), and then making them Oculus Rift or Google Cardboard-ready on Sketchfab
