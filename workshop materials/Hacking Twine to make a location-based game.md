@@ -12,7 +12,7 @@ I call this _low friction_ because
 + [Twinery 2](http://twinery.org/) (which you can run as an executable or within your browser*)
 + Server space to upload your final html to (gh-pages works; public dropbox works if you still have that feature; [philome.la](http://philome.la/) if you don't want to futz with all of that.)
 
-*NB* If you use Twinery in your browser, your game is saved in the browser's cache. Clear the cache, lose your game. You've been warned. [Please read this 'Where your stories are saved'](http://twinery.org/wiki/twine2:where_your_stories_are_saved)
+**NB** If you use Twinery in your browser, your game is saved in the browser's cache. Clear the cache, lose your game. You've been warned. [Please read this 'Where your stories are saved'](http://twinery.org/wiki/twine2:where_your_stories_are_saved)
 
 ### Thinking about story
 
@@ -56,7 +56,7 @@ Your test story appears! Twine automatically saves all your work, which is nice.
 
 In this template, I've already put together a working location-based AR experience built around Benefactors' Plaza. Before we go any further to consider how to use this template, select the up arrow beside the story name (bottom left hand corner of the editor window, remember) and click on 'edit story javascript'.
 
-There are two functions defined here. The first calls the device's browser asking for the geolocation ([documentation on the api here](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation/Using_geolocation)). Study the code; it is passing the device's latitude and longitude to a variable called $Location which we can use in any part of a passage's text. *Variables are marked by $*. Click on the 'start' passage and you'll see this in action:
+There are two functions defined here. The first calls the device's browser asking for the geolocation ([documentation on the api here](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation/Using_geolocation)). Study the code; it is passing the device's latitude and longitude to a variable called $Location which we can use in any part of a passage's text. **Variables are marked by $**. Click on the 'start' passage and you'll see this in action:
 
 > Currently you are at $Location.latitude and $Location.longitude which is on the cusp of an area of thin dimensional stability. Our research indicates the strongest concentration is somewhere near the old horticulture building. You should start there.
 
@@ -78,13 +78,13 @@ https://www.google.ca/maps/@42.7315458,-84.4779326,18.5z
 
 Grab one more point to use in your app. 
 
-*Important* we can't expect the player to find the _exact_ point we've selected - we have to make a kind of buffer, a bit of a plus/minus. In the app itself (you'll see in a moment) we set a 'buffer' variable of 0.0005 to add and subtract from our points. The effect is to draw a kind of box around the point. Don't select points whose boxes overlap!
+**Important** we can't expect the player to find the _exact_ point we've selected - we have to make a kind of buffer, a bit of a plus/minus. In the app itself (you'll see in a moment) we set a 'buffer' variable of 0.0005 to add and subtract from our points. The effect is to draw a kind of box around the point. Don't select points whose boxes overlap!
 
 ### Initializing our variables
 
 The first passage in our story is called 'StoryInit'. Double click on that passage. There's no text in that passage that the player reads, other than a link to the 'Start' passage. This passage is where we define our points of interest, and, if we're using sound in this story, where we load that up. *The story format that we're using is Sugarcube*. This is important, as far as sound goes, because this format comes with default macros that handle sound (in this template, any time you see a macro with 'audio' in it, that's courtesy of [Sugarcube](http://www.motoslave.net/sugarcube)). The other default formats in Twine don't have these macros. A macro in twine is marked off by `<<` and `>>`. 
 
-In this passage we *set* the $buffer variable to allow a buffer of a few metres around our points. We set the lat and long for each of our points:
+In this passage we **set** the $buffer variable to allow a buffer of a few metres around our points. We set the lat and long for each of our points:
 
 ```twine
 <<set $natsciencelat = 42.7314418>> 
@@ -97,7 +97,7 @@ In this passage we *set* the $buffer variable to allow a buffer of a few metres 
 <<set $benefactorsplazalong = -84.4777639>>
 ```
 
-You can *add your fourth point* by uncommenting out the bit for ANOTHERPOINTlat and ANOTHERPOINTlong - delete the comment and its flags `/%  ...  %/`, give your point a sensible name, and pasting in your coordinates.
+You can **add your fourth point** by uncommenting out the bit for ANOTHERPOINTlat and ANOTHERPOINTlong - delete the comment and its flags `/%  ...  %/`, give your point a sensible name, and pasting in your coordinates.
 
 At the bottom of this passage I've commented out some code for loading up audio. Put any sound files in the same folder where your Twine html file will be served from, in order for this to work best. (I originally just pointed to various sound files around the web. This doesn't work very well, and isn't good digital citizenship.)
 
@@ -113,7 +113,7 @@ That's your buffer. You can adjust it as you wish. (Back in the 'StoryInit' we h
 
 Our 'calibrate the scan' passage looks at `$Location` as reported by the device, and compares that to the coordinates for our first location,` $natsciencelat` and `$natsciencelong`. If we have an approximate match, it will `<<display>>` the passage called "Natural sciences Building"; if not, it'll look at our next one in the list, and so on. The `<<display "name of passage">>` loads up the relevant passage.
 
-Add one last elseif block to put your fourth point of interest into this code.
+**Add** one last elseif block to put your fourth point of interest into this code.
 
 ### Passages for our POIs
 
@@ -135,8 +135,4 @@ Go back to the 'Natural Sciences Building' passage, and delete the link to the p
 You now have an interactive fiction where the passages are triggered by physical presence at a place in space. That is to say: you've got a kind of augmented reality, an app that allows the player to perceive her surroundings differently. The only thing left to do is to publish it to the web so we can go play it. At the bottom left side of the editor screen, hit the up arrow. Hit 'publish to file'. It will turn your story into an html file, which you can find in your downloads folder.
 
 I joined dropbox ages ago, and so have a 'public' folder that can be used to serve webpages. I often put my twines in there. Upload yours to your server, or the gh-pages branch of a github repo, or similar to try your app out. Load it up in your device (ie point your browser to the .html file), make sure geolocation is turned on, and go outside to try it out. [Here's the template game](http://shawngraham.github.io/ar-archaeology/workshop%20materials/Low-friction%20AR%20template.html).
-
-
-
-
 
