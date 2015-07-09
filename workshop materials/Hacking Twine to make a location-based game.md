@@ -26,11 +26,11 @@ The rest of this tutorial will be about the mechanics of getting such an experie
 
 Go to [Twine](http://twinery) and click on '[use it online](http://twinery.org/2/#stories)'. Your screen will look like this:
 
-![main screen](/img/twine-main.png)
+![main screen](img/twine-main.png)
 
 Yours of course won't have any stories. Click the green +story button to start a new story. Call it 'test' and then hit the add button. You will be presented with the black editor screen:
 
-![edit screen](/img/twine-edit.png)
+![edit screen](img/twine-edit.png)
 
 If you double click on the passage, the passage editor itself opens up. It's fairly intuitive; give the passage a name, and type the story text where it says 'double-click this passage to edit it'. Call this passage 'start' and write something:
 
@@ -38,9 +38,9 @@ If you double click on the passage, the passage editor itself opens up. It's fai
 
 Now, to add a new passage, put double square brackets around the word cow. Click the 'x'.
 
-![first passage](/img/first-passage.png)
+![first passage](img/first-passage.png)
 
-A second passage appears on your blueprint, with an arrow showing how the first passage points to the next! Double click the 'cow' passage and add some description. Hit 'play' to see what happens next. By the way, you can leave comments to yourself within a passage that won't show up when playing by using /% and %/ to start and end the comment.  
+A second passage appears on your blueprint, with an arrow showing how the first passage points to the next! Double click the 'cow' passage and add some description. Hit 'play' to see what happens next. By the way, you can leave comments to yourself within a passage that won't show up when playing by using `/%` and `%/` to start and end the comment.  
 
 You've now built a (very small, very simple) interactive fiction in Twine. *Now* let's get complicated.
 
@@ -52,7 +52,7 @@ Close your test story and then open a new Twine editor window (http://twinery.or
 
 Your test story appears! Twine automatically saves all your work, which is nice. Notice also the 'Import from File' button. You can use this to load up a Twine .html file into the editor; the editor will parse it back into its constituent passages, stylesheets, format, and javascript. In the repo for this tutorial is a file called [Low-friction AR template](Low-friction AR template.html). <- Save that link to your computer. In the Twine editor, hit the 'Import from File' button and select 'low-friction AR template.html'. You should see this:
 
-![template](/img/template.png)
+![template](img/template.png)
 
 In this template, I've already put together a working location-based AR experience built around Benefactors' Plaza. Before we go any further to consider how to use this template, select the up arrow beside the story name (bottom left hand corner of the editor window, remember) and click on 'edit story javascript'.
 
@@ -82,16 +82,16 @@ The first passage in our story is called 'StoryInit'. Double click on that passa
 
 In this passage we *set* the $buffer variable to allow a buffer of a few metres around our points. We set the lat and long for each of our points:
 
-<<set $natsciencelat = 42.7314418>> 
-<<set $natsciencelong = -84.4769123>>
+`<<set $natsciencelat = 42.7314418>>` 
+`<<set $natsciencelong = -84.4769123>>`
 
-<<set $horticulturelat = 42.73199>> 
-<<set $horticulutrelong = -84.4780939>>
+`<<set $horticulturelat = 42.73199>> `
+`<<set $horticulutrelong = -84.4780939>>`
 
-<<set $benefactorsplazalat = 42.7317947>> 
-<<set $benefactorsplazalong = -84.4777639>>
+`<<set $benefactorsplazalat = 42.7317947>> `
+`<<set $benefactorsplazalong = -84.4777639>>`
 
-You can add your fourth point by uncommenting out the bit for ANOTHERPOINTlat and ANOTHERPOINTlong - delete the comment and its flags /%  ...  %/, give your point a sensible name, and pasting in your coordinates.
+You can add your fourth point by uncommenting out the bit for ANOTHERPOINTlat and ANOTHERPOINTlong - delete the comment and its flags `/%  ...  %/`, give your point a sensible name, and pasting in your coordinates.
 
 At the bottom of this passage I've commented out some code for loading up audio. Put any sound files in the same folder where your Twine html file will be served from, in order for this to work best.
 
@@ -105,7 +105,7 @@ Open the 'calibrate the scan' passage. This passage calls the second function we
 
 That's your buffer. You can adjust it as you wish. (Back in the 'StoryInit' we had set a variable called 'buffer'; to see that variable in action, look at the passage called 'old-code calibrate the scan'. That shows a less elegant way of comparing the user's position to our points of interest. This passage is not connected to any other passage, and so does not function in the story.)
 
-Our 'calibrate the scan' passage looks at $Location as reported by the device, and compares that to the coordinates for our first location, $natsciencelat and $natsciencelong. If we have an approximate match, it will <<display>> the passage called "Natural sciences Building"; if not, it'll look at our next one in the list, and so on. The <<display "name of passage">> loads up the relevant passage.
+Our 'calibrate the scan' passage looks at $Location as reported by the device, and compares that to the coordinates for our first location,` $natsciencelat` and `$natsciencelong`. If we have an approximate match, it will `<<display>>` the passage called "Natural sciences Building"; if not, it'll look at our next one in the list, and so on. The `<<display "name of passage">>` loads up the relevant passage.
 
 Add one last elseif block to put your fourth point of interest into this code.
 
@@ -113,18 +113,18 @@ Add one last elseif block to put your fourth point of interest into this code.
 
 If you look at the editor screen, you'll see three passages that describe our points of interest. Each one of these connect to a passage called 'Rescan'. 'Rescan' connects back to 'calibrate the scan'. We could just link directly from the passage describing the POI to 'calibrate the scan', but I deliberately make this a two step process so that we force a new call to the geolocation API. 
 
-Let's look at the passage 'Natural Sciences Building'. In the passage I've created a link, using square brackets, to a png file at openclipart.org. This shows you how you could add your own images to the passages. There is also a macro that starts a sound file, <<audio "opendoor" play>>. Check the Sugarcube documentation for other things you can do with audio (fade in/out, loops, etc). There's a bit of descriptive text which for testing purposes, just allows us to make sure (whilst playing) that the correct text is being called while we are in the correct place. Change this up if you wish. Then there is an internal link to the 'rescan' passage. Copy all of this passage to your clipboard.
+Let's look at the passage 'Natural Sciences Building'. In the passage I've created a link, using square brackets, to a png file at openclipart.org. This shows you how you could add your own images to the passages. There is also a macro that starts a sound file, `<<audio "opendoor" play>>`. Check the Sugarcube documentation for other things you can do with audio (fade in/out, loops, etc). There's a bit of descriptive text which for testing purposes, just allows us to make sure (whilst playing) that the correct text is being called while we are in the correct place. Change this up if you wish. Then there is an internal link to the 'rescan' passage. Copy all of this passage to your clipboard.
 
 To make a new passage in Twine, we have to create a link to it. Since (for the purposes of this tutorial) we don't want POIs of interest to be linked via text - we only want them discoverable via movement - we'll add a link in this passage, edit the new passage, and then delete the link. Write a new link like so:
 `[[the-name-of-your-new-poi-as-stated-in-the-previous-section]]`
 
 and close the 'Natural Sciences Building' passage.
 
-Double click on your new passage, paste in the bumpf you put on your clipboard. Make sure the name of this passage is exactly the same as what was put in the <<display>> code from the 'How to scan for a geotrigger' section, above. Close this passage. Since this passage contained a link to the 'Rescan' passage, the link appears in the editor.
+Double click on your new passage, paste in the bumpf you put on your clipboard. Make sure the name of this passage is exactly the same as what was put in the `<<display>>` code from the 'How to scan for a geotrigger' section, above. Close this passage. Since this passage contained a link to the 'Rescan' passage, the link appears in the editor.
 
 Go back to the 'Natural Sciences Building' passage, and delete the link to the passage you just created.
 
-### congratulations, you've made an AR app
+### Congratulations, you've made an AR app!
 
 You now have an interactive fiction where the passages are triggered by physical presence at a place in space. That is to say: you've got a kind of augmented reality, an app that allows the player to perceive her surroundings differently. The only thing left to do is to publish it to the web so we can go play it. At the bottom left side of the editor screen, hit the up arrow. Hit 'publish to file'. It will turn your story into an html file, which you can find in your downloads folder.
 
