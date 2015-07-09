@@ -136,3 +136,8 @@ You now have an interactive fiction where the passages are triggered by physical
 
 I joined dropbox ages ago, and so have a 'public' folder that can be used to serve webpages. I often put my twines in there. Upload yours to your server, or the gh-pages branch of a github repo, or similar to try your app out. Load it up in your device (ie point your browser to the .html file), make sure geolocation is turned on, and go outside to try it out. [Here's the template game](http://shawngraham.github.io/ar-archaeology/workshop%20materials/Low-friction%20AR%20template.html).
 
+## Acknowledgements
+
+I originally had the [idea about geotriggers in twine some time ago](http://twinery.org/forum/discussion/2789/geolocation-as-trigger) but with no sense of how to do it, I turned to the user community. Never forget what a resource your fellow travellers can be! [GreyElf](http://twinery.org/forum/profile/270/greyelf) and [TheMadExile](http://twinery.org/forum/profile/7/TheMadExile) solved the problem - and if you read their posts, discuss further ways the code can be improved. Stu Eve, Tara Copplestone, Katy Meyers Emery, Rob Blades & Ryan Pickering road tested the code, the tutorial, and the app at various stages. 
+
+My thanks to you all.
