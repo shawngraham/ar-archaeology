@@ -58,7 +58,7 @@ In this template, I've already put together a working location-based AR experien
 
 There are two functions defined here. The first calls the device's browser asking for the geolocation ([documentation on the api here](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation/Using_geolocation)). Study the code; it is passing the device's latitude and longitude to a variable called $Location which we can use in any part of a passage's text. *Variables are marked by $*. Click on the 'start' passage and you'll see this in action:
 
-> Currently you are at $Location.latitude and $Location.longitude which is on the cusp of an area of thin dimensional stability. Our research indicates the strongest concentration is in the area of downtown, near the War Memorial. You should start there.
+> Currently you are at $Location.latitude and $Location.longitude which is on the cusp of an area of thin dimensional stability. Our research indicates the strongest concentration is somewhere near the old horticulture building. You should start there.
 
 The second function allows for us to compare the user's position within a buffer defined in the story around a given point of interest.  These two functions are the core for getting Twine to know where it is in physical space.
 
