@@ -86,14 +86,16 @@ The first passage in our story is called 'StoryInit'. Double click on that passa
 
 In this passage we *set* the $buffer variable to allow a buffer of a few metres around our points. We set the lat and long for each of our points:
 
-`<<set $natsciencelat = 42.7314418>>` 
-`<<set $natsciencelong = -84.4769123>>`
+```twine
+<<set $natsciencelat = 42.7314418>> 
+<<set $natsciencelong = -84.4769123>>
 
-`<<set $horticulturelat = 42.73199>> `
-`<<set $horticulutrelong = -84.4780939>>`
+<<set $horticulturelat = 42.73199>> 
+<<set $horticulutrelong = -84.4780939>>
 
-`<<set $benefactorsplazalat = 42.7317947>> `
-`<<set $benefactorsplazalong = -84.4777639>>`
+<<set $benefactorsplazalat = 42.7317947>> 
+<<set $benefactorsplazalong = -84.4777639>>
+```
 
 You can *add your fourth point* by uncommenting out the bit for ANOTHERPOINTlat and ANOTHERPOINTlong - delete the comment and its flags `/%  ...  %/`, give your point a sensible name, and pasting in your coordinates.
 
