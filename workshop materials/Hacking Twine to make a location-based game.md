@@ -74,11 +74,15 @@ More points can easily be grabbed by going to google maps and double clicking on
 
 https://www.google.ca/maps/@42.7315458,-84.4779326,18.5z
 
-The final '18.5z' is the zoom level, by the way. Grab one more point to use in your app. *Important* we can't expect the player to find the _exact_ point we've selected - we have to make a kind of buffer, a bit of a plus/minus. In the app itself (you'll see in a moment) we set a 'buffer' variable of 0.0005 to add and subtract from our points. The effect is to draw a kind of box around the point. Don't select points whose boxes overlap!
+(The final '18.5z' is the zoom level, by the way). 
+
+Grab one more point to use in your app. 
+
+*Important* we can't expect the player to find the _exact_ point we've selected - we have to make a kind of buffer, a bit of a plus/minus. In the app itself (you'll see in a moment) we set a 'buffer' variable of 0.0005 to add and subtract from our points. The effect is to draw a kind of box around the point. Don't select points whose boxes overlap!
 
 ### Initializing our variables
 
-The first passage in our story is called 'StoryInit'. Double click on that passage. There's no text in that passage that the player reads, other than a link to the 'Start' passage. This passage is where we define our points of interest, and, if we're using sound in this story, where we load that up. *The story format that we're using is Sugarcube*. This is important, as far as sound goes, because this format comes with macros that handle sound (in this template, any time you see a macro with 'audio' in it, that's courtesy of [Sugarcube](http://www.motoslave.net/sugarcube)). The other default formats in Twine don't have these macros. A macro in twine is marked off by << and >>. 
+The first passage in our story is called 'StoryInit'. Double click on that passage. There's no text in that passage that the player reads, other than a link to the 'Start' passage. This passage is where we define our points of interest, and, if we're using sound in this story, where we load that up. *The story format that we're using is Sugarcube*. This is important, as far as sound goes, because this format comes with default macros that handle sound (in this template, any time you see a macro with 'audio' in it, that's courtesy of [Sugarcube](http://www.motoslave.net/sugarcube)). The other default formats in Twine don't have these macros. A macro in twine is marked off by `<<` and `>>`. 
 
 In this passage we *set* the $buffer variable to allow a buffer of a few metres around our points. We set the lat and long for each of our points:
 
@@ -91,9 +95,9 @@ In this passage we *set* the $buffer variable to allow a buffer of a few metres 
 `<<set $benefactorsplazalat = 42.7317947>> `
 `<<set $benefactorsplazalong = -84.4777639>>`
 
-You can add your fourth point by uncommenting out the bit for ANOTHERPOINTlat and ANOTHERPOINTlong - delete the comment and its flags `/%  ...  %/`, give your point a sensible name, and pasting in your coordinates.
+You can *add your fourth point* by uncommenting out the bit for ANOTHERPOINTlat and ANOTHERPOINTlong - delete the comment and its flags `/%  ...  %/`, give your point a sensible name, and pasting in your coordinates.
 
-At the bottom of this passage I've commented out some code for loading up audio. Put any sound files in the same folder where your Twine html file will be served from, in order for this to work best.
+At the bottom of this passage I've commented out some code for loading up audio. Put any sound files in the same folder where your Twine html file will be served from, in order for this to work best. (I originally just pointed to various sound files around the web. This doesn't work very well, and isn't good digital citizenship.)
 
 ### How to scan for a geotrigger, adding the same
 
@@ -103,9 +107,9 @@ Open the 'calibrate the scan' passage. This passage calls the second function we
 
 `	allowedDiff = allowedDiff || 0.0005;`
 
-That's your buffer. You can adjust it as you wish. (Back in the 'StoryInit' we had set a variable called 'buffer'; to see that variable in action, look at the passage called 'old-code calibrate the scan'. That shows a less elegant way of comparing the user's position to our points of interest. This passage is not connected to any other passage, and so does not function in the story.)
+That's your buffer. You can adjust it as you wish. (Back in the 'StoryInit' we had set a variable called 'buffer'; to see that variable in action, look at the passage called 'old-code calibrate the scan'. That shows a less elegant way of comparing the user's position to our points of interest. This old-code passage is not connected to any other passage, and so does not function in the story.)
 
-Our 'calibrate the scan' passage looks at $Location as reported by the device, and compares that to the coordinates for our first location,` $natsciencelat` and `$natsciencelong`. If we have an approximate match, it will `<<display>>` the passage called "Natural sciences Building"; if not, it'll look at our next one in the list, and so on. The `<<display "name of passage">>` loads up the relevant passage.
+Our 'calibrate the scan' passage looks at `$Location` as reported by the device, and compares that to the coordinates for our first location,` $natsciencelat` and `$natsciencelong`. If we have an approximate match, it will `<<display>>` the passage called "Natural sciences Building"; if not, it'll look at our next one in the list, and so on. The `<<display "name of passage">>` loads up the relevant passage.
 
 Add one last elseif block to put your fourth point of interest into this code.
 
