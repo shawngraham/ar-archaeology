@@ -171,6 +171,10 @@ Meanwhile, in your finder, drop the mp3 file into the project's 'assets' folder.
 
 ImageTarget is still selected in the hierarchy; Drag the mp3 file to the audio source panel under the inspector window - drag it right into the 'audioclip' box.
 
+Here's what my editor looks like - note the audio source panel.
+
+![img](img/audio.png)
+
 ...You now have an image target that triggers audio!
 
 ### Let's test this out.
