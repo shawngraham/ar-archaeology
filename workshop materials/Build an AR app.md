@@ -83,7 +83,7 @@ Find your unity project's assets folder on your computer. Mine is at /Users/shaw
 
 Let's say we had a bunch of 3d models we wanted to use. In the [img folder](img/) there is a file called 'gravestone.dae' and its associated texture is 'texpng'. Save those into that models folder. In your unity editing window, the model will appear, already associated with its texture.
 
-Let's also say that we wanted a movie to play whenever the user's device focused on that image of Roman second style painting ([ar4.png](img/ar4.png) in this repo's img folder). Take [movie1](https://dl.dropboxusercontent.com/u/37716296/movie1.mp4) and save it to _the assets folder_ (and **not** the models subfolder we just created). 
+Let's also say that we wanted a audio clip to play whenever the user's device focused on that image of Roman second style painting ([ar4.png](img/ar4.png) in this repo's img folder). Take [movie1](https://dl.dropboxusercontent.com/u/37716296/movie1.mp4) and save it to _the assets folder_ (and **not** the models subfolder we just created). 
 
 ### Tieing assets to triggers
 
@@ -99,22 +99,69 @@ and drag it into your scene. It should appear! It's lying on its side, and we'll
 
 This means that when your device spots that particular tracking image, it will display the 3d model of the gravestone. Now comes the tricky part of setting your gravestone on the image the way you want it to show up through your device's camera. These settings:
 
-![orientaiton](img/orientation.png) 
+![orientation](img/orientation.png) 
 
 seem to work.
 
-#### Adding a movie
-Create another imagetarget in your scene. Its name will change to 'ImageTarget (1)' in the hierarchy view. Set the image to whatever tracker you haven't used yet (options are on the right of the screen when the ImageTarget is highlighted in the hierarchy, remember).
+#### Adding a sound clip
 
-Highlight, and then right-click 'ImageTarget' in the hierarchy at top left, select 'Add a 3d object', and select 'plane.''
+Load a new image target into the scene.
 
-Add 'videomaterial' (under 'all materials', bottom left project pane) to that object by dragging and dropping it onto the plane (make sure that 'plane' is highlighted under the hierarchy at top left).
+Create a new c# script by assets> create > c# script
 
-![img](img/selectmovie.png)
+The script will appear in the assets panel at bottom. click to rename it: ImageTargetPlayAudio.cs
 
-Select your movie from the assets tray that appears when you hit 'select' under the 'video material' component.
+Double click to edit it; it will open in an editor. Delete the default script, and then paste the below:
 
-[_note to shawn: putting the movie in the assets, rather than streaming assets, seems to bork the build. but when in streaming assets, don't associate correctly. grrr!_]
+```cs
+using UnityEngine;
+using Vuforia;
+
+public class ImageTargetPlayAudio : MonoBehaviour,
+ITrackableEventHandler 
+{
+	private TrackableBehaviour mTrackableBehaviour;
+	
+	void Start()
+	{
+		mTrackableBehaviour = GetComponent<TrackableBehaviour>();
+		if (mTrackableBehaviour)
+		{
+			mTrackableBehaviour.RegisterTrackableEventHandler(this);
+		}
+	}
+	
+	public void OnTrackableStateChanged(
+		TrackableBehaviour.Status previousStatus,
+		TrackableBehaviour.Status newStatus)
+	{
+		if (newStatus == TrackableBehaviour.Status.DETECTED ||
+		    newStatus == TrackableBehaviour.Status.TRACKED ||
+		    newStatus == TrackableBehaviour.Status.EXTENDED_TRACKED)
+		{
+			// Play audio when target is found
+			GetComponent<AudioSource>().Play();
+		}
+		else
+		{
+			// Stop audio when target is lost
+			GetComponent<AudioSource>().Stop();
+		}
+	}   
+}
+```
+
+Back in the scene, select the image target. 
+
+Add component (button, bottom right of the editor). select scripts > ImageTargetPlayAudio
+
+Add component > audio source.
+
+Meanwhile, in your finder, drop the mp3 file into the project's 'assets' folder. The mp3 will appear in the unity editor window in assets.
+
+ImageTarget is still selected in the hierarchy; Drag the mp3 file to the audio source panel under the inspector window - drag it right into the 'audioclip' box.
+
+...You now have an image target that triggers audio!
 
 ### Let's test this out.
 
