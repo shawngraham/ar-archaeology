@@ -73,13 +73,13 @@ Notice in the prefabs folder that there is something called an 'image target'. T
 
 Under 'data set' and 'image target' select the image database and the desired image.
 
-![image target](img/configuring-image-tracker)
+![image target](img/configuring-image-tracker.png)
 
 ### Setting up your assets
 
 Find your unity project's assets folder on your computer. Mine is at /Users/shawngraham/unityprojects/tutorial-project/assets. By the way, I created a new folder there called 'models'. I'm going to put any 3d models I wish to use as an augmentation in that folder. Once you've created that folder, notice that it appears in your unity folder tree:
 
-![assets in unity](img/assets-in-editor)
+![assets in unity](img/assets-in-editor.png)
 
 Let's say we had a bunch of 3d models we wanted to use. In the [img folder](img/) there is a file called 'gravestone.dae' and its associated texture is 'texpng'. Save those into that models folder. In your unity editing window, the model will appear, already associated with its texture.
 
@@ -91,7 +91,7 @@ Let's also say that we wanted a movie to play whenever the user's device focused
 
 Click on 'gravestone2' in your editor:
 
-![modelfolder](img/modelfolder)
+![modelfolder](img/modelfolder.png)
 
 and drag it into your scene. It should appear! It's lying on its side, and we'll want to move it around a bit, but first let's associate it with that imagetarget you created earlier. In the hiearchy pane at the top left, drag 'gravestone2' so that it is on top of 'imagetarget'. It'll look a bit like this:
 
@@ -128,4 +128,8 @@ Plug your device into your computer. For an android device at least you have to 
 
 Now, under file select 'build and run'. Unity will ask you for some more information - it'll want to know for what operating system. I select Android; the first time I did this, it wanted to also know the location of the android sdk on my machine. Mine is at Users\shawngraham\Library\android-sdk-macosx. 
 
-Then, Unity will want to know what 'scenes' are in your project. Click 'add current'. It will prompt you to save the scene first; call it 'scene1'. Hit 'build and run' (Unity will ask for a name for your app). 
+Then, Unity will want to know what 'scenes' are in your project. Click 'add current'. It will prompt you to save the scene first; call it 'scene1'. Hit 'build and run' (Unity will ask for a name for your app). You might have to adjust 'player settings':
+
+![playersettings](img/playersettings.png)
+
+If all goes well, your app will open on your device! Aim it at a tracking image. 
