@@ -185,7 +185,7 @@ Before we can test this out, we have to get a licence key from Vuforia. Go to [l
 
 Save your project!!
 
-Plug your device into your computer. For an android device at least you have to have 'developer options' enabled on your machine, and turn on 'USB debuggin'. Google for specifics on your device.
+Plug your device into your computer. For an android device at least you have to have 'developer options' enabled on your machine, and turn on 'USB debugging'. Google for specifics of your device.
 
 Now, under file select 'build and run'. Unity will ask you for some more information - it'll want to know for what operating system. I select Android; the first time I did this, it wanted to also know the location of the android sdk on my machine. Mine is at Users\shawngraham\Library\android-sdk-macosx. 
 
