@@ -67,7 +67,11 @@ The central window of the Unity editor shows us our game, or in this case, our A
 
 ![setting up ARCamera](img/arcamera.png)
 
-That is, delete the default camera, select the 'ARCamera' from within the 'Qualcomm Augmented Reality >> Prefabs' folder, and drag it up to your scene.
+The image above shows you where to find the camera, where to put it, and the default camera which you delete. That is, delete the default camera, select the 'ARCamera' from within the 'Qualcomm Augmented Reality >> Prefabs' folder, and drag it up to your scene.
+
+![ar-camera-settings](img/ar-camera-settings.png)
+
+When you click on the ar camera, the settings above open in the inspector window at the right side of your screen. Note the 'app license key' box, which you'll put your license in. Also, note the 'data set load behaviour' script. Make sure the load data set and activate buttons are ticked off. Otherwise, your app may run, but it won't do anything.
 
 Notice in the prefabs folder that there is something called an 'image target'. This is an object that you will be attaching one of the tracking images to. Grab the image target prefab and drag it up into your scene. Notice that the inspector window on the right side of the unity editor changes to show you all of the various configurable options ofr your image target.
 
@@ -81,9 +85,9 @@ Find your unity project's assets folder on your computer. Mine is at /Users/shaw
 
 ![assets in unity](img/assets-in-editor.png)
 
-Let's say we had a bunch of 3d models we wanted to use. In the [img folder](img/) there is a file called 'gravestone.dae' and its associated texture is 'texpng'. Save those into that models folder. In your unity editing window, the model will appear, already associated with its texture.
+Let's say we had a bunch of 3d models we wanted to use. In the [img folder](img/) there is a file called 'gravestone.dae' and its associated texture is 'texpng.png'. Save those into that models folder. In your unity editing window, the model will appear, already associated with its texture.
 
-Let's also say that we wanted a audio clip to play whenever the user's device focused on that image of Roman second style painting ([ar4.png](img/ar4.png) in this repo's img folder). Take [movie1](https://dl.dropboxusercontent.com/u/37716296/movie1.mp4) and save it to _the assets folder_ (and **not** the models subfolder we just created). 
+Let's also say that we wanted a audio clip to play whenever the user's device focused on that image of Roman second style painting ([ar4.png](img/ar4.png) in this repo's img folder). Grab the mp3 file from here [Akeley](https://ia801408.us.archive.org/16/items/Akeleys_Wax_Cylinder_Recording/); it's a creepy wax-cylinder recording of a seance from the earlty 20th century) and save it to _the assets folder_ (and **not** the models subfolder we just created). 
 
 ### Tieing assets to triggers
 
@@ -97,15 +101,19 @@ and drag it into your scene. It should appear! It's lying on its side, and we'll
 
 ![screenshot](https://electricarchaeologist.files.wordpress.com/2015/05/screen-shot-2015-05-30-at-4-18-11-pm.png)
 
-This means that when your device spots that particular tracking image, it will display the 3d model of the gravestone. Now comes the tricky part of setting your gravestone on the image the way you want it to show up through your device's camera. These settings:
+Whenever you want an asset associated with an image tracker, it has to be **beneath** the image tracker in the hierarchy pane.
 
-![orientation](img/orientation.png) 
+Making this association means that when your device spots that particular tracking image, it will display the 3d model of the gravestone. Now comes the tricky part of setting your gravestone on the image the way you want it to show up through your device's camera. These settings:
 
-seem to work.
+![orientation](img/neworientationmodel.png) 
+
+seem to work. We've changed the orientation so that the base of the gravestone is parallel to the tracking image; then we lowered it so that the base is *on* the image. We also rescaled it significantly so that it would appear nicely on the image. You might want the model to be bigger/smaller etc.
 
 #### Adding a sound clip
 
-Load a new image target into the scene.
+As I argued in this morning's presentation, sound can be a very affective way of creating presence in AR. Here's how we incorporate sound into our app.
+
+Load a new image target into the scene. (Grab it from the prefabs and move it into the scene). Give the target an image. I then move the image target in the scene away from the first one so I can see what's going on a bit more clearly.
 
 Create a new c# script by assets> create > c# script
 
@@ -180,3 +188,5 @@ Then, Unity will want to know what 'scenes' are in your project. Click 'add curr
 ![playersettings](img/playersettings.png)
 
 If all goes well, your app will open on your device! Aim it at a tracking image. 
+
+(for more details on the build process, especially for ios, see [the bottom of this page, 'deployment process'](http://developer.vuforia.com/library/articles/Solution/Compiling-a-Simple-Unity-Project))
