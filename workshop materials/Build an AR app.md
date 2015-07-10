@@ -8,6 +8,8 @@ That is, an AR pop-up book!
 
 For your reference, we are following [this article](http://developer.vuforia.com/library/articles/Solution/Compiling-a-Simple-Unity-Project) from vuforia's developers' library. 
 
+Remember folks, save your project frequently, in a git-enabled folder, for when things go wrong.
+
 ## Ingredients
 
 + [Unity3d (version 5)](http://unity3d.com/get-unity/download?ref=personal). <small>**nb** the documentation for Unity is excellent. After you've completed this tutorial, try the '[Rollaball](https://developer.vuforia.com/downloads/sdk)' tutorial to explore in more depth concepts such as scripting.</small>
@@ -15,7 +17,7 @@ For your reference, we are following [this article](http://developer.vuforia.com
 + some tracking images
 + [A license key](https://developer.vuforia.com/license-manager) Login using your vuforia login to create and manage a license key.
 + images [to turn into tracking targets](https://developer.vuforia.com/target-manager). Again, you need to login with your vuforia login to use their  Why not use these images? **link** . [Here's some guidance on what makes a good image, for future reference.](https://developer.vuforia.com/library/articles/Best_Practices/Attributes-of-an-Ideal-Image-Target)
-+ The sdk for your chosen mobile device. [Android](https://developer.android.com/sdk/index.html) or [ios](https://developer.apple.com/ios/download/)
++ The sdk for your chosen mobile device. [Android](https://developer.android.com/sdk/index.html) or [ios](https://developer.apple.com/ios/download/). Download and install; make a note of where the sdk lives on your machine.
 
 (While not necessary for this tutorial, you might like to know how to augment 3d objects, in the manner Eve does in the '[Roman fort](https://vimeo.com/30861262)' video we looked at. You use [this tool](https://developer.vuforia.com/downloads/tool) in conjunction with an android device, to turn the 3d object into xml that the Vuforia sdk can associate with your augmentations.)
 
@@ -35,7 +37,7 @@ Make sure you've got your ingredients sorted out. Let's begin.
 
 <small>**A word on file names** Life is easier if you do not put spaces or special characters in your file names.</small>
 
-Start Unity. Follow the prompts to make a new 3d project.
+Start Unity. Follow the prompts to make a new 3d project. I called mine 'tutorial-project'.
 
 Go to Assets > import package > custom package, and navigate to where you downloaded the vuforia unity extension. Select it; it'll be the file named  `vuforia-unity-android-ios-xx-yy-zz.unitypackage`.
 
@@ -66,3 +68,62 @@ The central window of the Unity editor shows us our game, or in this case, our A
 ![setting up ARCamera](img/arcamera.png)
 
 That is, delete the default camera, select the 'ARCamera' from within the 'Qualcomm Augmented Reality >> Prefabs' folder, and drag it up to your scene.
+
+Notice in the prefabs folder that there is something called an 'image target'. This is an object that you will be attaching one of the tracking images to. Grab the image target prefab and drag it up into your scene. Notice that the inspector window on the right side of the unity editor changes to show you all of the various configurable options ofr your image target.
+
+Under 'data set' and 'image target' select the image database and the desired image.
+
+![image target](img/configuring-image-tracker)
+
+### Setting up your assets
+
+Find your unity project's assets folder on your computer. Mine is at /Users/shawngraham/unityprojects/tutorial-project/assets. By the way, I created a new folder there called 'models'. I'm going to put any 3d models I wish to use as an augmentation in that folder. Once you've created that folder, notice that it appears in your unity folder tree:
+
+![assets in unity](img/assets-in-editor)
+
+Let's say we had a bunch of 3d models we wanted to use. In the [img folder](img/) there is a file called 'gravestone.dae' and its associated texture is 'texpng'. Save those into that models folder. In your unity editing window, the model will appear, already associated with its texture.
+
+Let's also say that we wanted a movie to play whenever the user's device focused on that image of Roman second style painting ([ar4.png](img/ar4.png) in this repo's img folder). Take [movie1](https://dl.dropboxusercontent.com/u/37716296/movie1.mp4) and save it to _the assets folder_ (and **not** the models subfolder we just created). 
+
+### Tieing assets to triggers
+
+#### Making a 3d model appear
+
+Click on 'gravestone2' in your editor:
+
+![modelfolder](img/modelfolder)
+
+and drag it into your scene. It should appear! It's lying on its side, and we'll want to move it around a bit, but first let's associate it with that imagetarget you created earlier. In the hiearchy pane at the top left, drag 'gravestone2' so that it is on top of 'imagetarget'. It'll look a bit like this:
+
+![screenshot](https://electricarchaeologist.files.wordpress.com/2015/05/screen-shot-2015-05-30-at-4-18-11-pm.png)
+
+This means that when your device spots that particular tracking image, it will display the 3d model of the gravestone. Now comes the tricky part of setting your gravestone on the image the way you want it to show up through your device's camera. These settings:
+
+![orientaiton](img/orientation.png) 
+
+seem to work.
+
+#### Adding a movie
+Create another imagetarget in your scene. Its name will change to 'ImageTarget (1)' in the hierarchy view. Set the image to whatever tracker you haven't used yet (options are on the right of the screen when the ImageTarget is highlighted in the hierarchy, remember).
+
+Highlight, and then right-click 'ImageTarget' in the hierarchy at top left, select 'Add a 3d object', and select 'plane.''
+
+Add 'videomaterial' (under 'all materials', bottom left project pane) to that object by dragging and dropping it onto the plane (make sure that 'plane' is highlighted under the hierarchy at top left).
+
+![img](img/selectmovie.png)
+
+Select your movie from the assets tray that appears when you hit 'select' under the 'video material' component.
+
+### Let's test this out.
+
+Before we can test this out, we have to get a licence key from Vuforia. Go to [license key manager](https://developer.vuforia.com/license-manager) and make a new licence key. In Unity, select the ARCamera, and then in the inspector on the right hand side of the screen, paste your key in the relevant box:
+
+![key](img/key.png)
+
+Save your project!!
+
+Plug your device into your computer. 
+
+Now, under file select 'build and run'. Unity will ask you for some more information - it'll want to know for what operating system. I select Android; the first time I did this, it wanted to also know the location of the android sdk on my machine. Mine is at Users\shawngraham\Library\android-sdk-macosx. 
+
+Then, Unity will want to know what 'scenes' are in your project. Click 'add current'. It will prompt you to save the scene first; call it 'scene1'. Hit 'build and run' (Unity will ask for a name for your app). 
