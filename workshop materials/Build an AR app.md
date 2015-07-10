@@ -114,6 +114,8 @@ Add 'videomaterial' (under 'all materials', bottom left project pane) to that ob
 
 Select your movie from the assets tray that appears when you hit 'select' under the 'video material' component.
 
+[_note to shawn: putting the movie in the assets, rather than streaming assets, seems to bork the build. but when in streaming assets, don't associate correctly. grrr!_]
+
 ### Let's test this out.
 
 Before we can test this out, we have to get a licence key from Vuforia. Go to [license key manager](https://developer.vuforia.com/license-manager) and make a new licence key. In Unity, select the ARCamera, and then in the inspector on the right hand side of the screen, paste your key in the relevant box:
@@ -122,7 +124,7 @@ Before we can test this out, we have to get a licence key from Vuforia. Go to [l
 
 Save your project!!
 
-Plug your device into your computer. 
+Plug your device into your computer. For an android device at least you have to have 'developer options' enabled on your machine, and turn on 'USB debuggin'. Google for specifics on your device.
 
 Now, under file select 'build and run'. Unity will ask you for some more information - it'll want to know for what operating system. I select Android; the first time I did this, it wanted to also know the location of the android sdk on my machine. Mine is at Users\shawngraham\Library\android-sdk-macosx. 
 
