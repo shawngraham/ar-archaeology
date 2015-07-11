@@ -22,7 +22,7 @@ The rest of this tutorial will be about the mechanics of getting such an experie
 
 ### Basic Twine Concepts
 
-Go to [Twine](http://twinery) and click on '[use it online](http://twinery.org/2/#stories)'. Your screen will look like this:
+Go to [Twine](http://twinery.org) and click on '[use it online](http://twinery.org/2/#stories)'. Your screen will look like this:
 
 ![main screen](img/twine-main.png)
 
