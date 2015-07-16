@@ -45,7 +45,7 @@ Click on `Camera (2)'. In the inspector, rename it 'CameraRight'. Change the 'Vi
 
 and set the Depth to **1**
 
-![image]([Imgur](http://i.imgur.com/znieFFa.png)
+![image](http://i.imgur.com/znieFFa.png)
 
 ### That's it.
 
