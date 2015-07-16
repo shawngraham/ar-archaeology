@@ -7,25 +7,25 @@ Google Cardboard's viewer is a wonderful, lo-tech device. One of the biggest iss
 
 You can imagine possible use cases - a diorama of Pompeii at a museum for instance, where the major buildings are recognized by the Vuforia SDK (you'd use the 'objectTarget' prefab); visitors could put their phones into Cardboard and 'excavate' the city. Or perhaps visitor panels or historic plaques at a site are augmented; since the AR app allows you to see the real world beyond, there'd be no colliding with benches... Your ideas will no doubt be better than mine.
  
-As it turns out, it is quite easy to turn our AR experience we created in the previous tutorial into a stereoscopic experience which we can load onto our smartphones, viewed through the Cardboard viewer. The trick, as with all things computational, are the silences, the bits left unsaid that can drive you nuts as you try to figure out why only the left eye is working, or why the screen is fritzing out...
+As it turns out, it is quite easy to turn our AR experience we created in the previous tutorial into a stereoscopic experience which we can load onto our smartphones, to be viewed through the Cardboard viewer. The trick, as with all things computational, are the silences, the bits left unsaid that can drive you nuts as you try to figure out why only the left eye is working, or why the screen is fritzing out...
 
 ### Step 1
 
-Let's address the fritzing out issue first. You might have noticed that there's a great big 'play' button in your Unity editor (ie, a right-pointing triangle). You can use this to test your app without building it. When you hit it, your app will display on your computer's monitor, with the AR being overlaind on the computer's webcam. You can hold up your image target (I've printed out all of mine) to your webcam, to see how your AR looks. We will be using **three** camera components in your scene (more on that in a moment); when there's more than one camera and we hit the 'play' button, the screen can start to flicker madly as it tries to draw our augmentation. This will also happen on your device; we can reduce this by going to `File > build settings` and ticking off the 'development build' box. **Even with this ticked off** what you see on your computer's monitor will not be quite the same as on your device, but it will make your app on your device run much much clearer, and eliminate most (if not all) that flickering/fritzing. You can experiment with 'development build' on and off after you've built the app.
+Let's address the fritzing out issue first. You might have noticed that there's a great big 'play' button in your Unity editor (ie, a right-pointing triangle). You can use this to test your app without building it. When you hit it, your app will display on your computer's monitor, with the AR being overlaind on the computer's webcam. You can hold up your image target (I've printed out all of mine) in front of your webcam, to see how your AR looks. We will be using **three** camera components in your scene (more on that in a moment); when there's more than one camera and we hit the 'play' button, the screen can start to flicker madly as it tries to draw our augmentation. This will also happen on your device; we can reduce this by going to `File > build settings` and ticking off the 'development build' box. **Even with this ticked off** what you see on your computer's monitor will not be quite the same as on your device. Nevertheless, we need to check it off; it will make your app on your device run much much clearer, and eliminate most (if not all) that flickering/fritzing. You can experiment with 'development build' on and off after you've built the app if you want (notice 'development build' at the bottom left of the screenshot above).
 
 ### Step 2
 
-In your hierarchy, hit the `ARCamera` item. ARCamera is a label for all the different components that build the view you see. Think of it as a folder. In "normal" ar, you only have the 'Camera' component inside this folder. Right-click on 'Camera' and select 'duplicate'. This will make a new component called `Camera (1)`. Duplicate `Camera` again. Ta da, a new component called `Camera (2)` appears.
+In your hierarchy, hit the `ARCamera` item. ARCamera is a label for all the different components that build the view you see. Think of it as a folder. In "normal" ar, you only have the 'Camera' component inside this folder. Right-click on the `Camera` inside `ARCamera` and select 'duplicate'. This will make a new component called `Camera (1)`. Duplicate `Camera` again. Ta da, a new component called `Camera (2)` appears.
 
 ### Step 3
 
-Click on the first `Camera` component. In the inspector panel that opens (mine's on the right hand side of the screen) there are a number of subpanels, including one called 'Camera' (it has a little movie-film camera icon). **Uncheck** the radio button beside the word 'Camera' in this subpanel.
+Click on the first `Camera` component. In the inspector panel that opens (mine's on the right hand side of the screen) there are a number of subpanels, including one called 'Camera' (it has a little movie-film camera icon; you want this one, not the one at the top of the screen beside the cube icon). **Uncheck** the radio button beside the word 'Camera' in this subpanel.
 
 ![Imgur](http://i.imgur.com/spBz40J.png)
 
 ### Step 4
 
-Click on `Camera (1)`. In the inspector, you can rename it 'CameraLeft'. Notice in the Camera sub panel in the inspector panel a setting called 'Viewport Rect'. We're going to shift the view to the left a wee bit. Have these settings: 
+Click on `Camera (1)`. In the inspector, you can rename it 'CameraLeft' (you do this at the top of the inspector panel, beside the cube icon). Notice in the Camera sub panel in the inspector panel there is a setting called 'Viewport Rect'. We're going to shift the view to the left a wee bit. Change the default to these settings: 
 
 + x: 0
 + y: 0
@@ -49,9 +49,11 @@ and set the Depth to **1**
 
 ### That's it.
 
-Seriously. That's all there is to it. Press play and you should have a split screen, showing ever-so-slightly different views. Hold up one of your image targets. Your augmentation should be displayed (or played, in the case of audio). **You might notice a lot of pixelation**. This is that issue I was talking about in step 1. If you tick 'development build' in your build settings, **the pixelation will probably still happen on your _desktop_ when you 'play' the app** but it will be **clean and tidy** when you push it to your device. 
+Seriously. That's all there is to it. Press play and you should have a split screen, showing ever-so-slightly different views. Hold up one of your image targets. Your augmentation should be displayed (or played, in the case of audio). **You might notice a lot of flickering pixelation**. This is that issue I was talking about in step 1. If you tick 'development build' in your build settings, **the pixelation will probably still happen on your _desktop_ when you 'play' the app** but it will be **clean and tidy** when you push it to your device. 
 
-Go to `file > save scene as` and give your scene a new name, eg 'stereobuild'. Then, when you go to `file > build settings` make sure to *unselect* your simple AR scene and select your 'stereobuild' scene. Make sure 'development build' is ticked off, and then hit 'build and run'. When it runs on your device, there will be no pixelation.
+Go to `file > save scene as` and give your scene a new name, eg 'stereobuild'. Then, when you go to `file > build settings` make sure to *unselect* your simple AR scene and select your 'stereobuild' scene. Make sure 'development build' is ticked off, and then hit `build and run`. When it runs on your device, there will be no pixelation.
+
+(By the way, when you click on `Assets` in the project panel, you will now have two 'scenes' that you can flip between, just by clicking on them. Scenes use the Unity3d logo as their icon. One is your 'normal' AR, the other is your stereoscopic one. You should also save your project. When you come back to your project, you can then open whichever scene you wish to work on)
 
 ### But one camera is blank!
 
