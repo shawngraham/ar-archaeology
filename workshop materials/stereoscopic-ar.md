@@ -1,6 +1,6 @@
 # Make your AR app Cardboard-able
 
-Google Cardboard's viewer is a wonderful, lo-tech device. One of the biggest issues with smartphone augmented reality is the sheer awkwardness of trying to hold a camera or a tablet over whatever it is you've augmented. Cardboard solves this problem for us by using the magic of stereoscopy, or showing slightly off-set versions of the same scene at the right distance from the eyes that our brains turn it into 3d.
+[Google Cardboard's viewer](https://www.google.com/get/cardboard/) is a wonderful, lo-tech device. One of the biggest issues with smartphone augmented reality is the sheer awkwardness of trying to hold a camera or a tablet over whatever it is you've augmented. Cardboard solves this problem for us by using the magic of stereoscopy, or showing slightly off-set versions of the same scene at the right distance from the eyes that our brains turn it into 3d.
 
 ![img](https://developer.vuforia.com/sites/default/files/Screenshot_2015-06-26-16-49-05.png)
 <small> This screenshot was posted by user 'Okirokai' in a Vuforia discussion forum on stereoscopy. Look at [his post](https://developer.vuforia.com/forum/unity-3-extension-technical-discussion/two-stereo-cameras-independent-ar-camera#comment-2051448); looks simple, eh? The devil is in the details...</small>
