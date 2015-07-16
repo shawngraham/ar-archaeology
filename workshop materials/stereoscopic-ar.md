@@ -21,14 +21,48 @@ In your hierarchy, hit the `ARCamera` item. ARCamera is a label for all the diff
 
 Click on the first `Camera` component. In the inspector panel that opens (mine's on the right hand side of the screen) there are a number of subpanels, including one called 'Camera' (it has a little movie-film camera icon). **Uncheck** the radio button beside the word 'Camera' in this subpanel.
 
+![Imgur](http://i.imgur.com/spBz40J.png)
+
 ### Step 4
 
 Click on `Camera (1)`. In the inspector, you can rename it 'CameraLeft'. Notice in the Camera sub panel in the inspector panel a setting called 'Viewport Rect'. We're going to shift the view to the left a wee bit. Have these settings: 
 
----
-|x|0|
-|y|0|
-|w|0.5|
-|h|1|
++ x: 0
++ y: 0
++ w: 0.5
++ h: 1
 
-and set the Dept to -1. Do not touch any of the other settings.
+and set the Depth to **-1**. Do not touch any of the other settings. (When you are done, and you see the result, you may wish to experiment with making the steroscopic effect more pronounced. You do this by adjusting the X value, ie, you could set it to x=-0.5 . Think of progression into negative numbers as moving further and further left.)
+
+### Step 5
+
+Click on `Camera (2)'. In the inspector, rename it 'CameraRight'. Change the 'Viewport Rect' settings to:
+
++ x: 0.5 
++ y: 0
++ w: 0.5
++ h: 1 
+
+and set the Depth to **1**
+
+![image]([Imgur](http://i.imgur.com/znieFFa.png)
+
+### That's it.
+
+Seriously. That's all there is to it. Press play and you should have a split screen, showing ever-so-slightly different views. Hold up one of your image targets. Your augmentation should be displayed (or played, in the case of audio). **You might notice a lot of pixelation**. This is that issue I was talking about in step 1. If you tick 'development build' in your build settings, **the pixelation will probably still happen on your _desktop_ when you 'play' the app** but it will be **clean and tidy** when you push it to your device. 
+
+Go to `file > save scene as` and give your scene a new name, eg 'stereobuild'. Then, when you go to `file > build settings` make sure to *unselect* your simple AR scene and select your 'stereobuild' scene. Make sure 'development build' is ticked off, and then hit 'build and run'. When it runs on your device, there will be no pixelation.
+
+### But one camera is blank!
+
+But what if you get a result like this:
+
+![Imgur](http://i.imgur.com/GCOrXbe.png)
+
+ie, one side is blank. One issue could be that that particular camera - in this case `Cameraright` - has been ticked off. Click on that camera in the Hierarchy view, and check to see if the radio box beside 'camera' in the inspector is ticked or not. 
+
+So you've checked for that, and found that the camera is ticked on, but it's just not displaying. This happened to me. I discovered that the Camera, when we first duplicated it back in step 2, did not fully replicate; not all of its pieces came with me! Take a look at the image below, which shows a project I'm working on. In the Hierarchy, I've selected the first `Camera`. It's the one *we want* to be switched off in under 'camera' on the inspector panel (where the movie-camera icon is). But look in the scene in the middle of the image. Notice the white square and the white 'x'. This is the camera's view. Notice also the camera preview window in the bottom right of the scene - it shows my image targets. This camera is working correctly. 
+
+What we're going to do is check to see if that right-hand camera has its view, that white square and x. We're going to turn off `Camera` and `CameraLeft`. In this case, you'd uncheck 'Camera' **at the top of the inspector panel, beside the cube icon** which totally deactives this camera, for those two cameras. Then we'd select `CameraRight` in the hierarchy. When I did this, even though this camera was activated (and its camera compenent was activated too - both camera check boxes were ticked off), _there was no white square and white x_ in the scene, nor was there anything in the camera preview box. 
+
+My right camera was completely borked. But I knew that the left camera was working fine. So I returned everything to how it had been, deleted the right camera, duplicated the left camera, and hit 'play' again. This time, it worked.
