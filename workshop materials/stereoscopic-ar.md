@@ -3,7 +3,7 @@
 [Google Cardboard's viewer](https://www.google.com/get/cardboard/) is a wonderful, lo-tech device. One of the biggest issues with smartphone augmented reality is the sheer awkwardness of trying to hold a camera or a tablet over whatever it is you've augmented. Cardboard solves this problem for us by using the magic of stereoscopy, or showing slightly off-set versions of the same scene at the right distance from the eyes that our brains turn it into 3d.
 
 ![img](https://developer.vuforia.com/sites/default/files/Screenshot_2015-06-26-16-49-05.png)
-<small> This screenshot was posted by user 'Okirokai' in a Vuforia discussion forum on stereoscopy. Look at [his post](https://developer.vuforia.com/forum/unity-3-extension-technical-discussion/two-stereo-cameras-independent-ar-camera#comment-2051448); looks simple, eh? The devil is in the details...</small>
+<small> _This screenshot was posted by user 'Okirokai' in a Vuforia discussion forum on stereoscopy. Look at [his post, how simple it appears](https://developer.vuforia.com/forum/unity-3-extension-technical-discussion/two-stereo-cameras-independent-ar-camera#comment-2051448) eh? The devil is in the details though..._</small>
 
 You can imagine possible use cases - a diorama of Pompeii at a museum for instance, where the major buildings are recognized by the Vuforia SDK (you'd use the 'objectTarget' prefab); visitors could put their phones into Cardboard and 'excavate' the city. Or perhaps visitor panels or historic plaques at a site are augmented; since the AR app allows you to see the real world beyond, there'd be no colliding with benches... Your ideas will no doubt be better than mine.
  
