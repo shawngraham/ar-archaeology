@@ -199,6 +199,7 @@ http://www.maneyonline.com/doi/abs/10.1179/2042458215Y.0000000004
     by <a href="https://sketchfab.com/nframes?utm_source=oembed&utm_medium=embed&utm_campaign=88f26269ec31419a8b94d2d127537bb3" target="_blank" style="font-weight: bold; color: #1CAAD9;">nFrames</a>
     on <a href="https://sketchfab.com?utm_source=oembed&utm_medium=embed&utm_campaign=88f26269ec31419a8b94d2d127537bb3" target="_blank" style="font-weight: bold; color: #1CAAD9;">Sketchfab</a>
 </p>
+
 + On sketchfab website for any model, add `/embed?oculus=2`to the url for stereoscopic viewing
 
 
@@ -281,7 +282,7 @@ My attempt at making a 'ghosts in the garden' type experience
 - the problem of publishing [more about Digital Gabii]
 
 
-## This afternoon:
+## After the Break:
 + Building an AR app in Unity3d with Vuforia
 _or_
 + Building a location-based game (with sound!) in Twine
