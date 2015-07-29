@@ -36,7 +36,11 @@ This time, when you get to `docker run`, we're going to add a `-v` flag to the c
 
 So, after the `-v` I included the full file path (on a Mac; PC you'd start with C:/ etc) and after the colon the linux file path to the tmp folder. Run that command now.
 
-At the prompt, type `ls` (for list) and it will show you all of the bits and pieces - files and folders - that make up the VSFM part of this container. If you then typed `cd ..` (for change directory by going up a level in the folder tree) and then `ls` again, you'd see a whole list of folders, one of which will be `tmp`. Anything you put in that folder will turn up in the other folder you connected to in the `docker run` command, and vice versa! So, you can drop all of your images into (in my case) `dockerific` and have them turn up in `tmp`. Do that now.
+### Get your images in place
+
+At the prompt, type `ls` (for list) and it will show you all of the bits and pieces - files and folders - that make up the VSFM part of this container. If you then typed `cd ..` (for change directory by going up a level in the folder tree) and then `ls` again, you'd see a whole list of folders, one of which will be `tmp`. Anything you put in that folder will turn up in the other folder you connected to in the `docker run` command, and vice versa!
+
++ Drop all of your images into (in my case) `dockerific` and have them turn up in `tmp`. 
 
 + Move your images out of the `tmp` folder to the VSFM by using the [CP command](http://www.computerhope.com/unix/ucp.htm).
 
