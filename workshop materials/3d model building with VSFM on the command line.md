@@ -103,11 +103,11 @@ Copy the `.tgz` archive file to your `tmp` folder and then move it somewhere saf
 
 ### Generate the model
 
-Open Meshlab. At this point, you can follow along with [Ryan's post](http://ryanfb.github.io/etc/2014/10/22/drone_photogrammetry_workflow.html) which explains what each command does and why; for handy reference's sake I've listed them in order here:
+Open Meshlab. At this point, you can follow along with [Ryan's post](http://ryanfb.github.io/etc/2014/10/22/drone_photogrammetry_workflow.html) which explains what each command does and why; for handy reference's sake I've listed them in order below. In essence, we ompute a mesh from the point cloud, clean up the mesh, then texture it with the images from the video:
 
 1. in MeshLab use File→Open project… to open the bundle.rd.out file from one of the models reconstructed by VisualSFM. This will be in e.g. redchurch.nvm.cmvs/00/bundle.rd.out. MeshLab will then prompt you for an image list file which should be list.txt in the same directory. 
 2. Next use File→Import Mesh… to open the corresponding .ply file in the top-level directory, e.g. redchurch-output.0.ply. 
-3. Compute a mesh from your point cloud, clean up the mesh, then texture it with the images from your input. Click the “eye” icon next to the “model” layer in the layer dialog on the right to hide it, then select the .ply layer. 
+3. Click the “eye” icon next to the “model” layer in the layer dialog on the right to hide it, then select the .ply layer. 
 4. Run Filters→Point Set→Surface Reconstruction: Poisson, which will compute a mesh - do not worry about the crazy huge bubble this makes; we will fix this.
 5. Hide your original .ply point cloud layer (click the 'eye' icon in the layer dialog), then make sure the Poisson mesh layer is selected again.
 6. Use Filters→Selection→Select Faces with edges longer than… to select the extraneous huge bubble
