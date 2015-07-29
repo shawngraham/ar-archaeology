@@ -64,7 +64,7 @@ Right, now let's go back up to our home directory with `cd ~`. (Note if you want
 
 ### Generate a point cloud
 
-So, you now have a folder called `images` if you dropped them in, or `redchurch` if you extracted stills from the redchurch video. In the command below, `VisualSFM` calls the VSFM program, `sfm+pairs+pmvs` describes the commands to apply to the images in the `~/redchurch` folder and `redchurch.nvm` and `@8` specifies the output (see [Ryan's post](http://ryanfb.github.io/etc/2014/10/22/drone_photogrammetry_workflow.html) for details; the `@8` tells VSFM to match only against 8 frames either side of the current image; if you're using images you took yourself, you can drop this.
+So, you now have a folder called `images` if you dropped them in, or `redchurch` if you extracted stills from the redchurch video. In the command below, `VisualSFM` calls the VSFM program, `sfm+pairs+pmvs` describes the commands to apply to the images in the `~/redchurch` folder and `redchurch.nvm` and `@8` specifies the output (see [Ryan's post](http://ryanfb.github.io/etc/2014/10/22/drone_photogrammetry_workflow.html) for details); the `@8` tells VSFM to match only against 8 frames either side of the current image; if you're using images you took yourself, you can drop this.
 
 
 `$ VisualSFM sfm+pairs+pmvs ~/redchurch redchurch.nvm @8`
@@ -85,7 +85,7 @@ Memory = 7168
 
 [WINDOWS?]
 
-Exit your docker container and restart.
+So, make sure your images or that video are safe on your host machine somewhere. Exit your docker container and restart docker and the vsfm container. You can then drop your images back in.
 
 ### get your materials out
 
