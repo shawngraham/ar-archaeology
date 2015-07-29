@@ -196,3 +196,7 @@ Then, Unity will want to know what 'scenes' are in your project. Click 'add curr
 If all goes well, your app will open on your device! Aim it at a tracking image. 
 
 (for more details on the build process, especially for ios, see [the bottom of this page, 'deployment process'](http://developer.vuforia.com/library/articles/Solution/Compiling-a-Simple-Unity-Project))
+
+## Going further 
+
+Wouldn't it be neat to make your AR experience _stereoscopic_ and hands-free? [You can - and it's (relatively) easy to do.](stereoscopic-ar.md)
