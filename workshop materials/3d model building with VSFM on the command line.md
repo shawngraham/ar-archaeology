@@ -99,6 +99,8 @@ VSFM will create a number of .ply files; type `ls` to see them all. Also, there 
 
 Copy the `.tgz` archive file to your `tmp` folder and then move it somewhere safe on your host machine (the same place where you put the `.ply` files). Once you've got it safe on your machine, unzip it (or untar it).
 
+![Imgur](http://i.imgur.com/M6b3xPl.png)
+
 ### Generate the model
 
 Open Meshlab. At this point, you can follow along with [Ryan's post](http://ryanfb.github.io/etc/2014/10/22/drone_photogrammetry_workflow.html) which explains what each command does and why; for handy reference's sake I've listed them in order here:
