@@ -46,7 +46,7 @@ At the prompt, type `ls` (for list) and it will show you all of the bits and pie
 
 I'd suggest doing this by copying the whole `tmp` folder and giving it a new name. So, make sure you're at the home directory in the VM by using `cd ~` (check you're in the right place with the `ls` command - you should see a series of files and folders like cmvs, cmvs.tar.gz etc). Then, 
 
-`cp -R ~/tmp/ images`  [SHAWN CHECK THAT THIS WORKS]
+`cp -R /tmp/ images`  
 
 ALTERNATIVELY, what if you had drone footage of an archaeological site and you wanted to build the model from that? You'd follow [Ryan's workflow](http://ryanfb.github.io/etc/2014/10/22/drone_photogrammetry_workflow.html):
 
