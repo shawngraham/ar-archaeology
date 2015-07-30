@@ -4,7 +4,7 @@ In the presentation, we saw a number of potential use cases for AR in archaeolog
 
 That is, an AR pop-up book!
 
-(By the way, since the latest version of Unity3d comes with 'stereoscopic' abilities natively enabled, as a further step one could package what we are going to build, with some tweaking, as a google cardboard app). 
+(By the way, since the latest version of Vuforia comes with 'stereoscopic' abilities natively enabled, as a further step one could package what we are going to build, with some tweaking, as [a google cardboard app](stereoscopic-ar.md). 
 
 For your reference, we are following [this article](http://developer.vuforia.com/library/articles/Solution/Compiling-a-Simple-Unity-Project) from vuforia's developers' library. 
 
