@@ -1,6 +1,8 @@
 # Make your AR app Cardboard-able
 
-**update July 30th 2015** Vuforia has just released their SDK version 5, which renders this tutorial obsolete. The instructions below do work though for Unity 5 with Vuforia 4 SDK. 
+**update July 30th 2015** Vuforia has just released their SDK version 5, which renders this tutorial obsolete. The instructions below do work though for Unity 5 with Vuforia 4 SDK. To see the SDK 5 version, [download my 'diary in the attic' project](https://www.dropbox.com/s/kvb2b2kls7zq6js/diary-in-attic-project.zip?dl=0) and have a look about. You can install the built project by [downloading the .apk here](https://www.dropbox.com/s/t1tq7mzxscy3c0o/test-new-sdk5.apk?dl=0) (sorry ios users).
+
+In essence, don't mess with the cameras, just slot my materials out (in the assets - models folder; also 'resources - splash' for the splash scene) and put your own in. You'll need to add your own license key & tracking images database. You might have to adjust player settings too. Watch out for doppler effects and logarithmic dropoffs in 3d sound.
 
 -----
 
