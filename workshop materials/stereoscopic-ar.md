@@ -5,6 +5,7 @@
 In essence, don't mess with the cameras, just slot my materials out (in the assets - models folder; also 'resources - splash' for the splash scene) and put your own in. You'll need to add your own license key & tracking images database. You might have to adjust player settings too. Watch out for doppler effects and logarithmic dropoffs in 3d sound.
 
 -----
+*Stereoscopy in Vuforia SDK 4:*
 
 [Google Cardboard's viewer](https://www.google.com/get/cardboard/) is a wonderful, lo-tech device. One of the biggest issues with smartphone augmented reality is the sheer awkwardness of trying to hold a camera or a tablet over whatever it is you've augmented. Cardboard solves this problem for us by using the magic of stereoscopy, or showing slightly off-set versions of the same scene at the right distance from the eyes that our brains turn it into 3d.
 
