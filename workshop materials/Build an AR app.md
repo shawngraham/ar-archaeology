@@ -63,7 +63,9 @@ Hit 'download dataset'(or you can use [this one](img/shawnstutorial.unitypackage
 
 ### Building your scene
 
-The central window of the Unity editor shows us our game, or in this case, our AR scene. In a video game, the 'camera' follows the action around so that the player, sitting in front of the computer, sees the action from that view point. The vuforia sdk comes with an 'AR Camera' that only reveals digital content when your device's camera is pointed at one of our tracking images. So:
+The central window of the Unity editor shows us our game, or in this case, our AR scene. In a video game, the 'camera' follows the action around so that the player, sitting in front of the computer, sees the action from that view point. (*Aside:* The coordinate system in Unity3d frankly drives me to despair. I typically make very small incremental changes to the x,y,z in turn so I can figure out what is going on in any given situation. [Info on the coordinate system](http://www.intensiveworks.com/?p=323))
+
+The vuforia sdk comes with an 'AR Camera' that only reveals digital content when your device's camera is pointed at one of our tracking images. So:
 
 ![setting up ARCamera](img/arcamera.png)
 
@@ -89,7 +91,7 @@ Find your unity project's assets folder on your computer. Mine is at /Users/shaw
 
 Let's say we had a bunch of 3d models we wanted to use. In the [img folder](img/) there is a file called 'gravestone.dae' and its associated texture is 'texpng.png'. Save those into that models folder. In your unity editing window, the model will appear, already associated with its texture.
 
-Let's also say that we wanted a audio clip to play whenever the user's device focused on that image of Roman second style painting ([ar4.png](img/ar4.png) in this repo's img folder). Grab the mp3 file from here- [Akeley](https://ia801408.us.archive.org/16/items/Akeleys_Wax_Cylinder_Recording/); it's a creepy wax-cylinder recording of a seance from the earlty 20th century) and save it to _the assets folder_ (and **not** the models subfolder we just created). 
+Let's also say that we wanted a audio clip to play whenever the user's device focused on that image of Roman second style painting ([ar4.png](img/ar4.png) in this repo's img folder). Grab the mp3 file from here- [Akeley](https://ia801408.us.archive.org/16/items/Akeleys_Wax_Cylinder_Recording/); it's a creepy wax-cylinder recording of a seance from the earlty 20th century) and save it to _the assets folder_ (and **not** the models subfolder we just created). (*update* In the v5 of the SDK - which became available on July 30th - putting the sound files in your models subfolder, or a general folder for audio clips that you've made yourself, works fine).
 
 ### Tieing assets to triggers
 
@@ -176,6 +178,8 @@ Here's what my editor looks like - note the audio source panel.
 ![img](img/audio.png)
 
 ...You now have an image target that triggers audio!
+
+*update for SDK5*  In the inspector with the image tracker selected, add a component - new script. Name it 'ImageTargetPlayAudio'. Then double-click it there to edit the script. Delete the default code and paste in the code from this tutorial. Go back to Unity. Uncheck the 'play when awake' button. You might also have to adjust the 3d volume sound settings rollof (linear is fine). Set doppler to 0
 
 ### Let's test this out.
 
