@@ -13,7 +13,7 @@ Remember folks, save your project frequently, in a git-enabled folder, for when 
 ## Ingredients
 
 + [Unity3d (version 5)](http://unity3d.com/get-unity/download?ref=personal). <small>**nb** the documentation for Unity is excellent. After you've completed this tutorial, try the '[Rollaball](https://developer.vuforia.com/downloads/sdk)' tutorial to explore in more depth concepts such as scripting.</small>
-+ [Vuforia Unity Extension](https://developer.vuforia.com/downloads/sdk)  You will need to register with their site, which you will be prompted to do when you download. This only takes a few moments.
++ [Vuforia Unity Extension](https://developer.vuforia.com/downloads/sdk)  You will need to register with their site, which you will be prompted to do when you download. This only takes a few moments. NB I wrote this tutorial using version 4 of the SDK, but everything below works.
 + some tracking images
 + [A license key](https://developer.vuforia.com/license-manager) Login using your vuforia login to create and manage a license key.
 + images [to turn into tracking targets](https://developer.vuforia.com/target-manager). Again, you need to login with your vuforia login to use their tool. [Here's some guidance on what makes a good image, for future reference.](https://developer.vuforia.com/library/articles/Best_Practices/Attributes-of-an-Ideal-Image-Target). I've put some imgs (AR1 - 5.png) in the [img](img/) folder that you can use.
