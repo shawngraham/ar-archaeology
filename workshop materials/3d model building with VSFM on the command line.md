@@ -48,6 +48,8 @@ I'd suggest doing this by copying the whole `tmp` folder and giving it a new nam
 
 `cp -R /tmp/ images`  
 
+**important** do not have spaces in any file names or folder names or special characters. It just makes life easier.
+
 ALTERNATIVELY, what if you had drone footage of an archaeological site and you wanted to build the model from that? You'd follow [Ryan's workflow](http://ryanfb.github.io/etc/2014/10/22/drone_photogrammetry_workflow.html):
 
 Make a new directory for the video you're going to download:
