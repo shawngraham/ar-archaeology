@@ -103,7 +103,7 @@ and drag it into your scene. It should appear! It's lying on its side, and we'll
 
 ![screenshot](https://electricarchaeologist.files.wordpress.com/2015/05/screen-shot-2015-05-30-at-4-18-11-pm.png)
 
-Whenever you want an asset associated with an image tracker, it has to be **beneath** the image tracker in the hierarchy pane.
+Whenever you want an asset associated with an image tracker, it has to be **beneath** the image tracker in the hierarchy pane. (By the way, if you ever lose track of something in the screen, select it in the hierarchy, then mouse over the editing window and press f. The screen will centre on that item.)
 
 Making this association means that when your device spots that particular tracking image, it will display the 3d model of the gravestone. Now comes the tricky part of setting your gravestone on the image the way you want it to show up through your device's camera. These settings:
 
