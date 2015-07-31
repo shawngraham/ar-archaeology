@@ -204,3 +204,5 @@ If all goes well, your app will open on your device! Aim it at a tracking image.
 ## Going further 
 
 Wouldn't it be neat to make your AR experience _stereoscopic_ and hands-free? [You can - and it's (relatively) easy to do.](stereoscopic-ar.md)
+
+The Vuforia app can also do text recognition. You can get it to [play videos when a target is acquired](https://developer.vuforia.com/forum/faq/unity-how-do-i-play-video-url) (and see also [this](https://developer.vuforia.com/forum/faq/unity-how-do-i-create-simple-videoplayback-app)). You could [add a pop-up button](https://developer.vuforia.com/forum/faq/unity-how-can-i-popup-gui-button-when-target-detected) when a user touches the augmentation on the screen; the button could trigger something else... You could make the augmentation a piece a text, a clue, to guide the user to the next trackable image (I'm imagining people running around a museum with cardboard viewers strapped to their heads). Or maybe hear an audio clue. Think playfully, think bricolage. Mix together different apps, websites, for a transmedia storytelling experience. 
