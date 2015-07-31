@@ -30,6 +30,7 @@ You can also add reference points (and thus volumes) to your 3d models using the
 -----
 
 That's all there is to it. It's possible to generate models from video stills too - you have to slice the video into individual frames. It's also possible to generate models from photographs from many different cameras. There are many different tools that can build point clouds and then meshes from photography - Ryan Baumann [does some comparison model building here](http://ryanfb.github.io/etc/2015/07/27/qualitative_photogrammetry_comparisons_gallery.html). [Photoscan from Agisoft](http://www.agisoft.com/) is good value for money, and is reasonably priced. You can use it for free - but the free version doesn't let you save your final model.  The basic workflow in Photoscan is very straightforward. Start the program, and then in the toolbar click 'workflow'. The first item is 'select photos'. You do that. Indeed, you simply work through each option in turn as they become available:
+
 ![Imgur](http://i.imgur.com/XorKnvd.png)
 
 Agisoft's [own tutorial](http://www.agisoft.com/pdf/PS_1.0.0%20-Tutorial%20(BL)%20-%203D-model.pdf) will get you started easily. Agisoft is good too when you want to create models that are dimensioned.
