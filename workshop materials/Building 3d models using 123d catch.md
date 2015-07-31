@@ -54,3 +54,13 @@ You can also make your model less heavy by editing the texture files directly. T
 ## Sharing your models
 
 The two best places for sharing your models are [Sketchfab](http://sketchfab.com) and [p3d.in](http://p3d.in). They both have free and pro accounts, with differing offerings. Sketchfab [has an API amongst other things](http://blog.sketchfab.com/tagged/tutorial) (Photoscan users can upload directly to Sketchfab from within Photoscan). Sketchfab has Oculus Rift & Cardboard support - ie, stereoscopic display - to show your 3d models in, erm, 3d. Every model has its own url; you simply add `/embed?oculus=2` to the end of it, hit the play button, and voila, steroscopic 3d models. Here's one my first year students made a few years back: [Terracotta from Jalisco](https://sketchfab.com/models/30939eb07d8f48d0802ab9dc7196241d/embed?oculus=2). You can also annotate models in the Sketchfab viewer - LFHooper has been uploading models of excavation trenches [annotated with context and finds numbers](https://sketchfab.com/models/078b30b3f6354ab6af07b3a54c6d5fcd). And of course you can make your model downloadable for sharing if you desire. Incidentally, github can render .stl files (and show their revision history in 3d!) [see here for more](https://help.github.com/articles/3d-file-viewer/).
+
+Now, when you first view your model on Sketchfab, you might be surprised. Many of my models - for whatever reason - first show up upside down! But it's easy to fix the orientation, the colouring, the lighting, and so on by clicking on the 'settings' button and then '3d settings'. In the image below I have a model of the colosseum (which I built from extracted still images from a drone video I found on youtube) open in Sketchfab at the 3d editing settings:
+
+![Imgur](http://i.imgur.com/SJOPjsL.png)
+
+At the top left, you can edit the scene, the lighting, and the annotations. With free accounts, you can only have 5 annotations, by the way. Under 'scene', you can adjust the model's orientation by clicking on the x, y, and z buttons. These will rotate the model around the x, y, and z axes:
+
+![Imgur](http://i.imgur.com/Fq0Jwzn.png)
+
+X is the red line, Y is the green line, and Z is the blue line. When you've got everything the way you like it, click 'save view' and then 'save settings'.
