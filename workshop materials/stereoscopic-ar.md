@@ -2,7 +2,7 @@
 
 **update July 30th 2015** Vuforia has just released their SDK version 5, which renders this tutorial obsolete. The instructions below do work though for Unity 5 with Vuforia 4 SDK. To see the SDK 5 version, [download my 'diary in the attic' project](https://www.dropbox.com/s/kvb2b2kls7zq6js/diary-in-attic-project.zip?dl=0) and have a look about. You can install the built project by [downloading the .apk here](https://www.dropbox.com/s/t1tq7mzxscy3c0o/test-new-sdk5.apk?dl=0) (sorry ios users).
 
-In essence, don't mess with the cameras, just slot my materials out (in the assets - models folder; also 'resources - splash' for the splash scene) and put your own in. You'll need to add your own license key & tracking images database. You might have to adjust player settings too. Watch out for doppler effects and logarithmic dropoffs in 3d sound.
+In essence, don't mess with the cameras, just slot my materials out (in the assets - models folder; also 'resources - splash' for the splash scene) and put your own in. You'll need to add your own license key & tracking images database. You might have to adjust player settings too. Watch out for doppler effects and logarithmic dropoffs in 3d sound. [see bottom for a few other things to note re sdk5](###some settings in the SDK 5 for stereoscopy)
 
 -----
 *Stereoscopy in Vuforia SDK 4:*
@@ -76,3 +76,11 @@ So you've checked for that, and found that the camera is ticked on, but it's jus
 What we're going to do is check to see if that right-hand camera has its view, that white square and x. We're going to turn off `Camera` and `CameraLeft`. In this case, you'd uncheck 'Camera' **at the top of the inspector panel, beside the cube icon** which totally deactives this camera, for those two cameras. Then we'd select `CameraRight` in the hierarchy. When I did this, even though this camera was activated (and its camera compenent was activated too - both camera check boxes were ticked off), _there was no white square and white x_ in the scene, nor was there anything in the camera preview box. 
 
 My right camera was completely borked. But I knew that the left camera was working fine. So I returned everything to how it had been, deleted the right camera, duplicated the left camera, and hit 'play' again. This time, it worked.
+
+###some settings in the SDK 5 for stereoscopy
+- get a new license key, set it for 'mobile'
+- vuforia 5 works best with unity 4.6
+- you have to add the android SDK again (or the ios sdk) to build settings (on my computer, android sdk lives at: user/shawngraham/library/androidsdkmacos)
+- player settings have to set that com.yourdomain.yourappname (i use com.graeworks.myapp)
+- build settings: enable development build for good measure.
+
