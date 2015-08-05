@@ -68,6 +68,7 @@ var LZString={_keyStr:"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz01234
 	<div id="store-area" hidden><tw-storydata name="Low-friction AR template" startnode="2" creator="Twine" creator-version="2.0.8" ifid="33804162-AAA3-4ACB-82E8-FEA0A789107B" format="SugarCube" options=""><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">
 
 
+
 </style><script role="script" id="twine-user-script" type="text/twine-javascript">(function () {
 	if ("geolocation" in navigator && typeof navigator.geolocation.getCurrentPosition === "function") {
 		// setup the success and error callbacks as well as the options object
@@ -130,6 +131,7 @@ var LZString={_keyStr:"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz01234
 }());
 
 
+
 </script><tw-passagedata pid="1" name="Start" tags="" position="887,580">/%if you want to start a passage by playing audio, use this%/
 
 &lt;&lt;audio &quot;intro-ottawa&quot; play&gt;&gt;
@@ -162,11 +164,11 @@ First, you need to [[calibrate the scan]].
 &lt;&lt;set $natsciencelat = 42.7314418&gt;&gt; 
 &lt;&lt;set $natsciencelong = -84.4769123&gt;&gt;
 
-&lt;&lt;set $horticulturelat = 42.73199&gt;&gt; 
-&lt;&lt;set $horticulutrelong = -84.4780939&gt;&gt;
+&lt;&lt;set $horticulturelat = 42.731973&gt;&gt; 
+&lt;&lt;set $horticulutrelong = -84.478518&gt;&gt;
 
-&lt;&lt;set $benefactorsplazalat = 42.7317947&gt;&gt; 
-&lt;&lt;set $benefactorsplazalong = -84.4777639&gt;&gt;
+&lt;&lt;set $benefactorsplazalat = 42.731785&gt;&gt; 
+&lt;&lt;set $benefactorsplazalong = -84.477802&gt;&gt;
 
 /%add more points of interest by uncommenting and copying the code below
 
@@ -202,7 +204,9 @@ You&#x27;re wasting time.
 
 [[calibrate the scan]]</tw-passagedata><tw-passagedata pid="5" name="calibrate the scan" tags="" position="892,749">/%this bit of code does the same thing as the &#x27;old-code calibrate the scan&#x27; passage, but instead calls on the &#x27;approxEqual&#x27; function that we made in this story&#x27;s javascript. The &#x27;display&#x27; command will display other passages when you put the desired passage&#x27;s title within the quotation marks. Note we also make a passage for when the player is in a location we haven&#x27;t coded for. That particular passage could contain hints etc%/
 
-...calibrating the scanner...
+Currently you are at $Location.latitude and $Location.longitude
+
+Scanner Calibration Engaged.
 
 &lt;&lt;if approxEqual($Location.latitude, $natsciencelat) and approxEqual($Location.longitude, $natsciencelong)&gt;&gt;
 	&lt;&lt;display &quot;Natural Sciences Building&quot;&gt;&gt;
@@ -216,26 +220,34 @@ You&#x27;re wasting time.
 
 
 
-</tw-passagedata><tw-passagedata pid="6" name="Horticulture Building" tags="" position="435,442">&lt;&lt;audio &quot;childsnightmare&quot; fadein &gt;&gt;
+</tw-passagedata><tw-passagedata pid="6" name="Horticulture Building" tags="" position="436,442">&lt;&lt;audio &quot;childsnightmare&quot; fadein &gt;&gt;
 [img[https://openclipart.org/image/300px/svg_to_png/28414/PBCrichton-Malware-Hazard-Symbol-Red.png]]
+
+Currently you are at $Location.latitude and $Location.longitude
+
 Area of instability found. Current position: Horticulture building
 
 [[Rescan]]</tw-passagedata><tw-passagedata pid="7" name="Rescan" tags="" position="436,611">&lt;iframe src=&quot;//giphy.com/embed/mRAu3P4p28KoU?html5=true&quot; width=&quot;480&quot; height=&quot;480&quot; frameBorder=&quot;0&quot; webkitAllowFullScreen mozallowfullscreen allowFullScreen&gt;&lt;/iframe&gt;
 [[Rescan for Geotriggers|calibrate the scan]]
 
 
-%/in the passage above, the player will see the text &#x27;rescan for geotriggers, but the link will be to the passage called &#x27;calibrate the scan&#x27;%/</tw-passagedata><tw-passagedata pid="8" name="Benefactors&#x27; Plaza" tags="" position="202,505">[img[https://openclipart.org/image/300px/svg_to_png/28414/PBCrichton-Malware-Hazard-Symbol-Red.png]]
+%/in the passage above, the player will see the text &#x27;rescan for geotriggers, but the link will be to the passage called &#x27;calibrate the scan&#x27;%/</tw-passagedata><tw-passagedata pid="8" name="Benefactors&#x27; Plaza" tags="" position="201,505">[img[https://openclipart.org/image/300px/svg_to_png/28414/PBCrichton-Malware-Hazard-Symbol-Red.png]]
 &lt;&lt;audio &quot;oldpiano&quot; play &gt;&gt;
+
+Currently you are at $Location.latitude and $Location.longitude
 
 Area of instability found. Current Position: Benefactor&#x27;s Plaza
 
 [[Rescan]]</tw-passagedata><tw-passagedata pid="9" name="Natural Sciences Building" tags="" position="614,446">[img[https://openclipart.org/image/300px/svg_to_png/28414/PBCrichton-Malware-Hazard-Symbol-Red.png]]
+
+Currently you are at $Location.latitude and $Location.longitude
+
 Area of instability found. Current position: Natural Sciences Building.
-&lt;&lt;audio &quot;opendoor&quot; play&gt;&gt;
+&lt;&lt;audio &quot;akeley&quot; play&gt;&gt;
 
 [[Rescan]]
 
-[[my new passage]]</tw-passagedata><tw-passagedata pid="10" name="Credits" tags="" position="890,902">Sound effects found at soundbible.com:
+</tw-passagedata><tw-passagedata pid="10" name="Credits" tags="" position="890,902">Sound effects found at soundbible.com:
 
 Gunfire_In_Crowd-KevanGC-1080318106.mp3
 Please%20Open%20The%20Door-SoundBible.com-1938859889.mp3
@@ -259,9 +271,7 @@ Remaining sound effects by Shawn Graham.
 Loading image: http://fc07.deviantart.net/fs25/f/2008/181/f/f/Trippy_Design_by_Cru_the_Dwarf.jpg
 
 Anomaly found image:
-https://openclipart.org/image/300px/svg_to_png/28414/PBCrichton-Malware-Hazard-Symbol-Red.png</tw-passagedata><tw-passagedata pid="11" name="my new passage" tags="" position="614,596">Double-click this passage to edit it.
-
-&lt;&lt;display &quot;shawn graham&quot;&gt;&gt;</tw-passagedata></tw-storydata></div>
+https://openclipart.org/image/300px/svg_to_png/28414/PBCrichton-Malware-Hazard-Symbol-Red.png</tw-passagedata></tw-storydata></div>
 	<script id="script-sugarcube" type="text/javascript">
 	/*! SugarCube JS
 
