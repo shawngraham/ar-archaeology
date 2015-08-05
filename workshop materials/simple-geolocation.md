@@ -1,12 +1,12 @@
 ## Simple Geolocation with Mixare
 
-In the first dawn of smart-phone enabled AR, when every SDK was free, one of the go-to applications was geolocation with a radar heads-up display. Remember Gowalla?
+In the first dawn of smart-phone enabled AR, when every SDK was free, one of the go-to applications was geolocation with a radar heads-up display. 
 
-It's still a handy tool to have however. In this tutorial, we'll add our own data to [Mixare](http://www.mixare.org/). You can install Mixare on your ios or android phone from that link. If you want to see how to build it for yourself, [this tutorial will see you through](https://sashageekette.wordpress.com/2012/12/02/getting-started-with-mixare-on-eclipse/)(it's a bit out of date in that Google wants everyone to build using their own programme rather than eclipse, but you can still do the build yourself following that tutorial; I found that some of the later steps (12 onwards) were not necessary).
+I think that's still a handy tool to have, with useful archaeological dimensions (load up POIs from your GIS, get that heads-up bearing rather than studying a map; public archaeology where one is guided to look at the landscape through archaeological eyes, etc). In this tutorial, we'll add our own data to [Mixare](http://www.mixare.org/). You can install Mixare on your ios or android phone from that link. If you want to see how to build it for yourself, [this tutorial will see you through](https://sashageekette.wordpress.com/2012/12/02/getting-started-with-mixare-on-eclipse/)(the tutorial is a bit out of date in that Google wants everyone to build using their own programme rather than eclipse, but you can still do the build yourself following that tutorial; I found that some of the later steps (12 onwards) were not necessary. As an introduction into Android app-building, it's quite useful too. If Mixare ever gets pulled from the app store, being able to build it ourselves (or use its pieces in other applications) will be useful).
 
 Go ahead and install Mixare on your device. Then, fire it up. Its default grabs points of interest from Wikipedia within 20 km of you- you can see them if you hold your device up level with your head. Click on the options button - your options include 'data source', 'list view', 'map view', zoom level', 'search'. 
 
-Click on data source. By default, it's grabbing Wikipedia from [Geonames.org](http://www.geonames.org/export/wikipedia-webservice.html), an old version of Twitter's search (which, if you were building from scratch, you'd want to update), OSM, and a page from Mixare.org itself.
+Click on data source. By default, it's grabbing Wikipedia from [Geonames.org](http://www.geonames.org/export/wikipedia-webservice.html), an old version of Twitter's search (which, if you were building from scratch, you'd want to update), OSM, and a (broken) page from Mixare.org itself.
 
 Frankly, it's amazing after three years that all of these aren't borked - the Wikipedia search is the only one still working. But that's ok, because what we want is hidden under the options button on this page of resources: "Add data source".
 
@@ -21,7 +21,7 @@ Data source
 Display as
 ```
 
-Before we add anything here, let's quickly build a new page somewhere on the internet that our Mixare can find. As it happens, github pages don't work for this nor does dropox. [This does though](http://graeworks.net/mixdata.json) I keep a kind of 'scratch pad direcotry' on my own domain. I create a new page there, with the following:
+Before we add anything here, let's quickly build a new page somewhere on the internet that our Mixare can find. As it happens, github pages don't work for this nor does dropox. [My own domain does though](http://graeworks.net/mixdata.json) I keep a kind of 'scratch pad directory' on my own domain. I create a new page in my text editor of choice, with the following:
 
 ```
 {
@@ -61,8 +61,9 @@ Before we add anything here, let's quickly build a new page somewhere on the int
     ]
 }
 ```
+...which I then ftp to my domain.
 
-So - you need to have a unique ID for each of your points. Latitude and Longitude in decimal degrees. Elevation - this doesn't seem to be used, nor does 'distance'. *IF* you want your POI to link to a webpage, then 'has_detail_page' has to be set to 1, and the URL gets put in the 'webpage' bit. Make sure to validate your JSON with [JSONLint](http://jsonlint.com/). It is possible to modify the source code so that you can have different kinds of icons for different kinds of POIs, etc- [see this disscussion](https://github.com/abduegal/mixare/wiki/Data-handler).
+So - you need to have a unique ID for each of your points. `Lat` and `lng` in decimal degrees. `Elevation` - this doesn't seem to be used, nor does `distance` - you can ignore them. *IF* you want your POI to link to a webpage, then `has_detail_page` has to be set to 1, and the URL gets put in the `webpage` bit. Make sure to validate your JSON with [JSONLint](http://jsonlint.com/). It is possible to modify the source code so that you can have different kinds of icons for different kinds of POIs, etc- [see this disscussion](https://github.com/abduegal/mixare/wiki/Data-handler).
 
 ## Add to your Mixare
 
