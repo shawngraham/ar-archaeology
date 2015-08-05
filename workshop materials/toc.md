@@ -19,3 +19,11 @@
 -----
 My intention in this workshop is to show you enough of the nuts-and-bolts so that you can build or remix into your own archaeological application or use. 
 
+Feel free to fork this repo. If you run into trouble, if something is unclear or doesn't work, please leave a note under [issues](issues).
+
+I look forward to seeing what you get up to!
+
+-Shawn
+
+[@electricarchaeo](http://twitter.com/electricarchaeo)
+
