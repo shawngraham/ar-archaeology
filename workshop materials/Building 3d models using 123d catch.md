@@ -71,7 +71,7 @@ X is the red line, Y is the green line, and Z is the blue line. When you've got 
 
 Remember that .stl file that 123D Catch created for you? That's the typical file type that most 3d printers accept. Sketchfab has [an excellent blogpost](http://blog.sketchfab.com/post/100752713569/3d-print-a-model-downloaded-from-sketchfab) on the things to remember when printing a model. It's beyond our scope in this workshop to go into 3d printing, but imagine you've 3d printed an aerial drone shot of your excavation. You could paint colours on to it - and then [scan the print into a trackable for Vuforia](https://developer.vuforia.com/library/articles/Training/Vuforia-Object-Scanner-Users-Guide) & create an AR application that overlays digital materials onto your 3d print in the real world! Once you've scanned it using Vuforia's scanner, you can upload that data to their tracking manager just as you would a 2d image:
 
-![image](https://vuforiacontent.qualcomm.com/Images/Fall2014/TargetManager/AddTargetObject.jpg).
+![image](img/AddTargetObject.jpg).
 
 You could even use Unity to populate your AR with little non-player characters, the way that Stu Eve did for his [augmented Roman Fort!](http://www.dead-mens-eyes.org/augmenting-a-roman-fort/)
 
