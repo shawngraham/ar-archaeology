@@ -21,7 +21,7 @@ Data source
 Display as
 ```
 
-Before we add anything here, let's quickly build a new page somewhere on the internet that our Mixare can find. I keep a kind of 'scratch pad' repository on github, with a gh-pages branch. I create a new page there, and enter the following:
+Before we add anything here, let's quickly build a new page somewhere on the internet that our Mixare can find. As it happens, github pages don't work for this nor does dropox. [This does though](http://graeworks.net/mixdata.json) I keep a kind of 'scratch pad direcotry' on my own domain. I create a new page there, with the following:
 
 ```
 {
@@ -30,20 +30,20 @@ Before we add anything here, let's quickly build a new page somewhere on the int
     "results": [
         {
             "id": "2827",
-            "lat": "46.43893",
-            "lng": "11.21706",
-            "elevation": "1737",
-            "title": "Penegal",
+            "lat": "45.3875812",
+            "lng": "-75.6960202",
+            "elevation": "120",
+            "title": "Carleton University",
             "distance": "9.756",
             "has_detail_page": "1",
-            "webpage": "http%3A%2F%2Fwww.suedtirolerland.it%2Fapi%2Fmap%2FgetMarkerTplM%2F%3Fmarker_id%3D2827%26project_id%3D15%26lang_id%3D9"
+            "webpage": "http://carleton.ca"
         },
         {
             "id": "2821",
-            "lat": "46.49396",
-            "lng": "11.2088",
+            "lat": "45.2853629",
+            "lng": "-75.7218656",
             "elevation": "1865",
-            "title": "Gantkofel",
+            "title": "Tim Horton's",
             "distance": "9.771",
             "has_detail_page": "0",
             "webpage": ""
@@ -60,3 +60,18 @@ Before we add anything here, let's quickly build a new page somewhere on the int
         }
     ]
 }
+```
+
+So - you need to have a unique ID for each of your points. Latitude and Longitude in decimal degrees. Elevation - this doesn't seem to be used, nor does 'distance'. *IF* you want your POI to link to a webpage, then 'has_detail_page' has to be set to 1, and the URL gets put in the 'webpage' bit. Make sure to validate your JSON with [JSONLint](http://jsonlint.com/). It is possible to modify the source code so that you can have different kinds of icons for different kinds of POIs, etc- [see this disscussion](https://github.com/abduegal/mixare/wiki/Data-handler).
+
+## Add to your Mixare
+
+So back in your app - at the add data page, simply fill in the fields. Select 'mixare' as the data source. Hit the back button until you're back at your camera with radar. Ta da! 
+
+## Going further
+
+I'm a fan of bricolage - sometimes it's not necessary to build a *complete* do-everything app, but rather, use a series of small tools within a larger narrative framework.  Imagine that you took my ['diary in the attic'](https://www.dropbox.com/s/y1cu6ee6j77of87/nilediary.pdf?dl=0) pages, and hid them around the grounds of a stately old house. Then, you could use Mixare to provide POIs relatively close to where the pages are hiding. The player could use Mixare to find the locations, and then the [Android SpectralScope](https://www.dropbox.com/s/prgpqdoia3ugbdk/nilediary3.apk?dl=0) to find the ghosts in the pages...  "Imagine, for instance, that you are a ghost hunter, equipped with the latest range-finding and dimensional-inspecting apps... find the diary. Peer into the dimensional rift. Uncover the truth..."
+
+You could also tie your POIs not to webpages, but to audio sources, or video files, or Twine files. You could make the link [open an app on the user's phone](http://stackoverflow.com/questions/16153863/html-link-to-launch-an-app-if-installed-or-go-to-a-website-if-not) (although that may or may not be a good idea).
+
+You could probably also merge aspects of the Mixare SDK with the Vuforia SDK to put both kinds of functionality (image/object based tracking with geolocation) into a single app - although this is where I think the philosophy of one small tool that does what you need it to do comes to the fore.
