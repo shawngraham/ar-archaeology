@@ -8,6 +8,8 @@ I call this _low friction_ because
 
 ...and this is 'hacking' because Twine is meant to make choose-your-own-adventure type games; it was never envisioned to use it with geolocation. What we'll do then is hack the ability to trigger passages of text through physical proximity to a particular location (a 'geotrigger'). If you haven't played any Twine-type games, try ['Beneath Floes'](http://www.bravemule.com/beneathfloes) first. (Here's a great review on [Killscreen](http://killscreendaily.com/articles/escape-icy-clutches-inuit-legend-beneath-floes/) and [Profhacker](http://chronicle.com/blogs/profhacker/tag/twine) has written about the pedagogical potentials of Twine several times). 
 
+If you have a tablet, try [playing this game first](http://shawngraham.github.io/ar-archaeology/workshop%20materials/Low-friction%20AR%20template.html); it's set just outside the workshop venue. There are 3 locations. (Phone works too, of course).
+
 ## Ingredients
 + [Twinery 2](http://twinery.org/) (which you can run as an executable or within your browser*)
 + Server space to upload your final html to (gh-pages works; public dropbox works if you still have that feature; [philome.la](http://philome.la/) if you don't want to futz with all of that.)
