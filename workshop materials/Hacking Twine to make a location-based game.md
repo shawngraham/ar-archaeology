@@ -90,11 +90,11 @@ In this passage we **set** the $buffer variable to allow a buffer of a few metre
 <<set $natsciencelat = 42.7314418>> 
 <<set $natsciencelong = -84.4769123>>
 
-<<set $horticulturelat = 42.73199>> 
-<<set $horticulutrelong = -84.4780939>>
+<<set $horticulturelat = 42.731973>> 
+<<set $horticulutrelong = -84.478518>>
 
-<<set $benefactorsplazalat = 42.7317947>> 
-<<set $benefactorsplazalong = -84.4777639>>
+<<set $benefactorsplazalat = 42.731785>> 
+<<set $benefactorsplazalong = -84.477802>>
 ```
 
 You can **add your fourth point** by uncommenting out the bit for ANOTHERPOINTlat and ANOTHERPOINTlong - delete the comment and its flags `/%  ...  %/`, give your point a sensible name, and pasting in your coordinates.
@@ -134,7 +134,7 @@ Go back to the 'Natural Sciences Building' passage, and delete the link to the p
 
 You now have an interactive fiction where the passages are triggered by physical presence at a place in space. That is to say: you've got a kind of augmented reality, an app that allows the player to perceive her surroundings differently. The only thing left to do is to publish it to the web so we can go play it. At the bottom left side of the editor screen, hit the up arrow. Hit 'publish to file'. It will turn your story into an html file, which you can find in your downloads folder.
 
-I joined dropbox ages ago, and so have a 'public' folder that can be used to serve webpages. I often put my twines in there. Upload yours to your server, or the gh-pages branch of a github repo, or similar to try your app out. Load it up in your device (ie point your browser to the .html file), make sure geolocation is turned on, and go outside to try it out. [Here's the template game](http://shawngraham.github.io/ar-archaeology/workshop%20materials/Low-friction%20AR%20template.html).
+I joined dropbox ages ago, and so have a 'public' folder that can be used to serve webpages. I often put my twines in there. Upload yours to your server, or the gh-pages branch of a github repo, or similar to try your app out. Load it up in your device (ie point your browser to the .html file), make sure geolocation is turned on, and go outside to try it out. [Here's the template game](http://shawngraham.github.io/ar-archaeology/workshop%20materials/Low-friction%20AR%20template.html) (there's a deliberate glitch - see if you can fix it. It doesn't affect the playing of the game, but just shows how one passage can call another).
 
 ## Acknowledgements
 
