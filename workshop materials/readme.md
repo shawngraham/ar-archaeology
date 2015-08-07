@@ -28,12 +28,12 @@ I look forward to seeing what you get up to!
 [@electricarchaeo](http://twitter.com/electricarchaeo)
 
 -----
-** Bonus **
+###Bonus###
 
 I've advocated elsewhere that we should be playful with our digital tools; that game design principles should inform our use of digital tech; that games as a form of simulation can be used to advance archaeological arguments that emerge through play. Now that you've engaged with some of this, why not make a full-on archaeological video game? Here are some more tutorials to get you going. 
 
 If you've already got GIS data [here's how to get your GIS data into Unity3d](http://electricarchaeology.ca/2015/06/08/importing-gis-data-into-unity/)(scroll to the update at bottom). You'll need [Microdem](http://www.usna.edu/Users/oceano/pguth/website/microdem/microdem.htm) (which can also be run on Mac using [Winebottler](http://winebottler.kronenberg.org/) or similar).
 
-If you've got a scanned historical map without digital elevation data, [try this workflow instead](http://electricarchaeology.ca/2015/06/09/historical-maps-into-unity3d/).
+If you've got a scanned historical map without digital elevation data, [try this workflow instead](http://electricarchaeology.ca/2015/06/09/historical-maps-into-unity3d/). You'll need Microdem.
 
 And if you'd rather not futz with Unity3d, you can put your topography into Minecraft instead [with this workflow](http://electricarchaeology.ca/2014/09/30/historical-maps-topography-into-minecraft-qgis/). Minecraft might be the best option, really, since 'digging' and the concept of stratigraphy is built deliberately into the code. You can even [mount your own expedition](http://electricarchaeology.ca/?s=minecraft+expedition).
