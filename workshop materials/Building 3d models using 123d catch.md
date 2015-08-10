@@ -1,6 +1,8 @@
 # Generating a 3d model with 123D Catch
 
-Autodesk has a suite of programs connected with 3d modeling. [123D Catch](http://www.123dapp.com/catch) is a free offering. The mobile apps let you take a series of photos which are then pushed to Autodesk HQ for processing; you can then log into their website to examine the model and download it (as .obj). So, install the app on your ios, android, or windows phone device. The first time you use it, you will have to do the usual registering and setting up of an account.
+Autodesk has a suite of programs connected with 3d modeling. [123D Catch](http://www.123dapp.com/catch) is a free offering. The mobile apps let you take a series of photos which are then pushed to Autodesk HQ for processing; you can then log into their website to examine the model and download it (as .obj). So, install the app on your ios, android, or windows phone device. The first time you use it, you will have to do the usual registering and setting up of an account. 
+
+*Warning* 123D Catch doesn't work on IOS6 devices. Folks so afflicted should try the desktop version (see below, and only if they have a windows machine; if you've a mac you might be able to run it under parallels or similar. I've tried running it under [Wine Bottler](winebottler.kronenberg.org) on the mac but it doesn't seem to work that way, sadly). Worse comes to worse, skip ahead to the [VSFM tutorial](3d%20model%20building%20with%20VSFM%20on%20the%20command%20line.md) and give that a shot. 
 
 ## Photography
 
@@ -66,6 +68,9 @@ At the top left, you can edit the scene, the lighting, and the annotations. With
 ![Imgur](http://i.imgur.com/Fq0Jwzn.png)
 
 X is the red line, Y is the green line, and Z is the blue line. When you've got everything the way you like it, click 'save view' and then 'save settings'.
+
+*Update: A note on rotation* [Atomrab](https://github.com/atomrab) tells me:
+>Sketchfab has a rotation lock, so you can't rotate the images all the way around -- and it takes the rotation axis from the 123DCatch capture in a non-transparent way, so if you just go straight from 123DCatch to Sketchfab, you often end up with an object that's aligned sideways and won't rotate in the way you'd want it to (this happened a lot with my student projects: eg [https://sketchfab.com/models/b037e1301c3248ca966d4d610442534e](https://sketchfab.com/models/b037e1301c3248ca966d4d610442534e)). You can fix this in Meshlab, but you have to realign the model within the rotation trackball. [p3d.in](http://p3d.in) doesn't have a rotation lock, so you can always get it to where you want it as a user (but then you can't have annotations).
 
 ## Augmenting reality with 3d printing!
 
