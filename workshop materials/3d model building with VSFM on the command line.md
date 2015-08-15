@@ -12,7 +12,7 @@ The [VSFM package](http://ccwu.me/vsfm/) is not easy to install or work with. Ho
 
 ### Prep
 
-+ Download and install docker for your machine. 
++ Download and [install docker](https://docs.docker.com/installation/) for your machine. 
 
 _Update August 15th_: Docker has just released a new series of tools; 'Boot2Docker' has been deprecated. With the new tools, the set up procedure goes like this:
 + in the installation dialogue, you have to install all the bits and bobs, including the the kitematic thing 
@@ -25,8 +25,6 @@ _Update August 15th_: Docker has just released a new series of tools; 'Boot2Dock
 + You can now load Ryan's visaulsfm container by running:
 `$ docker run -i -t ryanfb/visualsfm /bin/bash`
 
-*but don't do that _quite_ yet; read the 'accessing the innards' section before you do `docker run`.
- 
 *If you already have boot2docker and haven't updated to the new tools* proceed as you usually do:
 
 `$ boot2docker start`
@@ -43,7 +41,7 @@ This downloads and installs all the bits and bobs to run VSFM _in a linux virtua
 
 Now, the thing is: how do you get your images into that container? We do this by making an in-out tray (as it were) that connects the rest of your machine with the virtual machine. Once the command above has stopped running (and you'll know this is the case when the $ prompt appears again), type `exit` and hit enter. You're back at your normal command prompt.  
 
-+ Go back and restart docker. 
++ Go back and restart docker. Way fast, eh?
 
 This time, when you get to `docker run`, we're going to add a `-v` flag to the command that ties our two machines together. On my Mac, I created a folder called `dockerific` and I want to tie it to the `tmp` file in the virtual machine. This command spins up my virtual machine with VSFM in it, and makes that connection, that in-out tray, between the two:
 
