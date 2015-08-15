@@ -14,7 +14,20 @@ The [VSFM package](http://ccwu.me/vsfm/) is not easy to install or work with. Ho
 
 + Download and install docker for your machine. 
 
-+ Then, open a terminal or command prompt and type
+_Update August 15th_: Docker has just released a new series of tools; 'Boot2Docker' has been deprecated. With the new tools, the set up procedure goes like this:
++ in the installation dialogue, you have to install all the bits and bobs, including the the kitematic thing 
++ once everything is installed, run *kitematic* first; it will create a vm
++ leave that open. Run the docker quick start terminal (if you get the bash prompt without an error message, then everything is good and you can close kitematic).
++ connect the shell to the vm by running this command:
+
+`$ eval "$(docker-machine env default)"`
+
++ You can now load Ryan's visaulsfm container by running:
+`$ docker run -i -t ryanfb/visualsfm /bin/bash`
+
+*but don't do that _quite_ yet; read the 'accessing the innards' section before you do `docker run`.
+ 
+*If you already have boot2docker and haven't updated to the new tools* proceed as you usually do:
 
 `$ boot2docker start`
 
@@ -22,13 +35,15 @@ The [VSFM package](http://ccwu.me/vsfm/) is not easy to install or work with. Ho
 
 + Now you're ready to go. Next thing we'll do is download and install Ryan's container which has not just VSFM, but also [youtube-dl](https://rg3.github.io/youtube-dl/) and [avconv](https://libav.org/avconv.html), a video and audio converter. At the prompt, type:
 
-`$ docker run -i -t ryanfb/visualsfm /bin/bash`
+`$ docker run -i -t ryanfb/visualsfm /bin/bash` (but see the modification to this under 'accessing the innards' below)
 
 This downloads and installs all the bits and bobs to run VSFM _in a linux virtual machine_ living inside a container on your computer. **This will take a long time to run the first time you do this.** But, what's nice is that the _next_ time you run that command, nothing needs to be downloaded - instead, it's like you've flipped the on switch on your very own point cloud extractor machine.
 
+## Accessing the innards of that container while it is running
+
 Now, the thing is: how do you get your images into that container? We do this by making an in-out tray (as it were) that connects the rest of your machine with the virtual machine. Once the command above has stopped running (and you'll know this is the case when the $ prompt appears again), type `exit` and hit enter. You're back at your normal command prompt.  
 
-+ Go back and start docker. 
++ Go back and restart docker. 
 
 This time, when you get to `docker run`, we're going to add a `-v` flag to the command that ties our two machines together. On my Mac, I created a folder called `dockerific` and I want to tie it to the `tmp` file in the virtual machine. This command spins up my virtual machine with VSFM in it, and makes that connection, that in-out tray, between the two:
 
