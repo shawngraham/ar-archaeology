@@ -37,3 +37,5 @@ If you've already got GIS data [here's how to get your GIS data into Unity3d](ht
 If you've got a scanned historical map without digital elevation data, [try this workflow instead](http://electricarchaeology.ca/2015/06/09/historical-maps-into-unity3d/). You'll need Microdem.
 
 And if you'd rather not futz with Unity3d, you can put your topography into Minecraft instead [with this workflow](http://electricarchaeology.ca/2014/09/30/historical-maps-topography-into-minecraft-qgis/). Minecraft might be the best option, really, since 'digging' and the concept of stratigraphy is built deliberately into the code. You can even [mount your own expedition](http://electricarchaeology.ca/?s=minecraft+expedition).
+
+Finally, a [recent-ish podcast episode of Spark, from the CBC, on Augmented Reality](http://www.cbc.ca/player/Radio/Spark/ID/2282507979/), if you'd like to listen to a variety of folks talking about AR & society in general.
