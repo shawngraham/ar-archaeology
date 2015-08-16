@@ -25,7 +25,7 @@ _Update August 15th_: Docker has just released a new series of tools; 'Boot2Dock
 + You can now load Ryan's visaulsfm container by running:
 `$ docker run -i -t ryanfb/visualsfm /bin/bash`
 
-*warning: the first time you do this will take a _really_ long time.*
+*warning: the first time you do this will take a _really_ long time.*  You can also download it using Kitematic; just search `ryanfb/visualsfm` in its search box, then hit download button.
 
 *If you already have boot2docker and haven't updated to the new tools* proceed as you usually do:
 
