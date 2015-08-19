@@ -1,5 +1,5 @@
 # Workshop TOC
- [Introduction](introduction.md)
+Start by reading the [Introduction](introduction.md); you can also try playing with a cardboard-AR experience I built called '[the diary in the attic](http://electricarchaeology.ca/2015/07/16/the-diary-in-the-attic/)' (android only, sorry).
 
 ### Main Tutorials
 1 [Build an AR app](Build an AR app.md) (hard)(couple hours)
