@@ -2,7 +2,7 @@
 
 Autodesk has a suite of programs connected with 3d modeling. [123D Catch](http://www.123dapp.com/catch) is a free offering. The mobile apps let you take a series of photos which are then pushed to Autodesk HQ for processing; you can then log into their website to examine the model and download it (as .obj). So, install the app on your ios, android, or windows phone device. The first time you use it, you will have to do the usual registering and setting up of an account. 
 
-*Warning* 123D Catch doesn't work on IOS6 devices. Folks so afflicted should try the desktop version (see below, and only if they have a windows machine; if you've a mac you might be able to run it under parallels or similar. I've tried running it under [Wine Bottler](winebottler.kronenberg.org) on the mac but it doesn't seem to work that way, sadly). Worse comes to worse, skip ahead to the [VSFM tutorial](3d%20model%20building%20with%20VSFM%20on%20the%20command%20line.md) and give that a shot. 
+*Warning* 123D Catch doesn't work on IOS6 devices. Folks so afflicted should try the desktop version (see below, and only if they have a windows machine; if you've a mac you might be able to run it under parallels or similar. I've tried running it under [Wine Bottler](winebottler.kronenberg.org) on the mac but it doesn't seem to work that way, sadly). Worse comes to worse, skip ahead to the [VSFM tutorial](3d%20model%20building%20with%20VSFM%20on%20the%20command%20line.md) and give that a shot. Also, check out this guide from [Micropasts at the British Museum](http://research.micropasts.org/2014/06/13/3d-modelling-via-sfm/).
 
 ## Photography
 
