@@ -47,3 +47,7 @@ While we will be building our own app from scratch via [Vuforia](https://www.qua
 + *[Sketchfab](https://sketchfab.com/)* You can upload your obj files to Sketchfab, and embed them in websites, blogs, wherever - including [VR rigs like Oculus and Cardboard](http://blog.sketchfab.com/post/90350872539/browse-sketchfab-with-your-oculus). There is an online editor for adjusting shadows, textures, and so on (I find I often have to rejig the x,y,z of my models to get them to display nicely). It has an [API for its viewer](http://blog.sketchfab.com/post/119941165409/viewer-api-part-1-introduction) and many tutorials (including this nice one on [photogrammetry, by an archaeologist!](http://blog.sketchfab.com/post/121838008009/how-to-set-up-a-successful-photogrammetry-project)).
 
 +  *[p3d.in](http://p3d.in/)* is another online model sharing platform, [with similar ability to edit](http://p3d.in/faq) your model online for best display as an embed. It's not as good for sharing your models as the ability to download is part of their [paid plan](http://p3d.in/faq/account). They don't seem to have support for stereoscopic rendering.
+
+# msudai
+
+Update Aug 20th - The Journal of Field Archaeology has been tweeting links to articles in their database that tie into the MSUDAI topics; one recent tweet is particularly useful to us, The Tel Akko Total Archaeology Project (Akko, Israel): Assessing the suitability of multi-scale 3D field recording in archaeology [full text](http://www.maneyonline.com/doi/full/10.1179/0093469013Z.00000000056).
