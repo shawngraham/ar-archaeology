@@ -74,7 +74,7 @@ X is the red line, Y is the green line, and Z is the blue line. When you've got 
 
 ## rolling your own online viewer
 
-I haven't played with this yet, but Micropasts has code for your own viewer here: [https://github.com/MicroPasts/MicroPasts-3Dview](https://github.com/MicroPasts/MicroPasts-3Dview). I promise to play with this and write up my process as soon as possible. If you have materials that are sensitive, or you wish to keep everything under your own control then this is (the/one) solution for you to try! Quickly, it looks like you should be able to get it up and running fairly quickly: Fork that repository, create a gh-pages branch, load your .obj into the examples folder and change the relevant lines in index.html (around line 260) to point to your model. The finished viewer [looks like this](http://shawngraham.github.io/MicroPasts-3Dview/#) (select the model from menu at top left).
+I haven't played with this yet, but Micropasts has code for your own viewer here: [https://github.com/MicroPasts/MicroPasts-3Dview](https://github.com/MicroPasts/MicroPasts-3Dview). I promise to play with this and write up my process as soon as possible. If you have materials that are sensitive, or you wish to keep everything under your own control then this is (the/one) solution for you to try! Quickly, it looks like you should be able to get it up and running fairly quickly: Fork that repository, create a gh-pages branch, load your .obj into the examples folder and change the relevant lines in index.html (around line 260) to point to your model. The finished viewer [looks like this](http://shawngraham.github.io/MicroPasts-3Dview/#). You could embed this into your own website with a simple iframe.
 
 ## Augmenting reality with 3d printing!
 
