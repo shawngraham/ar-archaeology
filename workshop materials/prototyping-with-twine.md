@@ -29,7 +29,7 @@ Double-click on the passage. Begin writing text to describe your ideal user's fi
 
 > `The cows are in the field. Do you try to [[tip them over]]?`
 
-This will generate a new passage called `tip them over`, and make a line tieing the passages together. When you're ready, hit the up-arrow at the bottom left of the interface to 'publish to file'. This will generate a single webpage with your complete mock up as html. Put it in a gh-pages branch of your Github repository, and you can share it with us. 
+This will generate a new passage called `tip them over`, and make a line tying the passages together. When you're ready, hit the up-arrow at the bottom left of the interface to 'publish to file'. This will generate a single webpage with your complete mock up as html. Put it in a gh-pages branch of your Github repository, and you can share it with us. 
 
 (Quick refresh on making Github serve your files: Remember the repository Ethan had you make? Save your html file in that folder on your machine. Open your github client. Click on that repository. It will know that you've added a file. Hit the changes button; put a message in the commit box; hit commit to master; hit sync. Go to the github website for your repository, in the branches box type `gh-pages` and it'll make a new branch with all of the existing stuff from the `master` branch in it. Hit settings to find the url, click on it, put the name of your prototype eg `shawn-prototype.html` at the end of the URL, and you've done it!)
 
