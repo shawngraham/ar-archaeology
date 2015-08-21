@@ -4,16 +4,16 @@ The thought occurred to me -
 
 > maybe it'd be better to have folks sketch things out first - have 'em sketch out what an AR experience _could_ be that makes sense for them, for their research or outreach or teaching needs.
 
-So here's what I propose to do. In the time we have available to us, let's code some quick interactive playable _sketches_ using Twine. (Some game design folks actually _do_ use Twine in this fashion (as for example [here](http://gersande.com/twine-as-a-prototyping-tool/) and [here](http://www.sibylmoon.com/twine-as-a-prototyping-tool/)). 
+So here's what I propose to do. In the time we have available to us, let's code some quick interactive playable _sketches_ using Twine. (Some game design folks actually _do_ use Twine in this fashion (as for example [here](http://gersande.com/twine-as-a-prototyping-tool/) and [here](http://www.sibylmoon.com/twine-as-a-prototyping-tool/) ). 
 
 # Framing questions
 
 You've been tasked to create a new interactive _x_ at your work. 
 
 - what are the goals (outcomes)?  
-		- what are the objectives (things that can be measured that lead to the goals)?
-		- what are the assessment items (the things that do the measuring)?
-		
+    - what are the objectives (things that can be measured that lead to the goals)?
+    - what are the assessment items (the things that do the measuring)?
+	
 - what is the story?
     - sum it up in 140 characters. Ish. ([rationale for that](http://epress.trincoll.edu/webwriting/chapter/graham/)) 
     - describe the interaction with the tech. 
