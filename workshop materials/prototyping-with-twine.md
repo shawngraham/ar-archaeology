@@ -10,14 +10,14 @@ So here's what I propose to do. In the time we have available to us, let's code 
 
 You've been tasked to create a new interactive _x_ at your work. 
 
-- what are the goals (outcomes)?  
-    - what are the objectives (things that can be measured that lead to the goals)?
-    - what are the assessment items (the things that do the measuring)?
-	
 - what is the story?
     - sum it up in 140 characters. Ish. ([rationale for that](http://epress.trincoll.edu/webwriting/chapter/graham/)) 
     - describe the interaction with the tech. 
     - describe the _flow_ of the interaction.
+
+- what are the goals (outcomes)?  
+    - what are the objectives (things that can be measured that lead to the goals)?
+    - what are the assessment items (the things that do the measuring)?
     
 # Build!
 
@@ -37,3 +37,4 @@ The point of this is to help you map out all the different kinds of mechanics th
 
 Twine is very elastic; it can be used for very powerful work indeed - see Tara Copplestone's [Buried](http://taracopplestone.co.uk/buried.html) for instance. Why 'Buried' works is that Tara made the interaction reflect the theme of the work; it is art. The *rules* of interaction in digital media - not the graphics, not the pretty visuals, but the actual mechanics of how we react to the machine - are powerful forms of rhetoric that we're not in the habit of interrogating. Think of what Powerpoint has done to the lecture, this thing that encodes the rules of the business meeting. For my money, the digital media are at their best when their procedures, their rules, act _in harmony_ with the subject matter to create the argument you want your user to experience as an emergent phenomena. 
     
+(oh, another interesting link - http://www.e-games.tech.purdue.edu/DesignDoc.asp)
