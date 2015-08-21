@@ -1,5 +1,5 @@
 # Workshop TOC
-Start by reading the [Introduction](introduction.md); you can also try playing with a cardboard-AR experience I built called '[the diary in the attic](http://electricarchaeology.ca/2015/07/16/the-diary-in-the-attic/)' (android only, sorry).
+Start by reading the [Introduction](introduction.md); then try using [Twine to prototype your ideas](prototyping-with-twine.md). With a prototype in hand, you'll know which of the tutorials below will best serve your interests. You can also try playing with a cardboard-AR experience I built called '[the diary in the attic](http://electricarchaeology.ca/2015/07/16/the-diary-in-the-attic/)' (android only, sorry).
 
 ### Main Tutorials
 1 [Build an AR app](Build an AR app.md) (hard)(couple hours)
