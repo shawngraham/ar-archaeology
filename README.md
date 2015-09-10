@@ -5,4 +5,4 @@
 
 The presentation may be viewed at [j.mp/ar-arch](http://j.mp/ar-arch) and the video of me speaking is on youtube:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/v7wkzeL7uJI" frameborder="0" allowfullscreen></iframe>
+https://www.youtube.com/watch?v=v7wkzeL7uJI
