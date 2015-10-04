@@ -96,6 +96,8 @@ That command runs the entire process. Depending on the complexity of the images 
 
 + 'segmentation error'
 
+> Boot2docker:
+
 You might get a 'segmentation error' right at the start. What gives? It could be a memory issue. On the mac, use the 'go to' folder command in Finder to go `/users/[user]/.boot2docker` then make a new file there (with no extension) called `profile`. Put something like this in, as is appropriate for your system:
 
 ```
@@ -105,6 +107,12 @@ DiskSize = 20000
 # VM memory size in MB
 Memory = 7168
 ```
+
+> Docker-tools, Kitematic etc:
+
+Find the `config.json` file inside the `.docker` folder on your machine (ie, `/users/[user]/.docker/machine/machines/default/config.json`
+
+Inside that is a setting for memory. Open it in a text editor, ramp up the memory (as much as you've got) in mb, save. Then you need to [restart the virtual machine](https://docs.docker.com/machine/reference/restart/). This should do the trick. It didn't seem to do it for me, until at one point I started the Kitematic gui, and was rewarded with a 'building vm'.
 
 [WINDOWS?]
 
