@@ -2,11 +2,11 @@
 Start by reading the [Introduction](introduction.md); then try using [Twine to prototype your ideas](prototyping-with-twine.md). With a prototype in hand, you'll know which of the tutorials below will best serve your interests. You can also try playing with a cardboard-AR experience I built called '[the diary in the attic](http://electricarchaeology.ca/2015/07/16/the-diary-in-the-attic/)' (android only, sorry).
 
 ### Main Tutorials
-1 [Build an AR app](Build an AR app.md) (hard)(couple hours)
+1 [Build an AR app](https://github.com/shawngraham/ar-archaeology/blob/master/workshop%20materials/Build%20an%20AR%20app.md) (hard)(couple hours)
 
-2 [Hacking Twine to Make a Location-Based Game](Hacking Twine to make a location-based game.md) (intermediate)(couple hours)
+2 [Hacking Twine to Make a Location-Based Game](https://github.com/shawngraham/ar-archaeology/blob/master/workshop%20materials/Hacking%20Twine%20to%20make%20a%20location-based%20game.md) (intermediate)(couple hours)
 
-3 [Building 3d models using 123d catch](Building 3d models using 123d catch.md) (easy)(quick)
+3 [Building 3d models using 123d catch](https://github.com/shawngraham/ar-archaeology/blob/master/workshop%20materials/Building%203d%20models%20using%20123d%20catch.md) (easy)(quick)
 
 ### Supplementary Tutorials
 
@@ -14,7 +14,7 @@ Start by reading the [Introduction](introduction.md); then try using [Twine to p
 
 5 [Stereoscopic AR, or, Cardboard!](stereoscopic-ar.md) (intermediate)(need to complete tutorial 1 first)
 
-6 [Docker, VSFM, & Command Line 3d Photogrammetry](3d model building with VSFM on the command line.md) (hard)(initial run can take quite some time)
+6 [Docker, VSFM, & Command Line 3d Photogrammetry](https://github.com/shawngraham/ar-archaeology/blob/master/workshop%20materials/3d%20model%20building%20with%20VSFM%20on%20the%20command%20line.md) (hard)(initial run can take quite some time)
 
 -----
 My intention in this workshop is to show you enough of the nuts-and-bolts so that you can build or remix into your own archaeological application or use. 
